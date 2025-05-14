@@ -2,7 +2,7 @@ name: Collect excerpts from TEI-curation
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '45 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -45,7 +45,8 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update excerpts.csv"
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "chore(data): update excerpts.csv – $TIMESTAMP"
             git push
           fi
         env:
