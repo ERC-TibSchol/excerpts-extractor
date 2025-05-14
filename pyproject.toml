@@ -1,0 +1,17 @@
+[project]
+name = "excerpts-extractor"
+version = "0.1.0"
+description = "Script to extract excerpts (seg tags) from the curated TEI files"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Saranya Balasubramanian", email = "saranya.balasubramanian@oeaw.ac.at" }]
+
+dependencies = [
+    "lxml",
+    "pandas",
+    "tqdm",
+]
+
+
+[project.scripts]
+tei-excerpt-processor = "extract_excerpts:main"
