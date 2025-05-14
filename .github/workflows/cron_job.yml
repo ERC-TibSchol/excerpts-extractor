@@ -1,0 +1,52 @@
+name: Collect excerpts from TEI-curation
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v4
+
+      - name: Checkout TEI-curation
+        uses: actions/checkout@v4
+        with:
+          repository: ERC-TibSchol/TEI-curation
+          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          ref: main
+          path: TEI-curation
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install uv
+        run: pip install uv
+
+      - name: Install dependencies from pyproject.toml
+        run: uv pip install --system .
+
+      - name: Run script
+        run: python extract_excerpts.py "TEI-curation/010_manannot/*.xml"
+
+      - name: Commit excerpts.csv if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/excerpts.csv
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update excerpts.csv"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
