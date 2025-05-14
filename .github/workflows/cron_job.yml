@@ -2,7 +2,7 @@ name: Collect excerpts from TEI-curation
 
 on:
   schedule:
-    - cron: '45 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
