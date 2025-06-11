@@ -75,7 +75,7 @@ def process_tei_files(tei_repo):
 
             lb_n = lb.attrib.get("n") if lb is not None else ""
             last_lb = seg.xpath(".//tei:lb[last()]", namespaces=ns)
-            last_lb_n = last_lb[0].attrib.get("n") if last_lb else ""
+            last_lb_n = last_lb[-1].attrib.get("n") if last_lb else ""
 
             if not last_lb_n and not lb_n:
                 location = ""
