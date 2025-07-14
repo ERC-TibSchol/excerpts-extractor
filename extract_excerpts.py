@@ -16,6 +16,9 @@ ns = {"tei": "http://www.tei-c.org/ns/1.0"}
 
 
 def _first_lb_child_before_content(element):
+    if element.text and element.text.strip():
+        # there is text before lb
+        return None
     try:
         for elem in element:
             if isinstance(elem, etree._Comment) or isinstance(
