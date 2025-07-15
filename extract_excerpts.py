@@ -16,7 +16,19 @@ ns = {"tei": "http://www.tei-c.org/ns/1.0"}
 
 
 def _first_lb_child_before_content(element):
-    if element.text and element.text.strip():
+    def text_before_first_lb(elem):
+        texts = []
+        for node in elem.iter():
+            if isinstance(node.tag, str) and node.tag.endswith("lb"):
+                break
+            if node.text:
+                texts.append(node.text)
+            if node.tail:
+                texts.append(node.tail)
+
+        return "".join(texts).strip()
+
+    if text_before_first_lb(element):
         # there is text before lb
         return None
     try:
