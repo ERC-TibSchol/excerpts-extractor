@@ -76,17 +76,6 @@ def process_tei_files(tei_repo):
             if lb is None:
                 previous_lbs = seg.xpath("preceding::tei:lb[1]", namespaces=ns)
                 lb = previous_lbs[0] if previous_lbs else None
-                lb_text = (
-                    etree.tostring(
-                        lb,
-                        encoding="unicode",
-                        pretty_print=False,
-                        method="xml",
-                        with_tail=False,
-                    ).strip()
-                    if lb is not None
-                    else ""
-                )
 
             lb_n = lb.attrib.get("n") if lb is not None else ""
             last_lb = seg.xpath(".//tei:lb[last()]", namespaces=ns)
@@ -125,7 +114,7 @@ def process_tei_files(tei_repo):
                     "xml_id": xml_id,
                     "status": status,
                     "location": location,
-                    "xml_content": f"<TEI xmlns='http://www.tei-c.org/ns/1.0'>{lb_text}{seg_xml_minified}</TEI>",
+                    "xml_content": f"<TEI xmlns='http://www.tei-c.org/ns/1.0'>{seg_xml_minified}</TEI>",
                 }
             )
 
