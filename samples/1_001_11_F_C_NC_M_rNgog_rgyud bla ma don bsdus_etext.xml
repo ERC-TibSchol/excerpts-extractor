@@ -98,9 +98,25 @@
                   <repository>Library of Dwags po Rinpoche</repository>
                </msIdentifier>
                <history>
-                  <origin><date>after 1916 before 1918</date></origin>
+                  <origin>
+                     <origDate>after 1916 before 1918</origDate>
+                     <!-- DS 2025-08-08 Not sure if we can't do better than this:
+                        * @role is probably not the right way of encoding the "predicate" (since this is 
+                        not a property of the name) 
+                        * do we want to embed the names themselves? good for readibility
+                        * 
+                        - actually <respStmt> would be better (generic), however that's not allowed below <origin>
+                     -->
+                     <origPlace ref="apis:0000">{place name}</origPlace>
+                     <name role="copyist" ref="apis:0000">{person name}</name>
+                     <name role="sponsor" ref="apis:0000">{person name}</name>
+                  </origin>
+                  <provenance>
+                     <ptr type="ownedBy" target="apis:0000"/>
+                  </provenance>
                </history>
                <physDesc>
+                  <p></p>
                   <objectDesc>
                      <supportDesc>
                         <support>
@@ -132,23 +148,29 @@
                         </colophon>   
                      -->
                      <idno type="TibSchol">1_001_11c</idno>
-                     <!-- DS 2026-08-28 CHECKME refers "Number of folios" only to the msItem? 
+                     <!-- DS 2025-08-28 CHECKME refers "Number of folios" only to the msItem? 
                           Then we probably have to fall back to <note>: 
                           <note type="extent">66 folios</note>
                      -->
                      
+                     <!-- DS 2025-08-28 we could also simply use <docAuthor></docAuthor> and <docTitle/> instead -->
                      <bibl type="Work" sameAs="apis:4441">
                         <title type="norm">theg pa chen po rgyud bla ma'i bstan bcos kyi don bsdus pa</title>
                         <author ref="apis:3786">rngog blo ldan shes rab</author>
-                     </bibl> 
+                     </bibl>
                   </msItem>
                </msContents>
-               <!-- assuming that "Item descripion" is valid for the whole document,
-                    I've placed it in <msDesc> (and not <msItem>) -->
-               <additional>
+               <!-- DS 2026-08-28 assuming that "Item descripion" and "Comment" are valid for the whole manuscript,
+                    I've placed it in <msDesc> (and not <msItem> where they could be typed <note> elements.) -->
+               <additional n="Item description">
                   <p>Blockprint.</p>
                   <p>Script: dbu can.</p>
                   <p>The first folio is lacking.</p>
+               </additional>
+               <additional n="Comment">
+                  <p>Blockprint edition based on a single old manuscript original, edited by Klu 'bum dge bshes Shes rab rgya mtsho (1884-1968). Started under the patronage of bKa' drung Padma dbang chen (1894-1917), continued under the patronage of the latter's elder brother dBang chen tshe brtan (1891-1953) and bKra shis dpal 'byor. See <rs type="bibl" ref="zot:SAF3FTC8">Jackson 1993</rs> and Kano 2016: 245.</p>
+                  <p>A reproduction from the Library of Dwags po Rinpoche was published by the Library of Tibetan Works and Archives with an introduction by David Jackson (rNgog lo - theg chen rgyud bla don bsdus).</p>
+                  <p>First chapter edited in Kano 2006.</p>
                </additional>
             </msDesc>
             
@@ -162,6 +184,19 @@
                   <idno type="TibSchol">1_001_11d</idno>
                </msIdentifier>
             </msDesc>
+            <listRelation>
+               <!-- DS 2025-08-28
+                  It seems there's no way to encode relations between <msItems> _inside_ each element, so we 
+                  have to resort to the generic <listRelation>:  
+               -->
+               <relation type="isSourceOf" active="#i6267" passive="#i6270"/>
+               <!-- DS 2025-08-28 no need to serialize reverse props, probably -->
+               <relation type="hasSource"  active="#i6270" passive="#i6267"/>
+               
+               <!-- DS 2025-08-28 … however, we could include all the relations in this generic construct then as well  -->
+               <relation type="isInstanceOf" active="#i6270" passive="apis:4441"/>
+               <relation type="isInstanceOf" active="#i6267" passive="apis:4441"/>
+            </listRelation>
          </sourceDesc>
       </fileDesc>
       <encodingDesc>
