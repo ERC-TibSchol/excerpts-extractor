@@ -1755,30 +1755,30 @@ des na mngon sum gyis sgro 'dogs gcod ces brjod kyang mngon sum min gyi, rjes ky
                <l><abbr>mtshan nyid</abbr> de 'dra sngar bkag zin ||</l>
                <l>dngos dang zhen <abbr>pa'i</abbr> <choice><orig>rjod</orig><reg>brjod</reg></choice> rung gis ||</l> 
                <l>brda'i <abbr>grags</abbr> pa'ang 2 zhes zer || </l></quote></seg></TEI>"
-1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11c
-1_001_11a
+1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11a
 1_001_11b
+1_001_11c
 1_001_11d",,ex01112025-05-0716-13-58,reviewed,1a1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0716-13-58"" status=""reviewed"" part=""I"" next=""ex01112025-05-0716-13-582""><milestone unit=""section"" n=""Cover page (1a)""/>
          <pb edRef=""inst:4440"" n=""1a""/><lb edRef=""inst:4440"" n=""1a1""/> rnaM bshad snying po brgyan ma tshang ba 1 | grub mtha'i rnaM gzhag bris ma 1 | 'jaM dbyangs dpa' gtso'i grub thab ma tshang ba 1 |</seg></TEI>"
-1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11c
-1_001_11a
+1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11a
 1_001_11b
+1_001_11c
 1_001_11d",,ex01112025-05-0716-13-582,reviewed,1b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0716-13-582"" status=""reviewed""><milestone unit=""section"" n=""Incipit (1b1)""/>
          <pb edRef=""inst:4440"" n=""1b""/><lb edRef=""inst:4440"" n=""1b1""/> <lg><l>'jig rten kun dang myi mthun pa'i ||</l>
          <l>zab mo'i don can <rs type=""work"" ana=""corpusmd:unnamed_reference"" ref=""db:3749"">bstan chos 'di</rs> ||</l>
          <l>thugs rjes bdag cag la gsungs pa || </l>
          <l>chos la spyan gyur <rs type=""deity"">de</rs> la 'dud || </l></lg>
          <note type=""translation"">I bow to him (i.e., Maitreya) whose eyes are directed towards the Dharma and who, out of compassion, taught to us this treatise of profound meaning (i.e., the Ratnagotravibhāga), which goes against [the conventional wisdom of] the entire world.</note></seg></TEI>"
-1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11c
-1_001_11a
+1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11a
 1_001_11b
+1_001_11c
 1_001_11d",,ex001112025-05-2008-21-24,reviewed,1b1 - 1b2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex001112025-05-2008-21-24"" status=""reviewed"">
             <milestone unit=""section"" n=""Body of the text (1b1–40a1)""/>
             <milestone unit=""section"" n=""[0] The Five Treatises of Maitreya (1b1-1b3)""/>
             <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3747"">bcom ldan 'das byams pa</rs>s bde bar gshegs pa'i bka'i dgongs pa phyin ci ma log par gsal <choice><reg>bar</reg><orig>‹ba›r</orig></choice> mdzad pa na | nges pa'i don gi mdo sde rin po che | phyir mi ldog pa'i chos kyi 'khor lo | chos kyi dbyings tshul cig du <lb edRef=""inst:4440"" n=""1b2""/> ston pa | shin tu rnam par dag pa gdon myi za ba'i chos kyi rnam grangs khams thabs cad kyi don rab du ×ston pa | <rs type=""work"" ana=""corpusmd:unnamed_reference"" ref=""db:3749"">theg pa chen po rgyud bla ma'i bstan chos</rs> 'di mdzad pas | theg pa chen po'i don gi de kho na rnam par bzhag pa yin no ||</seg></TEI>"
-1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11c
-1_001_11a
+1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11a
 1_001_11b
+1_001_11c
 1_001_11d",,ex1112024-01-23-3,reviewed,40a2 - 40a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1112024-01-23-3"" status=""reviewed"">
             <milestone n=""2"" unit=""section""/>
             <lg><l>dam chos gsung rab nges pa'i don gyi tshul ||</l>
@@ -1787,17 +1787,17 @@ des na mngon sum gyis sgro 'dogs gcod ces brjod kyang mngon sum min gyi, rjes ky
             <l><lb edRef=""inst:4440"" n=""40a3""/> mnyam pa'i chos nyid <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:3786"">bdag</rs> gis myur thob shog ||||</l></lg>
          <note type=""translation"">Through the merits that I have attained by explaining the Mahāyānottaratantra (i.e., Ratnagotravibhāga), which contains the system of definitive meaning of the scriptures of the excellent doctrine, may I swiftly attain the true nature (dharmatā) equal to all Buddhas!</note>
          </seg></TEI>"
-1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11c
-1_001_11a
+1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11a
 1_001_11b
+1_001_11c
 1_001_11d",,ex1112023-10-18,finalized,40a3 - 40a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1112023-10-18"" status=""finalized"" ana=""corpusmd:colophon""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4441""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3749"">theg pa chen po rgyud bla ma'i bstan bcos</rs> kyi don bsdus pa</rs> || <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">smra ba'i seng ge | ngag gi dbang phyug | 'chad gra'i slob dpon | sgra sgyur gyi lo tsa ba chen po | rngog dge slong blo ldan shes rab</rs> kyis mdzad pa <lb edRef=""inst:4440"" n=""40a4""/> rdzogs s+h+yo ||<anchor xml:id=""a10""/> he he || ||</seg></TEI>"
-1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11c
-1_001_11a
+1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11a
 1_001_11b
+1_001_11c
 1_001_11d",,ex01112025-05-0717-06-56,reviewed,40a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0717-06-56"" status=""reviewed"" ana=""corpusmd:colophon""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4441"">theg pa chen po rgyud bla ma'i bstan <app><lem wit=""inst:6272 inst:6267"">bcos</lem><rdg wit=""inst:6272 inst:6267"">bcos</rdg><rdg wit=""inst:6265"">'chos</rdg></app> kyi don bsdus pa</rs> | <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786""><app><lem wit=""inst:6272 inst 6267"">dge</lem><rdg wit=""inst:6272 inst 6267"">dge</rdg><rdg wit=""inst:6265"">rge</rdg></app> slong blo ldan shes rab</rs> kyis sbyar pa'o ||</seg></TEI>"
-1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11c
-1_001_11a
+1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11a
 1_001_11b
+1_001_11c
 1_001_11d",,ex01112025-05-0716-39-23,unreviewed,69b5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0716-39-23"" status=""unreviewed"" ana=""corpusmd:colophon""> <milestone unit=""section"" n=""Post-colophon note in instance (ID:6272)""/><lb edRef=""inst:6272"" n=""69b5""/>
         <note type=""gloss"">rgya gar shar phyogs kha che ba yin</note><rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:3800"">pan ti ta dkar po</rs><note type=""editorial"">The identification of ""Pan ti ta dkar po"" as Sajjana (ID:3800) is tentative.</note> |  
         <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">lo tsha ba rngog blo ldan</rs> <note type=""gloss"">snum mtsho dwo ba</note> | 
@@ -1805,9 +1805,9 @@ des na mngon sum gyis sgro 'dogs gcod ces brjod kyang mngon sum min gyi, rjes ky
         <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4593"">khrus ston brtson 'grus</rs> <note type=""gloss""><rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4593"">khugs chung ba</rs></note><note type=""editorial"">""khrus ston"" could be a mistake for ""khu ston"", but the dates of Khu ston brtson 'grus g.yung drung (ID:4235)(1011-1075) would be too early for a successor of Zhang tshes; but as a ""chung ba"" he could be a ""younger Khu ston"".</note>| 
         <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4593"">mkhan po rba grags pa bsod nams</rs> <note type=""gloss""><rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4593"">la mo ba</rs></note> | 
         <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4593"">'or brgyad bsod nams tshul khrims</rs> <note type=""gloss""><rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4593"">rka ba dgung dkar ba</rs> yin no</note> ||<!--dgung dkar is a place in dbus--></seg></TEI>"
-1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11c
-1_001_11a
+1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11a
 1_001_11b
+1_001_11c
 1_001_11d",,ex01112025-05-0816-03-22,reviewed,69b5 - 32b3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0816-03-22"" status=""reviewed"">
       <milestone n=""Post-colophon in (ID:6265)"" unit=""section""/> <lg><l><lb edRef=""inst:6265"" n=""32b3""/> <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3749"">bla rgyud kyi bstan 'chos</rs> 'di la ||</l> <l>brtsams pa <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">blo ldan rngog</rs> gyis brtsams ||</l> <l>bris pa <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:6268"">nyang stod ze'u</rs> gyis bris ||</l> <l>yon bdag <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:6269"">yol ston dar brtsan</rs> lags ||</l></lg></seg></TEI>"
 2_037_01 Blo gros rgyal mtshan_'dul ba mdo'i rnam bshad nyi ma'i rgyan.xml,2_037_01,,ex37012023-10-11-115312,unreviewed,1a3 - 1b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex37012023-10-11-115312"" status=""unreviewed""><lb n=""1a3""/>|| <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4728"">'dul ba mdo'i rnams bshad mdo'i nyi ma'i rgyan</rs> zhes bya ba 'zhugs |
@@ -2804,23 +2804,23 @@ X_0_02_Phag mo gru rnam thar W23436.xml,,JZLBKK78,exX0022025.03.0514.55.372,unre
             <rs type=""work"" ref=""db:4767"" ana=""corpusmd:named_reference"">
             <rs type=""work"" ref=""db:3770"" ana=""corpusmd:named_reference"">tshad ma mdo</rs> <rs type=""work"" ref=""db:5553"" ana=""corpusmd:named_reference"">sde bdun</rs> 'grel pa <rs type=""work"" ana=""corpusmd:unnamed_reference"">'grel bshad</rs> bcas <pb n=""16a""/><lb n=""16a1""/> pa'i snying po rigs pa'i de kho na nyid bsdus pa gsal byed nyi ma'i 'od </rs> ces bya ba ni ¦ 
             don du gnyer ba'i slob ma 'gas bskul ba'i ngor ¦ <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4017"">shAkya'i dge slong dz+nya Na shri</rs>s ¦ drag po'i lo sa ga zla ba'i dkar phyogs la ¦ <rs type=""place"" ref=""db:6173"">dpal ldan gsang phu'i chos gra</rs>r sbyar ba mchog tu dge <abbr>legs</abbr> su gyur <abbr>cig</abbr> |†|</seg></TEI>"
-3_061_10 = 2_056_08_I_R_M_slob dpon pad ma_bde gshegs kun gyi snying po_20211221.xml,"3_061_10
-2_056_08",,ex61102023-09-131,finalized,1b2 - 1b3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61102023-09-131"" status=""finalized"" ana=""corpusmd:colophon"">  <milestone unit=""section"" n=""Colophon (1b2-1b3)""/>
+3_061_10 = 2_056_08_I_R_M_slob dpon pad ma_bde gshegs kun gyi snying po_20211221.xml,"2_056_08
+3_061_10",,ex61102023-09-131,finalized,1b2 - 1b3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61102023-09-131"" status=""finalized"" ana=""corpusmd:colophon"">  <milestone unit=""section"" n=""Colophon (1b2-1b3)""/>
         <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4052""><abbr>slob dpon</abbr> pad <lb n=""1b3""/> mA</rs>s mdzad pa'i <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:5097"">tshe bsgrub</rs> rdzogs s+ho || <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:6458"">ze'u</rs>s bris dge'o ||</seg></TEI>"
-3_061_12.xml,"2_051_02
-3_016_12",,ex61122023-09-1312,finalized,1a1 - 1a5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-1312"" status=""finalized""><milestone unit=""section"" n=""Incipit (1a1-5)""/><lb n=""1a1""/> || dpe' le'u 'di' yi nang na || 
+3_061_12.xml,"3_016_12
+2_051_02",,ex61122023-09-1312,finalized,1a1 - 1a5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-1312"" status=""finalized""><milestone unit=""section"" n=""Incipit (1a1-5)""/><lb n=""1a1""/> || dpe' le'u 'di' yi nang na || 
             <lb n=""1a2""/> || <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4895"">bstan pa rgyas pa rgyan gyi nyi 'od</rs> || 
             <lb n=""1a3""/> || <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">rigs pa'i ral <choice><orig>khri</orig><reg>gri</reg></choice></rs>'i bka' hee ||
             <lb n=""1a4""/> <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5098"">dge'dun bzang po</rs>'i dpe dge'o ||
             <lb n=""1a5""/> <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4070""><abbr>blo gros</abbr> seng ge</rs> zhes pa <choice><reg>grags</reg><orig>gags</orig></choice> pa'o ||</seg></TEI>"
-3_061_12.xml,"2_051_02
-3_016_12",,ex61122023-09-131,finalized,77b4 - 77b8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-131"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Colophon (77b4-78a8)""/>
+3_061_12.xml,"3_016_12
+2_051_02",,ex61122023-09-131,finalized,77b4 - 77b8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-131"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Colophon (77b4-78a8)""/>
          <lg><l><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4895"">bstan pa rgyas pa rgyan gyi nyi 'od</rs> <lb n=""77b5""/> 'di ||</l> <l>mthong bas skal ldan dga' ba bskyed pa dang ||</l> <l>dam pa rnams kyi sku <lb n=""77b6""/> drin dran bya'i phyir ||</l> <l><rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">bcom ldan ral gri</rs>s legs par bkod pa yin ||</l></lg> 
          <lb n=""77b7""/> 
          <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4895"">bstan pa <choice><orig>rgyas pa rgyas pa</orig><reg>rgyas pa</reg></choice> rgyan gyi nyi 'od</rs> ces bya ba × <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">mang du thos pa'i dge slong 
          <lb n=""77b8""/> <abbr>bcom ldan</abbr> ral gri</rs>s sbyar ba × rdzogs so || </seg></TEI>"
-3_061_12.xml,"2_051_02
-3_016_12",,ex61122023-09-13-102,finalized,77b8 - 78a8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-13-102"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Post-colophon verse (77b4-78a8)""/>
+3_061_12.xml,"3_016_12
+2_051_02",,ex61122023-09-13-102,finalized,77b8 - 78a8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-13-102"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Post-colophon verse (77b4-78a8)""/>
          <lg><l>ding sang thub bstan <pb n=""78a""/><lb n=""78a1""/> <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:5559"">gangs ri'i khrod</rs> 'dir dar ||</l> <l>dar pa'i chos grangs mdo' rgyud bstan <lb n=""78a2""/> bcos rnams ||</l> <l>rnam dag ji bzhin mkhyen pa'i bla chen mchog |</l> <l><lb n=""78a3""/> mchog gyur <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">dpa' ldan ral gri</rs>'i bka' la 'dud ||</l></lg> <abbr>zhus s+ho</abbr> || dge'o || 
          <lg><l><lb n=""78a4""/> sa mtha'i dge slong <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5098"">dge 'dun bzang po</rs> ngas <note type=""editorial"">The BDRC reads ""dpang"", but looking at how the letters are generally written in that page the first letter looks more like a “nga” and the second more like a “sa” the third could be a tsheg. After the first “dge'o” all the sentence are 9 syllables long.</note> ||</l> <l>thub bstan sgor zhugs sgo <lb n=""78a5""/> gsum chos dang bstun ||</l> <l>bla ma'i gsung bzhin gsung rabs mang du <lb n=""78a6""/> mnyan ||</l> <l>de don nyams blang dog chen grub par bsngo ||</l> </lg>
          laM lta ma || <lb n=""78a7""/> || dpe 'di <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5842""><abbr>slob dpon</abbr> zhang</rs> gis <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:5541"">nyang stod</rs> nas gdan drangs nas <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4070""><abbr>blo gros</abbr> seng ge</rs>s <lb n=""78a8""/> <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:5697"">brag dkar</rs> du shing phag ma <abbr>bris so</abbr> <note type=""editorial"">""shing"" is unclear.</note> || 1 <abbr>zhus so</abbr> || dag go | dge'o |</seg></TEI>"
