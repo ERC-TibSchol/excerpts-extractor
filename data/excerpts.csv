@@ -17,41 +17,41 @@ X_005_Ral gri_brel brtag rgyan me tog_corrected.xml,X_005,,exX52023-01-3015-35-3
          <quote source=""db:5569"" n=""D22a5-6"">'brel pa bkag pas bdag med gnyis bsgrubs par bshad de 'brel pa med na byed pa po'i bdag dang bzung 'dzin med <lb n=""4a4""/> pas chos kyi bdag med bshad</quote><!--not a literal citation of SPA. D reads: de'i phyir 'brel pa med pa na gang zag gi bdag med pa sgrub po//de bzhin du rang gi bdag nyid tsam la gnas pa gzhan gyi dbang nyid dang gzhan dang sbyor ba dang / ltos pa nyid la sogs pa med pa na gzung ba dang 'dzin pa'i dngos po med pa ni chos kyi bdag med pa yin no//--> ces zer ro ||</seg></TEI>"
 X_005_Ral gri_brel brtag rgyan me tog_corrected.xml,X_005,,exX52023-01-3015-44-32,finalized,4b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""exX52023-01-3015-44-32"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Colophon (4b1–4b2)""/>
             <pb n=""4b""/><lb n=""4b1""/> <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:5515""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3775""> 'brel pa brtag pa</rs> rgyan gyi me tog</rs> ces bya ba <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">mang du thos pa'i dge slong bcom ldan ral gri</rs>s sbyar ba rdzogs so ||</seg></TEI>"
-1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14b
-1_001_14",,ex1142023-05-24.18.06,finalized,1a1 - 1a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1142023-05-24.18.06"" status=""finalized"">
+1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14
+1_001_14b",,ex1142023-05-24.18.06,finalized,1a1 - 1a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1142023-05-24.18.06"" status=""finalized"">
          <milestone unit=""section"" n=""Cover page in (ID:4446) (1a)""/>
          <pb edRef=""inst:4446"" n=""1a""/><lb edRef=""inst:4446"" n=""1a1""/>
     phyi <lb edRef=""inst:4446"" n=""1a2""/> la <lb edRef=""inst:4446"" n=""1a3""/> 281 <lb edRef=""inst:4446"" n=""1a4""/> <rs type=""person"" ref=""db:3786"" ana=""corpusmd:named_reference"">rngog lo chen po blo ldan shes rab</rs> kyi <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4447"">spring yig <abbr>bdud rtsi</abbr>'i <abbr>thig le</abbr></rs> <choice><reg>zhugs so</reg><orig>(°°°o)</orig></choice></seg></TEI>"
-1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14b
-1_001_14",,ex001142025-07-1710-57-23,finalized,1a1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex001142025-07-1710-57-23"" status=""finalized""><milestone unit=""section"" n=""Cover page in (ID:6273) (1a)""/><pb edRef=""inst:6273"" n=""1a""/><lb edRef=""inst:6273"" n=""1a1""/> <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4447"">spring yig bdud rtsi'i thigs pa</rs> <abbr>bzhugs so</abbr> ||</seg></TEI>"
-1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14b
-1_001_14",,ex001142025-07-1710-52-15,finalized,1b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex001142025-07-1710-52-15"" status=""finalized""><milestone n=""Incipit in (ID:6273)"" unit=""section""/>
+1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14
+1_001_14b",,ex001142025-07-1710-57-23,finalized,1a1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex001142025-07-1710-57-23"" status=""finalized""><milestone unit=""section"" n=""Cover page in (ID:6273) (1a)""/><pb edRef=""inst:6273"" n=""1a""/><lb edRef=""inst:6273"" n=""1a1""/> <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4447"">spring yig bdud rtsi'i thigs pa</rs> <abbr>bzhugs so</abbr> ||</seg></TEI>"
+1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14
+1_001_14b",,ex001142025-07-1710-52-15,finalized,1b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex001142025-07-1710-52-15"" status=""finalized""><milestone n=""Incipit in (ID:6273)"" unit=""section""/>
 <lb edRef=""inst:6273"" n=""1b1""/> rgya gar skad du || <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4447"">le kha a mrï ta ti la ka nA ma kA ri ka</rs> || bod skad du || <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4447"">spring yig bdud rtsi'i thigs pa</rs> zhes bya ba || 'jig rten dbang phyug la phyag 'tshal lo ||</seg></TEI>"
-1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14b
-1_001_14",,ex1142023-05-25.09.22,finalized,1b7 - 1b8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1142023-05-25.09.22"" status=""finalized"">
+1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14
+1_001_14b",,ex1142023-05-25.09.22,finalized,1b7 - 1b8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1142023-05-25.09.22"" status=""finalized"">
          <milestone unit=""section"" n=""10""/>
         <lg> <l>chos rnaMs rang <abbr>bzhin</abbr> stong pa'i tshul la 'jug pa'i sgo || </l>
 <l> yang dag <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:5632"">rigs <abbr>tshogs</abbr></rs> <rs type=""person"" ref=""db:3720"" ana=""corpusmd:named_reference"">klu grub</rs> zhal nas gsungs pa de ||</l>
          <l><rs type=""person"" ref=""db:3773"" ana=""corpusmd:unnamed_reference"">rigs pa'i dbang <lb n=""1b8""/> phyug <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3772"">rnaM 'grel</rs> mdzad pa</rs>'i gzhung mdzes las ||</l></lg>
       </seg></TEI>"
-1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14b
-1_001_14",,ex1142023-07-1812-11-35,finalized,2a8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1142023-07-1812-11-35"" status=""finalized"">
+1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14
+1_001_14b",,ex1142023-07-1812-11-35,finalized,2a8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1142023-07-1812-11-35"" status=""finalized"">
          <milestone unit=""section"" n=""27""/>
         <lg> <l>
             <abbr>sangs rgyas</abbr> sprul pa'i sku <abbr>tshogs</abbr> ni ||</l> 
             <l>gzhan gyi rnaM rig snang pa<anchor xml:id=""a21""/> ste ||</l> 
             <l>brgya byin <abbr>gzugs</abbr> brnyan <abbr>la sogs</abbr> dpe' ||</l> 
             <l><rs type=""work"" ana=""corpusmd:unnamed_reference"" ref=""db:5633"">mdo</rs> nas ji skad gsung de <abbr>bzhin</abbr> ||</l></lg></seg></TEI>"
-1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14b
-1_001_14",,ex1114_3442023_05_08,finalized,2b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1114_3442023_05_08"" status=""finalized"" ana=""corpusmd:colophon"">
+1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14
+1_001_14b",,ex1114_3442023_05_08,finalized,2b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1114_3442023_05_08"" status=""finalized"" ana=""corpusmd:colophon"">
          <milestone unit=""section"" n=""Colophon in instance (ID:4446) (2b1)""/>
          <rs type=""person"" ref=""db:3786"" ana=""corpusmd:named_reference"">dge slong blo ldan shes rab</rs> kyis || <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5630"">rga ston shes rab grags laswogs pa</rs> <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:5631"">gtsong kha ru gsuM</rs> gyi dge 'dun la <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4447"">spring pa'i <abbr>yi ge</abbr> bdud rtsi thig le</rs> zhes bya ba <abbr>rdzogs s+ho</abbr> ||</seg></TEI>"
-1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14b
-1_001_14",,ex001142025-07-1711-14-01,finalized,2b1 - 2b5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex001142025-07-1711-14-01"" status=""finalized"" ana=""corpusmd:colophon"">
+1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14
+1_001_14b",,ex001142025-07-1711-14-01,finalized,2b1 - 2b5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex001142025-07-1711-14-01"" status=""finalized"" ana=""corpusmd:colophon"">
    <milestone unit=""section"" n=""Colophon in instance (ID:6273) (2b4-5)""/>
    <rs type=""person"" ref=""db:3786"" ana=""corpusmd:named_reference"">lo tsa ba chen po shAkya'i dge slong blo ldan shes rab</rs> kyis || <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5630"">dga' <lb edRef=""6273"" n=""2b5""/> ston shes rab grags</rs> la sogs pa <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:5631"">tsong ka ru gsum</rs> gyi dge 'dun la <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4447"">springs pa'i yi ge bdud rtsi'i thig le</rs> zhes bya ba rdzogs so || || </seg></TEI>"
-1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14b
-1_001_14",,ex001142025-07-1711-14-02,reviewed,2b5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex001142025-07-1711-14-02"" status=""reviewed"">
+1_001_14_F_C_NO_M_rNgog_spring yig bdud rtsi_etext.xml,"1_001_14
+1_001_14b",,ex001142025-07-1711-14-02,reviewed,2b5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex001142025-07-1711-14-02"" status=""reviewed"">
    <milestone unit=""section"" n=""Carving Colophon in (ID:6273) only (2b-5)""/>
 <lg><l>stong nyid 'chi med bdud rtsi'i bcud || </l>
 <l>thugs skyed dpag bsam 'dod 'jor ni || </l>
@@ -582,11 +582,11 @@ rig pa'i gnas lnga la blo gros kyi snang ba cung zad thob pa <rs type=""person""
    <l> ji bzhin bzung ste <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:3806"">rang nyid</rs> dran phyir dang ||</l> <l>blo dman <lb n=""134b5""/> 'ga' la cung zad phan 'dod pas || </l><l>brjed byang 'di byas bsod naMs gang bsags des ||</l> <l>'gro kun rgyal yum laM gyis myur 'dren shog ||</l></lg></seg></TEI>"
 1_005_03_C_Gro_nyi khri lnga stong.xml,1_005_03,,ex5032023-05-0309-26-52,finalized,134b5 - 134b6,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex5032023-05-0309-26-52"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Colophon (134b5–134b6)""/>
       <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4476"">rgyal ba'i yum bar ma le'u brgyad pa nyi khri lnga stong ba mdo' 'grel rnam par bshad pa</rs> | <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:3786"">bla ma rje brtsun</rs> gyi gsung la dka' ba mang pos nan tan byas nas <lb n=""134b6""/> <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3806"">shakya'i dge slong blo gros 'byung gnas </rs>kyis rjed byang du bkod pa rdzogs s+ho ||</seg></TEI>"
-3_061_13.xml,"2_053_01
-3_061_13",,ex61132023-09-09-1206,unreviewed,114a8 - 114a10,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61132023-09-09-1206"" status=""unreviewed"" ana=""corpusmd:colophon"">
+3_061_13.xml,"3_061_13
+2_053_01",,ex61132023-09-09-1206,unreviewed,114a8 - 114a10,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61132023-09-09-1206"" status=""unreviewed"" ana=""corpusmd:colophon"">
             <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4922"">grub pa'i mtha' rnam par bshad pa rgyan gyi me tog</rs> <lb n=""114a9""/>ces bya ba rang gzhan gyi grub pa'i mtha' rgya mtsho lta bu la blo'i nyi ma'i 'od gsal <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">mang du thos pa'i <lb n=""114a10""/>dge slong bcom ldan ral gri</rs>s sbyar ba 'di rdzogs s+ho || dge'o | zhu dag °</seg></TEI>"
-3_061_13.xml,"2_053_01
-3_061_13",,ex61132023-09-09-12.05,unreviewed,114a10,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61132023-09-09-12.05"" status=""unreviewed"" ana=""corpusmd:colophon""><rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5098"">dge 'dun bzang po</rs>'i  dpe 'di yig mkhan <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5099"">glang ma ?</rs> gyis bris so ||</seg></TEI>"
+3_061_13.xml,"3_061_13
+2_053_01",,ex61132023-09-09-12.05,unreviewed,114a10,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61132023-09-09-12.05"" status=""unreviewed"" ana=""corpusmd:colophon""><rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5098"">dge 'dun bzang po</rs>'i  dpe 'di yig mkhan <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5099"">glang ma ?</rs> gyis bris so ||</seg></TEI>"
 2_055_10 Ral gri_seng ge sgra man ngag.xml,2_055_10,,ex55102024-09-3016-41-55,finalized,1b4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex55102024-09-3016-41-55"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Colophon (1b4)""/>
         <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4964"">rje btsun seng nge sgra'i man ngag zab mo</rs> <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">bla ma dam pa rim par brgyud pa bcoM ldan ral gri</rs>s bkod pa rdzogs s+h+yo ||</seg></TEI>"
 2_055_10 Ral gri_seng ge sgra man ngag.xml,2_055_10,,ex55102024-09-3016-41-552,finalized,1b4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex55102024-09-3016-41-552"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Post-colophon""/><note type=""editorial"">In smaller script than the main text and the colophon.</note><rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4065"">btsun pa zi'u<note type=""editorial"">For: ze'u</note></rs>s phyag dpe' la bris pa'o 
@@ -634,30 +634,30 @@ rig pa'i gnas lnga la blo gros kyi snang ba cung zad thob pa <rs type=""person""
             <l xml:space=""preserve"">brda yi dus na sres nas <lb n=""80b9""/> sbyar ||</l>
             <l xml:space=""preserve""><abbr>tha snyad</abbr> dus na'ang de ltar go</l>
          </lg></quote> zhes 'byung <abbr>ba'i phyir ro</abbr> ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0116-20-34,unreviewed,1b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex45012023-03-0116-20-34"" status=""unreviewed""><pb edRef=""inst:5593"" n=""1b""/><lb edRef=""inst:5593"" n=""1b1""/><pb edRef=""inst:4770"" n=""1b""/> <lb edRef=""inst:4770"" n=""1b1""/> <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4771""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:5553"">tshad ma sde bdun</rs> gyi don phyogs cig du bsdus pa <choice><reg>gzhan gyi phyogs thams cad las rnam par rgyal ba zhes bya ba</reg><orig>(g)zha(n) gyi phyogs tha(ms cad) las rnam par rgyal ba [zhes bya ba]</orig></choice> | </rs></seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0211-39-05,unreviewed,3a2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-39-05"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0116-20-34,unreviewed,1b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex45012023-03-0116-20-34"" status=""unreviewed""><pb edRef=""inst:5593"" n=""1b""/><lb edRef=""inst:5593"" n=""1b1""/><pb edRef=""inst:4770"" n=""1b""/> <lb edRef=""inst:4770"" n=""1b1""/> <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4771""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:5553"">tshad ma sde bdun</rs> gyi don phyogs cig du bsdus pa <choice><reg>gzhan gyi phyogs thams cad las rnam par rgyal ba zhes bya ba</reg><orig>(g)zha(n) gyi phyogs tha(ms cad) las rnam par rgyal ba [zhes bya ba]</orig></choice> | </rs></seg></TEI>"
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0211-39-05,unreviewed,3a2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-39-05"" type=""excerpt"" status=""unreviewed"">
             dang po ni <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:4593"">dbu ma snang sel ba kha <abbr>cig</abbr></rs> snang ba dgag bya yin zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0211-08-30,unreviewed,2b5 - 3a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-08-30"" type=""excerpt"" status=""unreviewed""><!--person could be Indian or Tibetan-->
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0211-08-30,unreviewed,2b5 - 3a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-08-30"" type=""excerpt"" status=""unreviewed""><!--person could be Indian or Tibetan-->
             yang <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:4593"">dbu ma ba kha cig</rs> snang pa la bden par zhen pa'i blo dgag bya yin ste | nyes pa thams cad <lb edRef=""inst:4770"" n=""3a4""/> <lb edRef=""inst:4770"" n=""3a4""/> kyi rtsa ba yin pa'i phyir ro zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0112-50-39,unreviewed,3a8 - 4a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-50-39"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0112-50-39,unreviewed,3a8 - 4a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-50-39"" type=""excerpt"" status=""unreviewed"">
             <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3831"">chos kyi seng ge</rs> na re snang ba stong ba'i tshogs don de bsgrub <lb edRef=""inst:4770"" n=""4a3""/> bya yin zhing | snang ldog kun rdzob kyi bden pa stong ldog don dam pa'i bden pa bden 2 ngo bo 1 pa yin no zhe na |
             snang ba dang ngo bo 1 pa'i stong nyid de <lb edRef=""inst:5593"" n=""tshe na""/> don dam  <lb edRef=""inst:5593"" n=""3a9""/> pa'i bden pa ma yin te | skye 'gag byed pa'i phyir te | snang ba skye 'gag byed pa'i phyir ro | gzhan yang don dam bden pa skye 'gag byed par thal |<lb edRef=""inst:4770"" n=""4a4""/>snang pa skye 'gag byed pa'i phyir | rtags tshad ma khyab pa med na bden gnyis ngo bo gcig pa nyams so ||
             'dod na 'gag pa med pa skye med pa zhes so ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0211-29-19,unreviewed,6b8 - 6b9,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-29-19"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0211-29-19,unreviewed,6b8 - 6b9,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-29-19"" type=""excerpt"" status=""unreviewed"">
             <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:4593"">gangs can pa</rs> thams cad sems tsam pa gnyis ka'i lugs <lb edRef=""inst:4770"" n=""6b9""/> 'gog pa ni | rang gzhung sems tsam du bshad pa dang 'gal lo ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0112-51-23,unreviewed,7a6 - 7a7,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-51-23"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0112-51-23,unreviewed,7a6 - 7a7,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-51-23"" type=""excerpt"" status=""unreviewed"">
             dang po ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3831"">chos kyi seng ge</rs> na re rtog pa'i mtshan nyid ni don spyi 'dzin pa yin <lb edRef=""inst:5593"" n=""7a7""/> no zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0115-54-20,unreviewed,7a7,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-54-20"" type=""excerpt"" status=""unreviewed"" ana=""corpusmd:rtog_pa"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0115-54-20,unreviewed,7a7,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-54-20"" type=""excerpt"" status=""unreviewed"" ana=""corpusmd:rtog_pa"">
             <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3839"">brtson 'grus seng ge</rs> na re rtog pa'i mtshan nyid sgra don 'dzin pa yin zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0112-51-43,unreviewed,13a1 - 13a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-51-43"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0112-51-43,unreviewed,13a1 - 13a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-51-43"" type=""excerpt"" status=""unreviewed"">
             dang po ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3831"">chos kyi seng ge</rs> na re mtshan nyid tha snyad kyi mtshan nyid ni chos 3 tshang pa yin no ||
             gsum pa gang zhe na |
             mtshan gzhi la grub pa dang | rdzas su yod pa dang | rigs mi <lb edRef=""inst:4770"" n=""13a2""/> mthun gyi spyi dang | dngos 'gal du gnas pa yin no zhe na |
@@ -665,20 +665,20 @@ rig pa'i gnas lnga la blo gros kyi snang ba cung zad thob pa <rs type=""person""
             dang po ltar na bum pa mi rtag par mtshon pa la rgyu rkyen las skyes pa mtshan nyid du bkod pa'i tshe | mtshan nyid <lb edRef=""inst:4770"" n=""13a3""/> skyon med du thal | chos 3 po de thang pa'i phyir ro ||
             2 pa ltar na dkar zal ba glang du mtshon pa la nog shal lasogs pa 'dus pa mtshan nyid du bkod pa'i tshe mtshan nyid skyon med ma yin par thal | mtshan nyid de mtshon bya'i rigs mi mthun gyi spyi dang dngos 'gal ma yin pa'i phyir ro || 
             ma grub na nog shal lasogs 'dus pa <lb edRef=""inst:4770"" n=""13a4""/> de chon | ba lang gi tha snyad byar rung gi ltago pa yin par thal | ba lang gi tha snyad byar mi rung dang dngos 'gal yin pa'i phyir ro || ba lang gi tha snyad byar rung nyid bzhin no ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0211-48-11,unreviewed,13a4 - 13a5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-48-11"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0211-48-11,unreviewed,13a4 - 13a5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-48-11"" type=""excerpt"" status=""unreviewed"">
             <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3839"">brtson 'grus seng ge</rs> na re rgyu rkyen las skyes pa mtshan nyid kyi tha snyad du mtshon pa la mtshon bya'i don ldog gzhi la grub mtshan nyid du bkod pa'i tshe <lb edRef=""inst:4770"" n=""13a5""/> mtshan nyid skyon med yin zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0116-13-00,unreviewed,13a8 - 13a9,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0116-13-00"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0116-13-00,unreviewed,13a8 - 13a9,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0116-13-00"" type=""excerpt"" status=""unreviewed"">
             <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:4593"">bsdus pa smra ba</rs> la mkhas par grags pa yang khan 3 du 'khams ngan zhes lan 'debs par snang ngo ||<lb edRef=""inst:4770"" n=""13a9""/></seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0115-54-39,unreviewed,13b7 - 13b8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-54-39"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0115-54-39,unreviewed,13b7 - 13b8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-54-39"" type=""excerpt"" status=""unreviewed"">
             dang po ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3839"">brtson 'grus seng ge</rs> na re | mtshan nyid kyi tha snyad de mtshan nyid ma yin pas nyes pa dang po med do || chos 3 tshang pa de mtshan nyid tha snyad kyis rang ldog la brten par ma zhugs pas mtshan nyid kyi tha snyad de rigs mi mthun yin yang khyab ches par thal ba'i skyon med do || chos 3 tshang pa de mtshon ldan gyi <lb edRef=""inst:4770"" n=""13b8""/> gzhi la zhugs pas | mtshon bya la mi srid par htla ba'i nyes pa med do || zhes zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0311-17-10,unreviewed,11b2 - 14a5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0311-17-10"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0311-17-10,unreviewed,11b2 - 14a5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0311-17-10"" type=""excerpt"" status=""unreviewed"">
             ldog pa la brten par mtshon pa'i tshe mtshon <lb edRef=""inst:4770"" n=""14a5""/> bya de rten kyi rigs mi mthun dang bsal bya rigs mi mthun 2 su yod pa de khong du ma chud par rang gi mtshon bya rigs mi mthun du 'thad do zhes zer ba ni shes pa bas smra ba rings pa'i gtam yin no ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0116-11-03,finalized,12a3 - 14b9,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0116-11-03"" type=""excerpt"" status=""finalized"" ana=""corpusmd:mtshan_nyid""> <milestone unit=""section"" n=""1321.121.11 mtshan nyid""/>
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0116-11-03,finalized,12a3 - 14b9,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0116-11-03"" type=""excerpt"" status=""finalized"" ana=""corpusmd:mtshan_nyid""> <milestone unit=""section"" n=""1321.121.11 mtshan nyid""/>
            dang po ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3887"">'jam pa'i rdo rje</rs> na re | rang ldog rdzas ma grub kyi mtshan nyid ni | 
            <app><lem wit=""inst:4770"">chos gang zhig</lem><rdg wit=""inst:4770"">chos gang zhig</rdg><rdg wit=""inst:5593"">chos kyi gang zhig</rdg></app> 
            mtshan gzhi la ji ltar bkod pa ltar grub cing don ldog  
@@ -686,93 +686,93 @@ rig pa'i gnas lnga la blo gros kyi snang ba cung zad thob pa <rs type=""person""
             <lem wit=""inst:5593"">rkyang</lem><rdg wit=""inst:5593"">rkyang</rdg><rdg wit=""inst:4770"">kyang</rdg></app> 
             par ma grub <lb edRef=""inst:4770"" n=""14b8""/> pa'o zhe na |
             bum pa dngos po'i tha snyad du mtshon pa la ba lang gi tha snyad mtshan nyid du bkod pa de rang ldog rdzas ma grub ma yin <lb edRef=""inst:5593"" n=""12a4""/> par thal | gzhi la grub ma tshang pa'i phyir | 'dod na rang ldog rdzas yod du thal lo || des na rang ldog rdzas ma grub kyi mtshan nyid ni chos gang zhig don ldog <app><lem wit=""inst:5593"">rkyang</lem><rdg wit=""inst:5593"">rkyang</rdg><rdg wit=""inst:4770"">kyang</rdg></app> par ma grub <lb edRef=""inst:4770"" n=""14b9""/> pa'o ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0115-55-06,unreviewed,15a1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-55-06"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0115-55-06,unreviewed,15a1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-55-06"" type=""excerpt"" status=""unreviewed"">
            <pb edRef=""inst:4770"" n=""15a""/><lb edRef=""inst:4770"" n=""15a1""/> 'di la <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3839"">brtson 'grus seng ge</rs> na re gzhan gyi mtshon bya mtshan nyid du 'gyur ba yod pa yin te | nog shal lasogs 'dus pa mtshon bya | ba lang gi tha nsyad dang po de ba lang gi tha snyad 2 pa'i mtshan nyid du 'gyur ba bzhin no | zhes zer ba ni </seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0112-52-17,unreviewed,13a4 - 16a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-52-17"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0112-52-17,unreviewed,13a4 - 16a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-52-17"" type=""excerpt"" status=""unreviewed"">
             dang po ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3831"">chos kyi seng ge</rs> na re byas pa'i tha snyad byas pa'i tha snyad du mtshon pa la rgyu rkyen las skyes pa mtshan nyid du bkod pa de mtshon 'dod med nas mtshan nyid mtshan gzhi la <lb edRef=""inst:4770"" n=""16a3""/> mi srid pa yin ste | mtshan gzhi dang mtshon bya tha dad med pa'i phyir ro zhe na |
             ba lang gi tha snyad tshad mas grub pa'i tshe nog shal lasogs 'dus pa de ba lang gi tha snyad la ltos te mtshan nyid skyon myed po ma yin par thal | <lb edRef=""inst:5593"" n=""13a5""/> mtshon 'dod med pa'i phyir ro ||
             rtags tshad ma | khyab pa med na mtshon 'dod med pa mtshan nyid kyi skyon <lb edRef=""inst:4770"" n=""16a4""/> yin pa nyams so ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0211-49-30,unreviewed,16b2 - 16b3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-49-30"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0211-49-30,unreviewed,16b2 - 16b3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-49-30"" type=""excerpt"" status=""unreviewed"">
             <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3839"">brton 'grus seng ge</rs> na re | sems can rtsam po la ba lang gi tha snyad khyab byed du mod (read: med) par mtshon <lb edRef=""inst:4770"" n=""16b3""/> ************* mtshon par mi nus pas mtshan nyid kyi skyon can yin no || de yang mtshon bya la ltos pa'i skyon ma yin ste mtshan nyid kyis mtshan gzhi la ma khyab pa'i skyon yin no zhe na |
             rten rtsam du yod pa de gang zhes dri'o ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0115-56-03,finalized,14a2 - 14a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-56-03"" type=""excerpt"" status=""finalized""> <milestone unit=""section"" n=""5. gzhan zla rnams rtsod du bkod pa'i tshe khyab ches kyi skyon yin par 'dod pa dgag pa""/>           
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0115-56-03,finalized,14a2 - 14a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-56-03"" type=""excerpt"" status=""finalized""> <milestone unit=""section"" n=""5. gzhan zla rnams rtsod du bkod pa'i tshe khyab ches kyi skyon yin par 'dod pa dgag pa""/>           
             lnga pa ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3839"">brtson 'grus seng ge</rs> <app><lem wit=""inst:5593"">na re</lem><rdg wit=""inst:5593"">na re</rdg><rdg wit=""inst:4770"">na re ||</rdg></app> dkar zal mtshan gzhi ba lang gi tha snyad dkar zal kho na la yod par mtshon | nog shal laosgs 'dus pa dkar zla kho na la yod pa mtshan nyid du <lb edRef=""inst:4770"" n=""17a4""/> bkod pa'i tshe | khyab ches nas mtshan gzhi la mi srid pa yin lo | gang la khyab ches <app><lem wit=""inst:4770"">nas</lem><rdg wit=""inst:4770"">nas</rdg><rdg wit=""inst:5593"">na</rdg></app> mtshan gzhi dkar <lb edRef=""inst:5593"" n=""14a3""/> zal las gzhan nag sgyur la khyab ches pa yin zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0112-46-46,finalized,17a7 - 17a8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-46-46"" type=""excerpt"" status=""finalized"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0112-46-46,finalized,17a7 - 17a8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-46-46"" type=""excerpt"" status=""finalized"">
          <milestone unit=""section"" n=""i. grangs mang par""/>          
             dang po ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">lo tsha ba</rs> na re mtshan nyid kyi skyon 3 du ma 'dus pa <app><lem wit=""inst:4770"">rnam</lem><rdg wit=""inst:4770"">rnam</rdg><rdg wit=""inst:5593"">rnams</rdg></app> bcad med pa zhes bya ba'i skyon gzhan bzhi pa yang yod de | bum pa byas par mtshon pa la rgyu <lb edRef=""inst:5593"" n=""14a6""/> rkyen las skyes pa'i shes bya mtshan nyid du bkod pa lta bu yin zhes <lb edRef=""inst:4770"" n=""17a8""/> zer ro || 
             <rs type=""work"" ana=""corpusmd:unnamed_reference"" ref=""db:4445"">tik chung</rs> las | <quote source=""db:4445"" n=""[UGPYP9TV]: 213""><lg><l>mtshan nyid rnam bcad la ltos phyir ||</l> <l>rnam bcad med pa mtshan nyid min</l></lg></quote> zhes so ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0112-47-52,finalized,17a9,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-47-52"" type=""excerpt"" status=""finalized"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0112-47-52,finalized,17a9,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-47-52"" type=""excerpt"" status=""finalized"">
             <milestone unit=""section"" n=""ii. grangs nyung par""/>
             gnyis pa ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3809"">rin chen grags</rs> na re mtshan nyid kyi skyon thams cad mtshon bya <app><lem wit=""inst:4770"">mtshon</lem><rdg wit=""inst:4770"">mtshon</rdg><rdg wit=""inst:5593"">mtshan</rdg></app> pa'i rgyu mtshan du mi srid par 'dus zer ro || <note type=""editorial"">In work (ID:5507), this view is ascribed to Gangs pa she'u (ID:3810).</note></seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0211-51-06,unreviewed,18b2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-51-06"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0211-51-06,unreviewed,18b2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-51-06"" type=""excerpt"" status=""unreviewed"">
             <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3839"">brtson 'grus seng ge</rs> na re mtshon bya'i tha snyadkyi mtshan nyid ni mtshan nyid kyi rnam par bzhag bya gzhi la grub pa yin zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0211-51-58,finalized,22b2 - 22b3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-51-58"" type=""excerpt"" status=""finalized"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0211-51-58,finalized,22b2 - 22b3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-51-58"" type=""excerpt"" status=""finalized"">
             <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:5573"">bdag gi yongs su 'dzin pa</rs> <app><lem wit=""inst:4770"">na re |</lem><rdg wit=""inst:4770"">na re |</rdg><rdg wit=""inst:5593"">na re</rdg></app> rdzas chos ldog chos kyi <app><lem wit=""inst:4770"">mtshan nyid</lem><rdg wit=""inst:4770"">mtshan nyid</rdg><rdg wit=""inst:5593"">(<abbr>mtshan nyid</abbr>)</rdg></app> ni rim pa <app><lem wit=""inst:4770"">bzhin</lem><rdg wit=""inst:4770"">bzhin</rdg><rdg wit=""inst:5593"">(<abbr>bzhin</abbr>)</rdg></app> du rang dang rdzas 1 pa'i chos ma lus pa la khyab byed du <app><lem wit=""inst:4770"">brten</lem><rdg wit=""inst:4770"">brten</rdg><rdg wit=""inst:5593"">rten</rdg></app> pa dang | rang dang rdzas 1 pa'i chos 'ga' zhig la <app><lem wit=""inst:4770"">brten</lem><rdg wit=""inst:4770"">brten</rdg><rdg wit=""inst:5593"">rten</rdg></app> yang 'ga' <lb edRef=""inst:5593"" n=""18b9""/> zhig la mi <lb edRef=""inst:4770"" n=""22b3""/> rten pa yin zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0211-53-31,finalized,25b3 - 25b4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-53-31"" type=""excerpt"" status=""finalized"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0211-53-31,finalized,25b3 - 25b4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-53-31"" type=""excerpt"" status=""finalized"">
             khas blangs brjod pa ni <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:5573"">bgag gi yongs su 'dzin pa</rs> <app><lem wit=""inst:4770"">na re |</lem><rdg wit=""inst:4770"">na re |</rdg><rdg wit=""inst:5593"">na re</rdg></app> 'jig <app><lem wit=""inst:5593"">med</lem><rdg wit=""inst:4770"">myed</rdg><rdg wit=""inst:5593"">med</rdg></app> la byas yod bkag pa lta bu'i med dgag de rtags kyi bsgrub bya yin zhing rjes dpag gi gzhal bya yin la | <app><lem wit=""inst:5593"">'jig med dang byas</lem><rdg wit=""inst:4770"">'jig myed byas</rdg><rdg wit=""inst:5593"">'jig med dang byas</rdg></app> <lb edRef=""inst:5593"" n=""21b3""/> yod kyis stong pa'i tshogs don ma yin dgag de yang rtags kyi <lb edRef=""inst:4770"" n=""25b4""/> bsgrub bya dang rjes dpag gi gzhal bya yin lo ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0112-46-28,reviewed,28a2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-46-28"" type=""excerpt"" status=""reviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0112-46-28,reviewed,28a2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-46-28"" type=""excerpt"" status=""reviewed"">
          <milestone unit=""section"" n=""212.112.1 rtog med byed pa la 'khrul pa tshad mar 'dod pa dgag pa""/>
          dang po ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">lo tsha ba chen po de</rs> na re | ljon shing 'gror snang gi shes pa kha dog la tshad ma yin zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012025-03-2011-47-47,reviewed,30b5 - 30b6,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex45012025-03-2011-47-47"" status=""reviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012025-03-2011-47-47,reviewed,30b5 - 30b6,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex45012025-03-2011-47-47"" status=""reviewed"">
         <app><rdg wit=""inst:4770""><rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:4593"">lo tsha ba</rs> ni don dang 'thun par 'dzin pa de yin no || zhe na |</rdg><rdg wit=""inst:5593"">des na <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:4593"">gcung lo tsha ba</rs> ni don dang mthun par 'dzin pa de yin no zhe na |</rdg></app>
         
          zla ba 2 'dzin gyi shes pa chos can | don dang mthun par 'dzin pa tsam zhig yin par thal | <lb edRef=""inst:4770"" n=""35a8""/> shes bya'i don dang mthun par 'dzin pa'i phyir <app><rdg wit=""inst:4770"">ro</rdg><rdg wit=""inst:5593"">te</rdg></app> ||
 zla ba 2 <lb edRef=""inst:5593"" n=""30b6""/> <app><rdg wit=""inst:4770"">'dzin kyi</rdg><rdg wit=""inst:5593"">kyi</rdg></app> rnam pa shes bya yin zhing der 'dzin pa'i phyir ro || </seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0112-49-31,unreviewed,35b6 - 31a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-49-31"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0112-49-31,unreviewed,35b6 - 31a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-49-31"" type=""excerpt"" status=""unreviewed"">
             2 pa ltar na rjes dpag * rtog baral du thal | rtog <lb edRef=""inst:5593"" n=""31a3""/> pa'i ldog pa ma yin pa'i phyiro zhe na |
             'di'i len du <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3831"">chos kyi seng ge</rs> na re rang yul la ltos te rtog pa'i rdzas dang bral ba de yin zer ro || </seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0115-56-24,unreviewed,35b7,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-56-24"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0115-56-24,unreviewed,35b7,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-56-24"" type=""excerpt"" status=""unreviewed"">
             <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3839"">brtson 'grus seng ge </rs>rtog par mtshon pa'i mtshan gzhi ma yin pa de yin no zer |</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0211-57-56,unreviewed,43a1 - 43a2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-57-56"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0211-57-56,unreviewed,43a1 - 43a2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-57-56"" type=""excerpt"" status=""unreviewed"">
             <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:4593"">kha <abbr>cig</abbr></rs> mthun phyogs mi mthun phyogs kyi tshyad <lb edRef=""inst:4770"" n=""43a2""/>  ni bsgrub bya chon dang bsgrub bya'i chos kyi spyis don mthun pa dang mi mthun pa de yin no zhe na |</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0115-56-43,unreviewed,46b3 - 46b4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-56-43"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0115-56-43,unreviewed,46b3 - 46b4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0115-56-43"" type=""excerpt"" status=""unreviewed"">
             dang po ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3839"">brtson 'grus seng ge</rs> na re rtags chos can gyi phyogs 1 la grub kyang phyogs 1 la ma grub pa ni sgra la <lb edRef=""inst:4770"" n=""46b4""/> rtsol byung khyab byed du yod pas mi rtag pa khyab byed du yod par bsgrub pa lta bu'am | sgra la rtsol byung rten rtsam du yod pas mi rtag pa khyab byed du yod par bsgrub pa lta bu'o || zhes zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0211-59-11,unreviewed,46b6 - 46b8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-59-11"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0211-59-11,unreviewed,46b6 - 46b8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0211-59-11"" type=""excerpt"" status=""unreviewed"">
             tshogs pa rtags su bkod pa'i tshe ya rgyal 1 chos can la brten yang ya gyal 1 chos can la mi rten na phyogs chos ma grub pas khyab pa yin ste | ya gyal khegs pas tshogs pa khegs pa'i phyir | tshogs pa chos can du bzhag pa'i tshe | rtags chos can gyi phyogs 1 la ma grub kyang rtags chos can gyi phyogs 1 la grub na <lb edRef=""inst:4770"" n=""46b7""/> phyogs chos grub pas grub pa yin te | <?oxy_comment_start comment=""[bold face in source document]""?>rigs kyi bye brag<?oxy_comment_end?> snang pa dang stong pa'i tshogs don chos can bsgrub pa'i tha snyad du byar rung ste | bsgrub chos ma dor ba yin pa'i phyir zhes rtags su bkod pa'i tshe | bsgrub chos ma dor ba de stong nyid la ma grub kyang snang pa la grub pas snang stong tshogs pa la brten pa'i phyogs chos grub pa bzhin no ||<lb edRef=""inst:4770"" n=""46b8""/> spyi rtags su bkod pa'i tshe bye brag cig chos can la ma grub kyang bye brag 1 chos can la grub na phyogs chos grub pas khyab pa yin ste | rigs kyi bye brag grub pas spyi 'grub pa'i phyir | spyi chos can du bzhag pa'i tshe chos can gyi bye brag 1 la rtags grub kyang chos can gyi bye brag 1 'ang rtags ma grub na phyogs chos ma grub pas khyab pa yin no || zhes <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3831"">chos 46b9 kyi seng ge </rs>smra'o ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0112-49-51,unreviewed,46a1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-49-51"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0112-49-51,unreviewed,46a1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-49-51"" type=""excerpt"" status=""unreviewed"">
             <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3831"">chos kyi seng ge</rs> na re rtags kyi tshyad phyoos dang ldog pa'i khyab pa 2 yin zhing rjes 'gro yod kyang rtags kyi tshyad ma yin no zer ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0116-22-19,unreviewed,54a9 - 54b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0116-22-19"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0116-22-19,unreviewed,54a9 - 54b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0116-22-19"" type=""excerpt"" status=""unreviewed"">
             khas blangs brjod pa ni | <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:4593"">kun gyi bshes gnyen</rs> na re | go byed rtags kyi 'brel pa don la med de | spyi 'brel don la med pa'i phyir te | spyi don la med pa'i phyir dang | chos 1 la <lb edRef=""inst:4770"" n=""54b1""/> 'brel pa mi 'thad cing 'brel pa po 'brel yul gyi chos 2 tshogs pa mi srid pa'i phyir ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex450120240625352,unreviewed,54b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex450120240625352"" status=""unreviewed""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3775"">'brel pa brtags pa</rs> las | <quote source=""db:3775"" n=""v. 1"">de phyir dngos po thams cad kyi || 'brel pa yang dag <abbr>nyid du</abbr> med</quote> ces so || des na 48b5 'brel pa don la med pas bsgrub bya'i chos dang rtags kyang don la med ces grag go ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0112-50-09,unreviewed,63a6 - 63a7,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-50-09"" type=""excerpt"" status=""unreviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex450120240625352,unreviewed,54b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex450120240625352"" status=""unreviewed""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3775"">'brel pa brtags pa</rs> las | <quote source=""db:3775"" n=""v. 1"">de phyir dngos po thams cad kyi || 'brel pa yang dag <abbr>nyid du</abbr> med</quote> ces so || des na 48b5 'brel pa don la med pas bsgrub bya'i chos dang rtags kyang don la med ces grag go ||</seg></TEI>"
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0112-50-09,unreviewed,63a6 - 63a7,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0112-50-09"" type=""excerpt"" status=""unreviewed"">
             dang po ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3831"">chos kyi seng ge</rs> na re thal 'gyur rang rgyud la mi 'khrul <lb edRef=""inst:5593"" n=""63a7""/> ba yin te | de ('di) 2 rtogs pa gnad 1 pa'i phyir ro ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex87022025-02-243,reviewed,68a2 - 68a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex87022025-02-243"" type=""excerpt"" status=""reviewed"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex87022025-02-243,reviewed,68a2 - 68a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex87022025-02-243"" type=""excerpt"" status=""reviewed"">
 <l>rigs pa'i de nyid gsal ba 'dis ||</l>
 <l>'gro ba kun gyi mi shes pa'i ||</l>
          <l>mun pa thams cad gsal gyur nas ||</l> 
          <l>rigs <lb edRef=""inst:5593"" n=""68a3""/> pa'i de nyid mthong bar shog ||</l>|</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0116-15-50,finalized,68a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0116-15-50"" type=""excerpt"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Colophon in instance (ID:5593)""/>
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0116-15-50,finalized,68a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0116-15-50"" type=""excerpt"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Colophon in instance (ID:5593)""/>
             <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4771"">gzhan gyi phyogs <abbr>thams cad</abbr> las rnaM par rgyal ba</rs> zhes bya ba | <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4018"">rigs par smra ba'i dge slong sing ha shri</rs>s <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:4332"">gsang phu ne'u thog gi gtsug lag khang</rs> du legs par brtsaMs te | <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:5574"">dpal rtse dkar gyi gtsug lag khang</rs> du yi ger bkod pa'o || rdzogs s+ho || ma nu sa rwa'i don du gyur 1 || dge'o || bkra' shis par gyur 1 ||</seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012025-02-242,reviewed,68a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012025-02-242"" type=""excerpt"" status=""reviewed"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Colophon in instance (ID:4470)""/>
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012025-02-242,reviewed,68a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012025-02-242"" type=""excerpt"" status=""reviewed"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Colophon in instance (ID:4470)""/>
          <l><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4771"">rigs pa'i de nyid gsal ba</rs> 'dis ||</l>
          <l>'gro ba kun gyis mi shes pa'i ||</l> 
          <l>mun pa thams cad bsal gyur nas ||</l>
          <l>rigs pa'i de nyid mthong par shog ||</l> </seg></TEI>"
-2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"3_087_02
-2_045_01",,ex45012023-03-0116-15-51,finalized,68a3 - 77a5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0116-15-51"" type=""excerpt"" status=""finalized"" ana=""corpusmd:colophon"">
+2_045_01_3_087_02_Chu mig pa_rnam rgyal.xml,"2_045_01
+3_087_02",,ex45012023-03-0116-15-51,finalized,68a3 - 77a5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" xml:id=""ex45012023-03-0116-15-51"" type=""excerpt"" status=""finalized"" ana=""corpusmd:colophon"">
             <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4771"">rigs pa'i de nyid gsal ba</rs> zhes bya ba | <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4018"">rigs pas smra <lb edRef=""inst:4770"" n=""77a5""/> ba'i dge' sbyong sing ha shri</rs>s <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:4332"">gsang phu ne'u thog gi gtsug lag khang</rs> du legs par brtsams te || <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:5574"">dpal rtse dkar gyi gtsug lag khang</rs> du yi ger bkod pa'o || bkra shis par gyur cig ||</seg></TEI>"
 2_034_03_ rDo rje gzhon nu _ 'dul ba'i bsdus don nor bu'i 'phreng ba.xml,2_034_03,,ex34032024-10-0416-10-36,unreviewed,1a2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex34032024-10-0416-10-36"" status=""unreviewed""><rs type=""work"" ana=""corpusmd:named_reference"">ston pa'i bstan rtsa daM chos 'dul ba yi || bsdus don nor bu'i phreng ba</rs>zhes bya 'di || bstan pa'i srog shing dpal chen thag ma ba || <rs type=""person"" ana=""corpusmd:named_reference"">rdo rje gzhon_nu</rs>s leGS par sbyar ba bzhugs||</seg></TEI>"
 3_064_04_I_R_M_Anonymous_stong nyid don bshad.xml,3_064_04,,ex64042025-03-2111-07-07,reviewed,1b2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex64042025-03-2111-07-07"" status=""reviewed""><pb n=""1b""/><lb n=""1b1""/> ji ltar bshad pa bzhin du bsgoms pas thugs su chud pa'i <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4108"">lce sgom</rs><note type=""editorial"">Tentative identification as lCe sgom rdzong pa Shes rab rdo rje</note> gyi zhal nas | 
@@ -1905,30 +1905,30 @@ des na mngon sum gyis sgro 'dogs gcod ces brjod kyang mngon sum min gyi, rjes ky
               <lg> <l>phyi ma <abbr>grags pa'i</abbr> <lb n=""107a5""/> <abbr>rjes dpag</abbr> las ||</l> <l>yul gyi dbye ba bstan pa yin ||</l> <l>de ltar shes na grags pa yi ||</l> <l>bsal pa mkhas pa'i dgongs pas 'grub ||</l> </lg></quote>
                <abbr>ces gsung ngo</abbr> |</seg></TEI>"
 1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11d
-1_001_11c
+1_001_11b
 1_001_11a
-1_001_11b",,ex01112025-05-0716-13-58,reviewed,1a1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0716-13-58"" status=""reviewed"" part=""I"" next=""ex01112025-05-0716-13-582""><milestone unit=""section"" n=""Cover page (1a)""/>
+1_001_11c",,ex01112025-05-0716-13-58,reviewed,1a1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0716-13-58"" status=""reviewed"" part=""I"" next=""ex01112025-05-0716-13-582""><milestone unit=""section"" n=""Cover page (1a)""/>
          <pb edRef=""inst:4440"" n=""1a""/><lb edRef=""inst:4440"" n=""1a1""/> rnaM bshad snying po brgyan ma tshang ba 1 | grub mtha'i rnaM gzhag bris ma 1 | 'jaM dbyangs dpa' gtso'i grub thab ma tshang ba 1 |</seg></TEI>"
 1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11d
-1_001_11c
+1_001_11b
 1_001_11a
-1_001_11b",,ex01112025-05-0716-13-582,reviewed,1b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0716-13-582"" status=""reviewed""><milestone unit=""section"" n=""Incipit (1b1)""/>
+1_001_11c",,ex01112025-05-0716-13-582,reviewed,1b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0716-13-582"" status=""reviewed""><milestone unit=""section"" n=""Incipit (1b1)""/>
          <pb edRef=""inst:4440"" n=""1b""/><lb edRef=""inst:4440"" n=""1b1""/> <lg><l>'jig rten kun dang myi mthun pa'i ||</l>
          <l>zab mo'i don can <rs type=""work"" ana=""corpusmd:unnamed_reference"" ref=""db:3749"">bstan chos 'di</rs> ||</l>
          <l>thugs rjes bdag cag la gsungs pa || </l>
          <l>chos la spyan gyur <rs type=""deity"">de</rs> la 'dud || </l></lg>
          <note type=""translation"">I bow to him (i.e., Maitreya) whose eyes are directed towards the Dharma and who, out of compassion, taught to us this treatise of profound meaning (i.e., the Ratnagotravibhāga), which goes against [the conventional wisdom of] the entire world.</note></seg></TEI>"
 1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11d
-1_001_11c
+1_001_11b
 1_001_11a
-1_001_11b",,ex001112025-05-2008-21-24,reviewed,1b1 - 1b2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex001112025-05-2008-21-24"" status=""reviewed"">
+1_001_11c",,ex001112025-05-2008-21-24,reviewed,1b1 - 1b2,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex001112025-05-2008-21-24"" status=""reviewed"">
             <milestone unit=""section"" n=""Body of the text (1b1–40a1)""/>
             <milestone unit=""section"" n=""[0] The Five Treatises of Maitreya (1b1-1b3)""/>
             <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3747"">bcom ldan 'das byams pa</rs>s bde bar gshegs pa'i bka'i dgongs pa phyin ci ma log par gsal <choice><reg>bar</reg><orig>‹ba›r</orig></choice> mdzad pa na | nges pa'i don gi mdo sde rin po che | phyir mi ldog pa'i chos kyi 'khor lo | chos kyi dbyings tshul cig du <lb edRef=""inst:4440"" n=""1b2""/> ston pa | shin tu rnam par dag pa gdon myi za ba'i chos kyi rnam grangs khams thabs cad kyi don rab du ×ston pa | <rs type=""work"" ana=""corpusmd:unnamed_reference"" ref=""db:3749"">theg pa chen po rgyud bla ma'i bstan chos</rs> 'di mdzad pas | theg pa chen po'i don gi de kho na rnam par bzhag pa yin no ||</seg></TEI>"
 1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11d
-1_001_11c
+1_001_11b
 1_001_11a
-1_001_11b",,ex1112024-01-23-3,reviewed,40a2 - 40a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1112024-01-23-3"" status=""reviewed"">
+1_001_11c",,ex1112024-01-23-3,reviewed,40a2 - 40a3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1112024-01-23-3"" status=""reviewed"">
             <milestone n=""2"" unit=""section""/>
             <lg><l>dam chos gsung rab nges pa'i don gyi tshul ||</l>
             <l> <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3749"">theg <lb edRef=""inst:6267"" n=""65b1""/> <lb edRef=""inst:6265"" n=""32b2""/> <app><lem wit=""inst:4440 inst:6265"">chen</lem><rdg wit=""inst:4440"">chen</rdg><rdg wit=""inst:6265"">chen</rdg><rdg wit=""inst:6272"">mchog</rdg><rdg wit=""inst:6267"">mchog</rdg></app><anchor xml:id=""a7""/> <lb edRef=""inst:6272"" n=""69b4""/> bla ma'i bstan <app><lem wit=""inst:6272 inst:6267 inst:4440"">bcos</lem><rdg wit=""inst:6272 inst:6267 inst:4440"">bcos</rdg><rdg wit=""inst:6265"">'chos</rdg></app></rs> 'di bshad <app><lem wit=""inst:4440"">pas</lem><rdg wit=""inst:4440"">pas</rdg><rdg wit=""inst:6272"">la</rdg><rdg wit=""inst:6265"">la</rdg><rdg wit=""inst:6267"">las</rdg></app> ||</l> 
@@ -1937,17 +1937,17 @@ des na mngon sum gyis sgro 'dogs gcod ces brjod kyang mngon sum min gyi, rjes ky
          <note type=""translation"">Through the merits that I have attained by explaining the Mahāyānottaratantra (i.e., Ratnagotravibhāga), which contains the system of definitive meaning of the scriptures of the excellent doctrine, may I swiftly attain the true nature (dharmatā) equal to all Buddhas!</note>
          </seg></TEI>"
 1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11d
-1_001_11c
+1_001_11b
 1_001_11a
-1_001_11b",,ex1112023-10-18,finalized,40a3 - 40a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1112023-10-18"" status=""finalized"" ana=""corpusmd:colophon""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4441""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3749"">theg pa chen po rgyud bla ma'i bstan bcos</rs> kyi don bsdus pa</rs> || <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">smra ba'i seng ge | ngag gi dbang phyug | 'chad gra'i slob dpon | sgra sgyur gyi lo tsa ba chen po | rngog dge slong blo ldan shes rab</rs> kyis mdzad pa <lb edRef=""inst:4440"" n=""40a4""/> rdzogs s+h+yo ||<anchor xml:id=""a10""/> he he || ||</seg></TEI>"
+1_001_11c",,ex1112023-10-18,finalized,40a3 - 40a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1112023-10-18"" status=""finalized"" ana=""corpusmd:colophon""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4441""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3749"">theg pa chen po rgyud bla ma'i bstan bcos</rs> kyi don bsdus pa</rs> || <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">smra ba'i seng ge | ngag gi dbang phyug | 'chad gra'i slob dpon | sgra sgyur gyi lo tsa ba chen po | rngog dge slong blo ldan shes rab</rs> kyis mdzad pa <lb edRef=""inst:4440"" n=""40a4""/> rdzogs s+h+yo ||<anchor xml:id=""a10""/> he he || ||</seg></TEI>"
 1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11d
-1_001_11c
+1_001_11b
 1_001_11a
-1_001_11b",,ex01112025-05-0717-06-56,reviewed,40a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0717-06-56"" status=""reviewed"" ana=""corpusmd:colophon""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4441"">theg pa chen po rgyud bla ma'i bstan <app><lem wit=""inst:6272 inst:6267"">bcos</lem><rdg wit=""inst:6272 inst:6267"">bcos</rdg><rdg wit=""inst:6265"">'chos</rdg></app> kyi don bsdus pa</rs> | <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786""><app><lem wit=""inst:6272 inst 6267"">dge</lem><rdg wit=""inst:6272 inst 6267"">dge</rdg><rdg wit=""inst:6265"">rge</rdg></app> slong blo ldan shes rab</rs> kyis sbyar pa'o ||</seg></TEI>"
+1_001_11c",,ex01112025-05-0717-06-56,reviewed,40a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0717-06-56"" status=""reviewed"" ana=""corpusmd:colophon""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4441"">theg pa chen po rgyud bla ma'i bstan <app><lem wit=""inst:6272 inst:6267"">bcos</lem><rdg wit=""inst:6272 inst:6267"">bcos</rdg><rdg wit=""inst:6265"">'chos</rdg></app> kyi don bsdus pa</rs> | <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786""><app><lem wit=""inst:6272 inst 6267"">dge</lem><rdg wit=""inst:6272 inst 6267"">dge</rdg><rdg wit=""inst:6265"">rge</rdg></app> slong blo ldan shes rab</rs> kyis sbyar pa'o ||</seg></TEI>"
 1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11d
-1_001_11c
+1_001_11b
 1_001_11a
-1_001_11b",,ex01112025-05-0716-39-23,unreviewed,69b5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0716-39-23"" status=""unreviewed"" ana=""corpusmd:colophon""> <milestone unit=""section"" n=""Post-colophon note in instance (ID:6272)""/><lb edRef=""inst:6272"" n=""69b5""/>
+1_001_11c",,ex01112025-05-0716-39-23,unreviewed,69b5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0716-39-23"" status=""unreviewed"" ana=""corpusmd:colophon""> <milestone unit=""section"" n=""Post-colophon note in instance (ID:6272)""/><lb edRef=""inst:6272"" n=""69b5""/>
         <note type=""gloss"">rgya gar shar phyogs kha che ba yin</note><rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:3800"">pan ti ta dkar po</rs><note type=""editorial"">The identification of ""Pan ti ta dkar po"" as Sajjana (ID:3800) is tentative.</note> |  
         <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">lo tsha ba rngog blo ldan</rs> <note type=""gloss"">snum mtsho dwo ba</note> | 
         <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3805"">zhang tshes</rs> <note type=""gloss""><rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3805"">dmyal ba</rs></note> | 
@@ -1955,9 +1955,9 @@ des na mngon sum gyis sgro 'dogs gcod ces brjod kyang mngon sum min gyi, rjes ky
         <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4593"">mkhan po rba grags pa bsod nams</rs> <note type=""gloss""><rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4593"">la mo ba</rs></note> | 
         <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4593"">'or brgyad bsod nams tshul khrims</rs> <note type=""gloss""><rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4593"">rka ba dgung dkar ba</rs> yin no</note> ||<!--dgung dkar is a place in dbus--></seg></TEI>"
 1_001_11_F_C_NC_M_rNgog_rgyud bla ma don bsdus_etext.xml,"1_001_11d
-1_001_11c
+1_001_11b
 1_001_11a
-1_001_11b",,ex01112025-05-0816-03-22,reviewed,69b5 - 32b3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0816-03-22"" status=""reviewed"">
+1_001_11c",,ex01112025-05-0816-03-22,reviewed,69b5 - 32b3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex01112025-05-0816-03-22"" status=""reviewed"">
       <milestone n=""Post-colophon in (ID:6265)"" unit=""section""/> <lg><l><lb edRef=""inst:6265"" n=""32b3""/> <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3749"">bla rgyud kyi bstan 'chos</rs> 'di la ||</l> <l>brtsams pa <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">blo ldan rngog</rs> gyis brtsams ||</l> <l>bris pa <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:6268"">nyang stod ze'u</rs> gyis bris ||</l> <l>yon bdag <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:6269"">yol ston dar brtsan</rs> lags ||</l></lg></seg></TEI>"
 2_037_01 Blo gros rgyal mtshan_'dul ba mdo'i rnam bshad nyi ma'i rgyan.xml,2_037_01,,ex37012023-10-11-115312,unreviewed,1a3 - 1b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex37012023-10-11-115312"" status=""unreviewed""><lb n=""1a3""/>|| <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4728"">'dul ba mdo'i rnams bshad mdo'i nyi ma'i rgyan</rs> zhes bya ba 'zhugs |
          <milestone unit=""section"" n=""Incipit (1b1)""/>
@@ -2243,14 +2243,14 @@ X_0_01_Phag mo gru pa rnam thar.xml,X_0_01,WBWSEPQX,exX0012025-02-1715-19-24,unr
       <milestone unit=""section"" n=""Colophon""/>
         <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4967"">rnam par snang mdzad mngon par byang chub pa'i sku 3 gyi dkyil <lb n=""1b7""/> 'khor</rs> <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">bcom ldan ral gri</rs>s bkod pa'o || 
         <rs type=""person"" ana=""corpusmd:unnamed_reference"" ref=""db:4006"">de nyid</rs> kyi phyag dpe' la<!--read: las--> <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4065"">ze'u grags shes</rs> bris || dge'o ||</seg></TEI>"
-1_001_02_D_Rinchen_rab gnas don gsal w.xml,"1_001_02
-1_001_04",,ex1022023-03-271212,finalized,1a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1022023-03-271212"" status=""finalized"">|| <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4424"">rab tu gnas par byed pa don <choice><reg>gsal</reg><orig>°gsal</orig></choice></rs> bzhugs lags ||</seg></TEI>"
-1_001_02_D_Rinchen_rab gnas don gsal w.xml,"1_001_02
-1_001_04",,ex10221-02-20231350,finalized,1b3 - 2b4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex10221-02-20231350"" status=""finalized"" ana=""corpusmd:colophon"" part=""M"" next=""ex1022023-27-03-1236""><milestone unit=""section"" n=""Colophon (2b2–2b5)""/>
+1_001_02_D_Rinchen_rab gnas don gsal w.xml,"1_001_04
+1_001_02",,ex1022023-03-271212,finalized,1a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1022023-03-271212"" status=""finalized"">|| <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4424"">rab tu gnas par byed pa don <choice><reg>gsal</reg><orig>°gsal</orig></choice></rs> bzhugs lags ||</seg></TEI>"
+1_001_02_D_Rinchen_rab gnas don gsal w.xml,"1_001_04
+1_001_02",,ex10221-02-20231350,finalized,1b3 - 2b4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex10221-02-20231350"" status=""finalized"" ana=""corpusmd:colophon"" part=""M"" next=""ex1022023-27-03-1236""><milestone unit=""section"" n=""Colophon (2b2–2b5)""/>
          <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:5624""><lb edRef=""inst:4423"" n=""2b2""/> rab tu gnas <lb edRef=""inst:4423"" n=""2b3""/> pa'i rgyud</rs> <note type=""editorial"" resp=""PH"">The identification as the Pratiṣṭhāvidhi is tentative.</note> dang <rs type=""person"" ref=""db:5625"" ana=""corpusmd:named_reference"">slob dpon kun dga' snying po </rs> las stsogs pas mdzad pa'i bstan bcos rnams <app><lem wit=""inst:4428"">gcig</lem> <rdg wit=""inst:4428"">gcig</rdg> <rdg wit=""inst:4423"">cig</rdg></app> na'ang <app><lem wit=""inst:4428"">ma rdzogs</lem> <rdg wit=""inst:4428"">ma rdzogs</rdg> <rdg wit=""inst:4423"">rdzogs</rdg></app> shing <app><lem wit=""inst:4428"">gzhung</lem> <rdg wit=""inst:4428"">gzhung</rdg><rdg wit=""inst:4423"">bzhung</rdg></app> mang du <app><lem wit=""inst:4428"">'thor</lem> <rdg wit=""inst:4423"">mthor</rdg> <rdg wit=""inst:4428"">'thor</rdg></app> ba'i phyir | <lb edRef=""inst:4428"" n=""1b4""/> de dag cig tu lag tu blang pa ma <lb edRef=""inst:4423"" n=""2b4""/> 'ongs pa'i skye bo blo chung pa rnams la phan pa'i phyir | <rs type=""person"" ref=""db:3784"" ana=""corpusmd:named_reference""><app><lem wit=""inst:4423"">shag kya'i dge slong</lem> <rdg wit=""inst:4423"">shag kya'i dge bslong</rdg> <rdg wit=""inst:4428"">sha°pa'i dge slong</rdg></app> rin chen bzang po</rs>s nye bar sbyar <app><lem wit=""inst:4423"">ba'o</lem> <rdg wit=""inst:4423"">ba'o</rdg> <rdg wit=""inst:4428"">ba</rdg></app> || rdzogs s+h+yo ||
          </seg></TEI>"
-1_001_02_D_Rinchen_rab gnas don gsal w.xml,"1_001_02
-1_001_04",,ex1022023-27-03-1236,finalized,2b5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1022023-27-03-1236"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Post-colophon addition (1) in (ID:4423): Manuscript ownership (2b5)""/>
+1_001_02_D_Rinchen_rab gnas don gsal w.xml,"1_001_04
+1_001_02",,ex1022023-27-03-1236,finalized,2b5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex1022023-27-03-1236"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Post-colophon addition (1) in (ID:4423): Manuscript ownership (2b5)""/>
          <lb edRef=""inst:4423"" n=""2b5""/> <rs type=""person"" ref=""db:4425"" ana=""corpusmd:named_reference"">dge bar byed pa</rs>'i dpe' lags || zhal gro || dge'o ||</seg></TEI>"
 1_022_03_ Ye shes rgyal mtshan _ bsdud pa tshigs su bcad pa'i bshad sbyar.xml,1_022_03,,ex22032024-10-1514-43-58,unreviewed,40b2 - 40b5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex22032024-10-1514-43-58"" status=""unreviewed""><milestone unit=""section"" n="" [Colophon Part 1 (40b2-5) (p. 122:2-5)""/>
                <seg type=""excerpt"" xml:id=""ex22032023-09-181"" status=""unreviewed""><lb n=""40b2""/>
@@ -2368,12 +2368,12 @@ X_002_Tshad bsdus.xml,X_002,,exX0022024-11-01-15-17,finalized,352.17 - 352.19,"<
             <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:5872""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3713""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3694"">shes rab snying po</rs>'i rgya cher 'grel</rs> gi bshad pa</rs> | <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">lo tsa ba slob dpon blo ldan shes rab</rs> kyis mdzad pa rdzogs s+ho ||||</seg></TEI>"
 3_066_02_from transkribus.xml,3_066_02,,ex66022025-04-0215-55-39,finalized,72a3 - 72a4,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex66022025-04-0215-55-39"" status=""finalized"">   <milestone n=""Colophon (72a3-72a4)"" unit=""section""/>
                <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:5145""><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:3727"">byang chub sems dpa'i spyod pa la 'jug pa</rs> rnam par bshad pa</rs> 'di <lb n=""72a4""/> <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4052"">slob dpon dam pa mkhas grub brnyes pa'i skyes bu chen po yang dag pa'i dge ba'i bshes gnyen smon lam kyi mtshan can snar thang pa brgyad par byon pa</rs>'i zhabs kyi rdul spyi bos reg pa'i <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4096"">btsun pa sangs rgyas yon tan dpal bzang po</rs>s sbyar ba'o || dge'o |</seg></TEI>"
-3_061_09 = 2_056_06_I_R_M_ri khrod lo ma sgrub thabs gnyis.xml,"2_056_06
-3_061_09",,ex61092024-10-2316-58-33,unreviewed,1a7 - 1b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61092024-10-2316-58-33"" status=""unreviewed"" ana=""corpusmd:colophon"">
+3_061_09 = 2_056_06_I_R_M_ri khrod lo ma sgrub thabs gnyis.xml,"3_061_09
+2_056_06",,ex61092024-10-2316-58-33,unreviewed,1a7 - 1b1,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61092024-10-2316-58-33"" status=""unreviewed"" ana=""corpusmd:colophon"">
          <milestone unit=""section"" n=""[Colophon]""/>
          <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:5095"">ri khrod lo ma'i gos can gyi bsgrub thabs</rs> <rs type=""place"">shar phyogs ba ten tri</rs>'i <rs type=""person"" ana="""">paN Di ta chen po <lb n=""1b1""/> su b+ha ka ra</rs>'i man ngag | <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:6032"">paN Di ta chen po dA na shi la</rs>'i gsung las byung pa | mang du thos pa <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">bcom ldan ral gri</rs>s bkod pa rdzogs s+h+yo || </seg></TEI>"
-3_061_09 = 2_056_06_I_R_M_ri khrod lo ma sgrub thabs gnyis.xml,"2_056_06
-3_061_09",,ex61092024-11-0513-12-53,unreviewed,1b9,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61092024-11-0513-12-53"" status=""unreviewed"" ana=""corpusmd:colophon""> 
+3_061_09 = 2_056_06_I_R_M_ri khrod lo ma sgrub thabs gnyis.xml,"3_061_09
+2_056_06",,ex61092024-11-0513-12-53,unreviewed,1b9,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61092024-11-0513-12-53"" status=""unreviewed"" ana=""corpusmd:colophon""> 
 <rs type=""person"" ana=""corpusmd:named_reference"">U pa</rs>s <rs type=""person"" ana=""corpusmd:named_reference"">ze'u</rs> la gnang ngo || <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:4411"">snar thang</rs> du |</seg></TEI>"
 2_041_01_bzad_rin_mo_AS_W1PD89084.xml,2_041_01,,ex41012024-09-1014-28-24,finalized,3b8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex41012024-09-1014-28-24"" status=""finalized"">yang <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">lo tsha ba</rs> na re rtso pa'i skabs mngon du byas nas gzhung mdzes par 'gyur ba tsaM ngag 'di'i <abbr>'bras bu</abbr> yin la | de yang rang <abbr>bzhin</abbr> kyi mdzes pa ngag 'di'i <abbr>'bras bur</abbr> mi 'dod kyi bcos mas ba shes pa ngag gis <abbr>'bras bur</abbr> 'dod pas gzhung 'buM pa <abbr>la sogs</abbr> pa rang <abbr>bzhin</abbr> gyi mdzes pa yod kyang dgos 'brel gyi ngag <abbr>med</abbr> pas bcos mas mdzes pa <abbr>med</abbr> do zhes zer pa yang ma yin te | </seg></TEI>"
 2_041_01_bzad_rin_mo_AS_W1PD89084.xml,2_041_01,,ex41012025-05-0612-52-43,finalized,5b3 - 5b5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex41012025-05-0612-52-43"" status=""finalized""><milestone n=""gzhan lugs dgag pa"" unit=""section""/>dang po ni <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:3786"">lo tsha ba</rs> na re brjod bya bden pa yod par bstan pas bden rtogs kyi dgos pa <abbr>med</abbr> pa'i log rtogs khyegs la | <abbr>de dgos</abbr> pa bstan pas sgrub mi nus pa'i
@@ -3041,23 +3041,23 @@ X_0_02_Phag mo gru rnam thar W23436.xml,X_0_02,JZLBKK78,exX0022025.03.0514.55.37
             <rs type=""work"" ref=""db:4767"" ana=""corpusmd:named_reference"">
             <rs type=""work"" ref=""db:3770"" ana=""corpusmd:named_reference"">tshad ma mdo</rs> <rs type=""work"" ref=""db:5553"" ana=""corpusmd:named_reference"">sde bdun</rs> 'grel pa <rs type=""work"" ana=""corpusmd:unnamed_reference"">'grel bshad</rs> bcas <pb n=""16a""/><lb n=""16a1""/> pa'i snying po rigs pa'i de kho na nyid bsdus pa gsal byed nyi ma'i 'od </rs> ces bya ba ni ¦ 
             don du gnyer ba'i slob ma 'gas bskul ba'i ngor ¦ <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4017"">shAkya'i dge slong dz+nya Na shri</rs>s ¦ drag po'i lo sa ga zla ba'i dkar phyogs la ¦ <rs type=""place"" ref=""db:6173"">dpal ldan gsang phu'i chos gra</rs>r sbyar ba mchog tu dge <abbr>legs</abbr> su gyur <abbr>cig</abbr> |†|</seg></TEI>"
-3_061_10 = 2_056_08_I_R_M_slob dpon pad ma_bde gshegs kun gyi snying po_20211221.xml,"3_061_10
-2_056_08",,ex61102023-09-131,finalized,1b2 - 1b3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61102023-09-131"" status=""finalized"" ana=""corpusmd:colophon"">  <milestone unit=""section"" n=""Colophon (1b2-1b3)""/>
+3_061_10 = 2_056_08_I_R_M_slob dpon pad ma_bde gshegs kun gyi snying po_20211221.xml,"2_056_08
+3_061_10",,ex61102023-09-131,finalized,1b2 - 1b3,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61102023-09-131"" status=""finalized"" ana=""corpusmd:colophon"">  <milestone unit=""section"" n=""Colophon (1b2-1b3)""/>
         <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4052""><abbr>slob dpon</abbr> pad <lb n=""1b3""/> mA</rs>s mdzad pa'i <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:5097"">tshe bsgrub</rs> rdzogs s+ho || <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:6458"">ze'u</rs>s bris dge'o ||</seg></TEI>"
-3_061_12.xml,"3_061_12
-2_051_02",,ex61122023-09-1312,finalized,1a1 - 1a5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-1312"" status=""finalized""><milestone unit=""section"" n=""Incipit (1a1-5)""/><lb n=""1a1""/> || dpe' le'u 'di' yi nang na || 
+3_061_12.xml,"2_051_02
+3_061_12",,ex61122023-09-1312,finalized,1a1 - 1a5,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-1312"" status=""finalized""><milestone unit=""section"" n=""Incipit (1a1-5)""/><lb n=""1a1""/> || dpe' le'u 'di' yi nang na || 
             <lb n=""1a2""/> || <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4895"">bstan pa rgyas pa rgyan gyi nyi 'od</rs> || 
             <lb n=""1a3""/> || <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">rigs pa'i ral <choice><orig>khri</orig><reg>gri</reg></choice></rs>'i bka' hee ||
             <lb n=""1a4""/> <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5098"">dge'dun bzang po</rs>'i dpe dge'o ||
             <lb n=""1a5""/> <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4070""><abbr>blo gros</abbr> seng ge</rs> zhes pa <choice><reg>grags</reg><orig>gags</orig></choice> pa'o ||</seg></TEI>"
-3_061_12.xml,"3_061_12
-2_051_02",,ex61122023-09-131,finalized,77b4 - 77b8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-131"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Colophon (77b4-78a8)""/>
+3_061_12.xml,"2_051_02
+3_061_12",,ex61122023-09-131,finalized,77b4 - 77b8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-131"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Colophon (77b4-78a8)""/>
          <lg><l><rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4895"">bstan pa rgyas pa rgyan gyi nyi 'od</rs> <lb n=""77b5""/> 'di ||</l> <l>mthong bas skal ldan dga' ba bskyed pa dang ||</l> <l>dam pa rnams kyi sku <lb n=""77b6""/> drin dran bya'i phyir ||</l> <l><rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">bcom ldan ral gri</rs>s legs par bkod pa yin ||</l></lg> 
          <lb n=""77b7""/> 
          <rs type=""work"" ana=""corpusmd:named_reference"" ref=""db:4895"">bstan pa <choice><orig>rgyas pa rgyas pa</orig><reg>rgyas pa</reg></choice> rgyan gyi nyi 'od</rs> ces bya ba × <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">mang du thos pa'i dge slong 
          <lb n=""77b8""/> <abbr>bcom ldan</abbr> ral gri</rs>s sbyar ba × rdzogs so || </seg></TEI>"
-3_061_12.xml,"3_061_12
-2_051_02",,ex61122023-09-13-102,finalized,77b8 - 78a8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-13-102"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Post-colophon verse (77b4-78a8)""/>
+3_061_12.xml,"2_051_02
+3_061_12",,ex61122023-09-13-102,finalized,77b8 - 78a8,"<TEI xmlns='http://www.tei-c.org/ns/1.0'><seg xmlns=""http://www.tei-c.org/ns/1.0"" type=""excerpt"" xml:id=""ex61122023-09-13-102"" status=""finalized"" ana=""corpusmd:colophon""><milestone unit=""section"" n=""Post-colophon verse (77b4-78a8)""/>
          <lg><l>ding sang thub bstan <pb n=""78a""/><lb n=""78a1""/> <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:5559"">gangs ri'i khrod</rs> 'dir dar ||</l> <l>dar pa'i chos grangs mdo' rgyud bstan <lb n=""78a2""/> bcos rnams ||</l> <l>rnam dag ji bzhin mkhyen pa'i bla chen mchog |</l> <l><lb n=""78a3""/> mchog gyur <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4006"">dpa' ldan ral gri</rs>'i bka' la 'dud ||</l></lg> <abbr>zhus s+ho</abbr> || dge'o || 
          <lg><l><lb n=""78a4""/> sa mtha'i dge slong <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5098"">dge 'dun bzang po</rs> ngas <note type=""editorial"">The BDRC reads ""dpang"", but looking at how the letters are generally written in that page the first letter looks more like a “nga” and the second more like a “sa” the third could be a tsheg. After the first “dge'o” all the sentence are 9 syllables long.</note> ||</l> <l>thub bstan sgor zhugs sgo <lb n=""78a5""/> gsum chos dang bstun ||</l> <l>bla ma'i gsung bzhin gsung rabs mang du <lb n=""78a6""/> mnyan ||</l> <l>de don nyams blang dog chen grub par bsngo ||</l> </lg>
          laM lta ma || <lb n=""78a7""/> || dpe 'di <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:5842""><abbr>slob dpon</abbr> zhang</rs> gis <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:5541"">nyang stod</rs> nas gdan drangs nas <rs type=""person"" ana=""corpusmd:named_reference"" ref=""db:4070""><abbr>blo gros</abbr> seng ge</rs>s <lb n=""78a8""/> <rs type=""place"" ana=""corpusmd:named_reference"" ref=""db:5697"">brag dkar</rs> du shing phag ma <abbr>bris so</abbr> <note type=""editorial"">""shing"" is unclear.</note> || 1 <abbr>zhus so</abbr> || dag go | dge'o |</seg></TEI>"
