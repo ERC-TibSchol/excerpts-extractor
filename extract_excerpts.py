@@ -83,33 +83,45 @@ def compute_location_for_seg(seg):
     if not lbs:
         return ""
 
-    # Group consecutive lbs by edRef so each returned range corresponds
-    # to a single edRef value.
-    groups = []  # list of lists of lb elements
-    current_group = [lbs[0]]
+    # If any lb has an edRef, produce one range per edRef (from first to
+    # last occurrence) in the format: "edRef: start - end". If no edRef
+    # values are present, fall back to the previous behavior and return a
+    # single range (or multiple unlabeled ranges) joined by "; ".
     def edref_of(x):
         return x.attrib.get('edRef') or x.attrib.get('{http://www.w3.org/XML/1998/namespace}edRef') or ''
 
-    for lb_elem in lbs[1:]:
-        if edref_of(lb_elem) == edref_of(current_group[-1]):
-            current_group.append(lb_elem)
-        else:
-            groups.append(current_group)
-            current_group = [lb_elem]
-    groups.append(current_group)
+    edrefs = [edref_of(el) for el in lbs]
+    if any(edrefs):
+        # Map edRef -> list of n values (in document order)
+        edref_map = {}
+        for el in lbs:
+            key = edref_of(el)
+            n = el.attrib.get('n') or ''
+            edref_map.setdefault(key, []).append(n)
 
-    # Format each group as a range 'start - end' or a single value, then
-    # join groups with '; '. Use the 'n' attribute for display.
-    ranges = []
-    for grp in groups:
-        start_n = grp[0].attrib.get('n') or ''
-        end_n = grp[-1].attrib.get('n') or ''
-        if start_n and end_n and start_n != end_n:
-            ranges.append(f"{start_n} - {end_n}")
-        else:
-            ranges.append(start_n or end_n)
+        parts = []
+        for key, nlist in edref_map.items():
+            start_n = nlist[0]
+            end_n = nlist[-1]
+            if start_n and end_n and start_n != end_n:
+                rng = f"{start_n} - {end_n}"
+            else:
+                rng = start_n or end_n
+            if key:
+                parts.append(f"{key}: {rng}")
+            else:
+                parts.append(rng)
 
-    return "; ".join(ranges)
+        return ", ".join(parts)
+
+    # No edRef values found: return a single range from the first to last
+    # lb (document order). This yields "start - end" for multiple lbs or
+    # a single number when only one lb is present.
+    start_n = lbs[0].attrib.get('n') or ''
+    end_n = lbs[-1].attrib.get('n') or ''
+    if start_n and end_n and start_n != end_n:
+        return f"{start_n} - {end_n}"
+    return start_n or end_n
 
 
 
