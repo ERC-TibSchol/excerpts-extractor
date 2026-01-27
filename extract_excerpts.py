@@ -15,6 +15,114 @@ from tqdm import tqdm
 ns = {"tei": "http://www.tei-c.org/ns/1.0"}
 
 
+def compute_location_for_seg(seg):
+    """Compute a human-readable location string for a <seg> element.
+
+    The function finds a suitable starting <lb> (prefer text-before-lb heuristic,
+    then first descendant <lb>, then the nearest preceding <lb>) and the last
+    <lb> inside the segment to produce values like '1a1 - 1a3' or a single
+    location value when both are equal.
+    """
+    lb = _first_lb_child_before_content(seg)
+
+    # Detect whether there is any non-whitespace text before the first
+    # internal <lb> inside this <seg>. If so, prefer the preceding <lb>
+    # as the start location (even if the seg contains an internal <lb>).
+    def has_text_before_internal_lb(elem):
+        texts = []
+        for node in elem.iter():
+            if isinstance(node.tag, str) and node.tag.endswith("lb"):
+                break
+            if node.text:
+                texts.append(node.text)
+            if node.tail:
+                texts.append(node.tail)
+        return "".join(texts).strip() != ""
+
+    text_before_internal_lb = has_text_before_internal_lb(seg)
+    # If there is text before the first internal <lb> (including inline
+    # content inside child elements), prefer the nearest preceding <lb> as
+    # the start location. Also prefer preceding <lb> when the first
+    # meaningful child is structural (milestone/pb/note) and
+    # _first_lb_child_before_content returned a following <lb>.
+    first_child = None
+    for child in seg:
+        if isinstance(child, etree._Comment) or isinstance(
+            child, etree._ProcessingInstruction
+        ):
+            continue
+        first_child = child
+        break
+
+    first_child_tag = first_child.tag if first_child is not None else ""
+    is_structural_start = bool(
+        first_child_tag
+        and (
+            first_child_tag.endswith("}milestone")
+            or first_child_tag.endswith("}pb")
+            or first_child_tag.endswith("}note")
+        )
+    )
+
+    if (text_before_internal_lb or is_structural_start) and lb is not None:
+        previous_lbs = seg.xpath("preceding::tei:lb[1]", namespaces=ns)
+        lb = previous_lbs[0] if previous_lbs else lb
+
+    if lb is None:
+        # If the segment starts with non-whitespace text, the starting location
+        # is likely the nearest preceding <lb> (the line before the seg tag).
+        # Also prefer the preceding <lb> when the first element child is a
+        # structural marker (milestone/pb/note) because the line-break is
+        # usually placed before the <seg> tag in such cases.
+        first_child = None
+        for child in seg:
+            if isinstance(child, etree._Comment) or isinstance(
+                child, etree._ProcessingInstruction
+            ):
+                continue
+            first_child = child
+            break
+
+        first_child_tag = first_child.tag if first_child is not None else ""
+        is_structural_start = bool(
+            first_child_tag
+            and (
+                first_child_tag.endswith("}milestone")
+                or first_child_tag.endswith("}pb")
+                or first_child_tag.endswith("}note")
+            )
+        )
+
+        # If there is any text before the first internal <lb> (or the seg
+        # starts structurally), prefer the preceding <lb>.
+        if text_before_internal_lb or is_structural_start:
+            previous_lbs = seg.xpath("preceding::tei:lb[1]", namespaces=ns)
+            lb = previous_lbs[0] if previous_lbs else None
+        else:
+            first_lbs = seg.xpath(".//tei:lb[1]", namespaces=ns)
+            if first_lbs:
+                lb = first_lbs[0]
+            else:
+                previous_lbs = seg.xpath("preceding::tei:lb[1]", namespaces=ns)
+                lb = previous_lbs[0] if previous_lbs else None
+
+    lb_n = lb.attrib.get("n") if lb is not None else ""
+    last_lb = seg.xpath('.//tei:lb[last()]', namespaces=ns)
+    last_lb_n = last_lb[-1].attrib.get('n') if last_lb else ""
+
+    if not last_lb_n and not lb_n:
+        return ""
+    if not lb_n:
+        return last_lb_n
+    if not last_lb_n:
+        return lb_n
+    if lb_n != last_lb_n:
+        return f"{lb_n} - {last_lb_n}"
+    return lb_n
+
+
+
+
 def _first_lb_child_before_content(element):
     def text_before_first_lb(elem):
         texts = []
@@ -72,25 +180,8 @@ def process_tei_files(tei_repo):
             lb_text = ""
             xml_id = seg.attrib.get("{http://www.w3.org/XML/1998/namespace}id")
             status = seg.attrib.get("status")
-            lb = _first_lb_child_before_content(seg)
-            if lb is None:
-                previous_lbs = seg.xpath("preceding::tei:lb[1]", namespaces=ns)
-                lb = previous_lbs[0] if previous_lbs else None
-
-            lb_n = lb.attrib.get("n") if lb is not None else ""
-            last_lb = seg.xpath(".//tei:lb[last()]", namespaces=ns)
-            last_lb_n = last_lb[-1].attrib.get("n") if last_lb else ""
-
-            if not last_lb_n and not lb_n:
-                location = ""
-            elif not lb_n:
-                location = last_lb_n
-            elif not last_lb_n:
-                location = lb_n
-            elif lb_n != last_lb_n:
-                location = f"{lb_n} - {last_lb_n}"
-            else:
-                location = lb_n
+            # compute location using helper
+            location = compute_location_for_seg(seg)
 
             if not location:
                 logging.debug(

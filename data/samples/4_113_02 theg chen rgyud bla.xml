@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../803_RNG-schematron/1.0.0/TibSchol.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><!--2023-01-09T18:32:50.374872151+01:00-->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+				<!--preliminary title taken from source document-->
+            <title type="main" xml:lang="bo-Latn-x-wylie">’gog snyoms kyi mtha’ dpyad snying po don gsal</title>
+            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <!-- TODO: add any other contributors and their roles here -->
+            <!-- end of responsibility statments specific to this document -->
+            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
+					do not manually change this as it might be overwritten in a later stage -->
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stephan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor cumstomization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <!-- responsibility statments applying to all documents -->
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="TibSchol">4_113_02</idno>
+            <date>2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis"
+                       matchPattern="^(.+)$"
+                       replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per"
+                       matchPattern="^(.+)$"
+                       replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot"
+                       matchPattern="^(.+)$"
+                       replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd"
+                       matchPattern="^(.+)$"
+                       replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+			<!-- <langUsage> to be inserted from APIS -->
+		</profileDesc>
+      <revisionDesc status="draft">
+			<!-- TODO enter date and name of person creating this document -->
+         <change when="2025-02-24+01:00">create empty, PH input colophon</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <ab>
+         <!--input missing-->
+        <lb n="60a3"/> <!--input missing-->
+        <milestone n="Colophon" unit="section"/>
+      <seg type="excerpt" xml:id="ex113022025-02-2416-01-14" status="unreviewed"> <rs type="work" ana="corpusmd:named_reference" ref="db:5476">theg pa chen po rgyud bla ma'i bstan bcos kyi rnam par bshad pa de nyid snang ba</rs> zhes <lb n="60a4"/> bya ba 'di mtshan nyid phyogs kyi lung rigs la rnam par byang zhing khyad par dpal dus kyi 'khor lo laswo pa rdo rje zeg pa la blo gros kyi snang ba rgyas pa'i bshes gnyen chen po slob dpon a mo g+ha sa rgyud bla'i Ti ka 'phags pa thogs med kyi 'grel pa gzhir bzhag cing sa bcad chos rjes bzangs pa'i lugs bzhin du <lb n="60a5"/> phye ba rgyud bla'i thun mong ma yin pa'i chos skad lung rigs kyi zur thon par bya dgos rnaMs brten pa cig gyis shig ces pa'i gsung yig gis bskul ba la brten nas ¦ chos rje jo nang pa yab sras kyis bka' drin las nges pa'i don la shes nas dad pa thob pa <rs type="person" ana="corpusmd:named_reference" ref="db:4125">shAkya'i dge slong lha'i rgyal mtshan</rs> gyis ston pa 'das nas <lb n="60a6"/> lo nyis stong nyis rgya dang nyer gsuM song ba'i dus lcags pho rda'i khrums stod kyi nyer ba ° la <rs type="place" ana="corpusmd:named_reference" ref="db:5732">dben gnas nam mkha' mdzod</rs> du sbyar ba bstan pa la phan pa rgya chen por gyur cig || </seg>
+
+  <seg type="excerpt" xml:id="ex113022025-02-2416-01-142" status="unreviewed">    <rs type="person" ana="corpusmd:named_reference" ref="db:4125">lha'i rgyal mtshan</rs> gyis sbyin par bya ba'i chos so || </seg>
+
+      <seg type="excerpt" xml:id="ex113022026-01-2622-34-04" status="unreviewed">
+     <milestone unit="section" n="Lineage" />
+      'di ni rgyal ba'i rgyal tshab <rs type="person" ana="corpusmd:named_reference" ref="db:3747">byams mgon</rs> nas || 
+      <rs type="person" ana="corpusmd:named_reference" ref="db:3756">thogs <lb n="60a7"/> med</rs>
+       <rs type="person" ana="corpusmd:named_reference" ref="db:3758">dbyig gnyen</rs> 
+       <rs type="person" ana="corpusmd:named_reference" ref="db:6262">blo bstan</rs> 
+       <rs type="person" ana="corpusmd:named_reference" ref="db:6975">gang ba spel</rs> || 
+      <rs type="person" ana="corpusmd:named_reference">rin chen rdo rje</rs> <!--grandfather of Sajjana-->
+      <rs type="person" ana="corpusmd:named_reference" ref="db:3800">sad dza na</rs> dang ni || 
+      <rs type="person" ana="corpusmd:named_reference" ref="db:3798">pa ra hi ta</rs> 
+      <rs type="person" ana="corpusmd:named_reference" ref="db:7393">blo gros grags pa</rs> dang || 
+      <note type="gloss">mar pa</note> <rs type="person" ana="corpusmd:named_reference" ref="db:7392">jo 'phan</rs> 
+      <note type="gloss">mchims</note> <rs type="person" ana="corpusmd:named_reference" ref="db:4262">don grub</rs> 
+      <note type="gloss">mchims</note> <rs type="person" ana="corpusmd:named_reference" ref="db:4261">brtson seng</rs> 
+      <note  type="gloss"><rs type="person" ana="corpusmd:named_reference" ref="db:3977">mchims</rs> </note><rs type="person" ana="corpusmd:named_reference" ref="db:3977">nam mkha' grags</rs> || 
+      <rs type="person" ana="corpusmd:named_reference" ref="db:4006">bcom ldan ral gri</rs> <rs type="person" ana="corpusmd:named_reference" ref="db:4062">kyi ston shag 'bum</rs> dang || 
+      <rs type="person" ana="corpusmd:named_reference" ref="db:4063">kyi ston 'jam dbyangs</rs> <rs type="person" ana="corpusmd:named_reference">kun mkhyen chos rje</rs> dang || 
+      <rs type="person">phyogs las rnam rgyal</rs> brgyud nas <rs type="person" ana="corpusmd:named_reference" ref="db:4125">lha</rs> la 'o || dge'o || </seg><note type="gloss">gnyi zhus</note>
+        </ab>
+      </body>
+      <back>
+         <div type="apparatus"/>
+      </back>
+   </text>
+</TEI>
