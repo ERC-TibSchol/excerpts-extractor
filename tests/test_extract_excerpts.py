@@ -45,3 +45,13 @@ def test_no_lbs_returns_empty():
 def test_single_lb_returns_single_n():
     seg = etree.fromstring('<seg xmlns="http://www.tei-c.org/ns/1.0"><lb n="5"/></seg>')
     assert compute_location_for_seg(seg) == "5"
+
+
+def test_group_ranges_by_edref_with_preceding_lb():
+    doc = '''<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <lb n="1b4" edRef="inst:5591"/>
+    <seg type="excerpt" xml:id="s4">prefix text <lb n="1b1" edRef="inst:5591"/> <lb n="1b2" edRef="inst:5591"/> <lb n="2a1" edRef="inst:OTHER"/> <lb n="2a2" edRef="inst:OTHER"/></seg>
+    </TEI>'''
+    tree = etree.fromstring(doc)
+    seg = tree.xpath('//tei:seg', namespaces={'tei': 'http://www.tei-c.org/ns/1.0'})[0]
+    assert compute_location_for_seg(seg) == "1b4 - 1b2; 2a1 - 2a2"

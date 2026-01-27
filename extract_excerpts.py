@@ -68,19 +68,48 @@ def compute_location_for_seg(seg):
                 previous_lbs = seg.xpath("preceding::tei:lb[1]", namespaces=ns)
                 lb = previous_lbs[0] if previous_lbs else None
 
-    lb_n = lb.attrib.get("n") if lb is not None else ""
-    last_lb = seg.xpath('.//tei:lb[last()]', namespaces=ns)
-    last_lb_n = last_lb[-1].attrib.get('n') if last_lb else ""
+    # Build ordered list of lb elements covering the seg. Include the
+    # preceding lb if we chose it above (lb can be a preceding lb), and
+    # then all internal lbs.
+    internal_lbs = seg.xpath('.//tei:lb', namespaces=ns)
 
-    if not last_lb_n and not lb_n:
+    lbs = []
+    # If lb (computed earlier) refers to a preceding lb and it's not
+    # present in internal_lbs, include it first.
+    if lb is not None and lb not in internal_lbs:
+        lbs.append(lb)
+    lbs.extend(internal_lbs)
+
+    if not lbs:
         return ""
-    if not lb_n:
-        return last_lb_n
-    if not last_lb_n:
-        return lb_n
-    if lb_n != last_lb_n:
-        return f"{lb_n} - {last_lb_n}"
-    return lb_n
+
+    # Group consecutive lbs by edRef so each returned range corresponds
+    # to a single edRef value.
+    groups = []  # list of lists of lb elements
+    current_group = [lbs[0]]
+    def edref_of(x):
+        return x.attrib.get('edRef') or x.attrib.get('{http://www.w3.org/XML/1998/namespace}edRef') or ''
+
+    for lb_elem in lbs[1:]:
+        if edref_of(lb_elem) == edref_of(current_group[-1]):
+            current_group.append(lb_elem)
+        else:
+            groups.append(current_group)
+            current_group = [lb_elem]
+    groups.append(current_group)
+
+    # Format each group as a range 'start - end' or a single value, then
+    # join groups with '; '. Use the 'n' attribute for display.
+    ranges = []
+    for grp in groups:
+        start_n = grp[0].attrib.get('n') or ''
+        end_n = grp[-1].attrib.get('n') or ''
+        if start_n and end_n and start_n != end_n:
+            ranges.append(f"{start_n} - {end_n}")
+        else:
+            ranges.append(start_n or end_n)
+
+    return "; ".join(ranges)
 
 
 
