@@ -54,4 +54,4 @@ def test_group_ranges_by_edref_with_preceding_lb():
     </TEI>'''
     tree = etree.fromstring(doc)
     seg = tree.xpath('//tei:seg', namespaces={'tei': 'http://www.tei-c.org/ns/1.0'})[0]
-    assert compute_location_for_seg(seg) == "1b4 - 1b2; 2a1 - 2a2"
+    assert compute_location_for_seg(seg) == "inst:5591: 1b4 - 1b2, inst:OTHER: 2a1 - 2a2"
