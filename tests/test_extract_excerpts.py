@@ -28,7 +28,9 @@ def test_preceding_lb_used_when_seg_starts_with_milestone():
     </TEI>'''
     tree = etree.fromstring(doc)
     seg = tree.xpath('//tei:seg', namespaces={'tei': 'http://www.tei-c.org/ns/1.0'})[0]
-    assert compute_location_for_seg(seg) == "20 - 21"
+    # Milestone should not count as textual content before the first internal
+    # <lb>, so the start should be the internal <lb> (21).
+    assert compute_location_for_seg(seg) == "21"
 
 
 def test_no_lbs_returns_empty():

@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../803_RNG-schematron/1.0.0/TibSchol.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="bo-Latn-x-wylie"><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></title>
+            <author><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></author>
+            <principal>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </principal>
+            <funder>
+               <name ref="https://ror.org/0472cxd90">European Research Council</name>
+            </funder>
+            <!-- RESPONSIBILITY STATMENTS SPECIFIC TO THIS DOCUMENT -->
+            <respStmt>
+               <resp>Transcribed by</resp>
+               <name ref="corpusmd:Transkribus">Transkribus</name>
+            </respStmt>
+            <respStmt>
+               <resp>TEI Markup by</resp>
+               <name ref="corpusmd:PH">Pascale Hugon</name>
+            </respStmt>
+            <!-- TODO: add any other contributors and their roles here -->
+            <!-- end of responsibility statments specific to this document -->
+            <!-- RESPONSIBILITY STATMENTS APPLYING TO ALL DOCUMENTS - 
+					do not manually change this as it might be overwritten in a later stage -->
+            <respStmt>
+               <resp>Data Modelling</resp>
+               <name ref="corpusmd:RG">Rachael Griffiths</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SB">Saranya Balasubramanian</name>
+            </respStmt>
+            <respStmt>
+               <resp>APIS named entitites database implementation</resp>
+               <name ref="corpusmd:SR">Stephan Resch</name>
+            </respStmt>
+            <respStmt>
+               <resp>XML editor cumstomization</resp>
+               <name ref="corpus.:DStx">Daniel Stoxreiter</name>
+            </respStmt>
+            <respStmt>
+               <resp>ODD Implementation</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <respStmt>
+               <resp>Technical Supervision</resp>
+               <name ref="corpusmd:DS">Daniel Schopper</name>
+            </respStmt>
+            <!-- responsibility statments applying to all documents -->
+         </titleStmt>
+         <editionStmt>
+            <edition>Digital Edition in Wylie with TEI Markup</edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Austrian Academy of Sciences</publisher>
+            <availability status="restricted">
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>The Creative Commons Attribution 4.0 International (CC BY 4.0) licence applies to this document.</p>
+               </licence>
+            </availability>
+            <idno type="Transkribus">1541312</idno>
+            <idno type="external">TibSchol 3_064_05 and 4_112_03</idno>
+            <idno type="TibSchol">3_064_05</idno>
+             <idno type="TibSchol">4_112_03</idno>
+            <date>2023</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p><?DO-NOT-CHANGE--POPULATED-FROM-APIS?></p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl partial="true">
+            <rendition xml:id="i" scheme="css">font-style:italics;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p>This document was created and is made available in the framework of the ERC
+					project “The Dawn of Tibetan Buddhist Scholasticism (11th-13th c.) (TibSchol).
+					This project has received funding from the European Research Council (ERC) under
+					the European Union's Horizon 2020 research and innovation programme (grant
+					agreement No. 101001002). See https://cordis.europa.eu/project/id/101001002</p>
+         </projectDesc>
+         <variantEncoding method="double-end-point" location="external"/>
+         <listPrefixDef>
+            <prefixDef ident="apis"
+                       matchPattern="^(.+)$"
+                       replacementPattern="https://apis-tibschol.acdh.oeaw.ac.at/apis/api2/entity/$1/">
+               <p>In the context of the TibSchol project, references using the "db" prefix
+						point to the project's APIS instance, a database system to collect
+						information of entities.</p>
+            </prefixDef>
+            <prefixDef ident="per"
+                       matchPattern="^(.+)$"
+                       replacementPattern="https://www.tbrc.org/public?query=person&amp;args=$1">
+               <p>In the context of the TibSchol project, references using the "per" prefix
+						point to the BDRC's data interface's person module.</p>
+            </prefixDef>
+            <prefixDef ident="zot"
+                       matchPattern="^(.+)$"
+                       replacementPattern="https://www.zotero.org/groups/4394244/tibschol/items/$1">
+               <p>In the context of the TibSchol project, references using the "zot" prefix
+						point to a record in the projects's Zotero group.</p>
+            </prefixDef>
+            <prefixDef ident="corpusmd"
+                       matchPattern="^(.+)$"
+                       replacementPattern="../010_manannot/corpus.xml#$1">
+               <p>In the context of the TibSchol project, references using the "corpusmd" prefix
+						point to any element in the corpus TEI document via its ID.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+			<!-- <langUsage> to be inserted from APIS -->
+		</profileDesc>
+      <revisionDesc status="draft">
+			<!-- TODO enter date and name of person creating this document -->
+         <change when="${date(yyyy-MM-dd)}"
+                 who="corpusmd:${ask('Enter your ID')}"
+                 status="draft">created document from transkribus output</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <pb 
+                n="1"
+                />
+            <ab>
+               <lb n="N001"/>| dbu ma chen so bzhugs skyos
+            </ab>
+            <pb 
+                n="2"
+                />
+            <ab>
+               <lb n="N001"/>|| na mo rad na hu ru || stsa | mgos po ku ghrub dpa ldan zla ba dang | rig pa'i bsgyes gnyen
+               <lb n="N002"/>bu ku su 2 || rgyal ba'i blo gros rgyal sras skyil mtshan dang || grags pa'i mtha' can bshas 2 la ||
+               <lb n="N003"/>gus pas lus brtud dus 2 rgyal ba' yuM || dri med rgod pa la brgyud pa bdud rtsi'i rgyun || rten 'byung
+               <lb n="N004"/>mtha' bral nyaMsu bla ba'i tshul || gzhan gyi don du gsung 4n bri bar bya || 'di la dge+es pa'i zhal
+               <lb n="N005"/>nas | theg pa chen po gsang sngags kyi gdaM ngag pa 'jug pa la dang byin rlab lasogs pa rgos pa la | gnas
+               <lb n="N006"/>lugi don ci lta pa ston pa'i gdaM ngag'di zab mod kyi | 'di la de dag mi rgos pa ni srol tha dad yin gsung
+               <lb n="N007"/>'o na yang 'di ston ba la gtor ma bzang po re bshaM ste | byang chub seMd'i zhal nas | gdaM ngag 'di yi bka'khor
+               <lb n="N008"/>na ye+es kyi mkha'gro ma dang | chos skyong ba'i srungs ma srin gtibs pa tsaM yod pas | dpon sob 2
+               <lb n="N009"/>skas gton ma de gang yang rung pas sbyin gyis brlab ste | de dag la tshul la bdag la gnas lugi rtogs
+            </ab>
+            <pb 
+                n="3"
+                />
+            <ab>
+               <lb n="N001"/>pa phyin ci ma log pa skye ba dang | chos 'di bsgoM la bar chad mi 'byung bar byin gyis brlab
+               <lb n="N002"/>rtu gsol zhes gsol bas rag tu gsung | de nas slob ma'i spyi lo nas yar daM bcas ba med pa'i rgyud
+               <lb n="N003"/>pa | slon klu grub nas rang ga rtsa ba'i bla ma yan cad rim pa 4n du bsgoM du bzhcgs pa de deg la dad gus
+               <lb n="N004"/>stee la | bdagi rgyud la gnas lug rtogs pa phyin pis lasogs logs pa skye bar byen gyis bzlab tu gsol zhas
+               <lb n="N005"/>gsol ba 'di bar gzhug | bla mas blo'i nus pa sod tshad du lta bas spros pa bcad la smos rgal gyi
+               <lb n="N006"/>dang du blo thun zhazhago | de nas bla mas me rtog tshags byas la | bla ma rgyud pa rnaMs dang | ye+es kyi mkha'
+               <lb n="N007"/>grol ma dang | sargyas dang byub seMd thaMd kyis gnas lugi rtogs pa rnaMs 'oder gyi rnaM par byung nas me rtog la thim
+               <lb n="N008"/>bar saM la slob ma'i spyi bor bzhags la | rtogs pa rnaMs slob ma'i sdul zhugs par bsaM | de ni 'di yi
+               <lb n="N009"/>sgod 'jugM | byin rlab kyi dod yin gsung | phyis bsgom ba'i thun gor yang bla ma rgyud pa la gsol ba
+            </ab>
+            <pb 
+                n="4"
+                />
+            <ab>
+               <lb n="N001"/>'deb ste ye+es 'pho ba bya ba yin g dung | de laslo+on ku grub kyi dubu ma chen po'i don bsgo ba'i mnag
+               <lb n="N002"/>'di dshu ma rig tshogs kyi khreid min gsung | rngags kuns cha rang thigs le la saMs 'dzin ba'i thla
+               <lb n="N003"/>gab cha | 'dir seMs 'dzin snas chang | lta bas yos pa kcbod pa kho na gco che gsung | bsgom pa'i
+               <lb n="N004"/>don nyesu 'ung ba la sha la || dang po kho na gal che ste thog ma med pa nas 'khor 'khyas pa ni | seMs
+               <lb n="N005"/>'dzin bas 'khyes pas yin | de sna yang gnags kha skyes shing tingeni mang po brnoM || de 4n du gzugs
+               <lb n="N006"/>be da khaM 4r skyes shing skal pa cher sor bsgo smyong ste | degis 'khor ba las thar ba la ma yan cang | sur
+               <lb n="N007"/>'khor ba'i snon par song bas | lta bas smros pa ma mod pas bden 'dzin gyes 'khyas pas na | de'i gnyen
+               <lb n="N008"/>por lta bas spros pa gcod pa kho na gal cheo || de yang tshogs la 'bring man cad du de dag che | bsgo ba na
+               <lb n="N009"/>ba rjo tsaM kyis kyang go btub gsung | tshogs li cmen po yan chod chos kyi rgyud kyi tengeni la brtens ston
+            </ab>
+            <pb 
+                n="5"
+                />
+            <ab>
+               <lb n="N001"/>manr po 'char gsung | de la ltab spros pa gcod pa la 2 ste | phyi yi snang ba dan | nang
+               <lb n="N002"/>ghi rig pa gtan la dbab pa 3 ste | de 2 las ma gtogs pa'i stong pa gtan la dbab gyu gzhan yed
+               <lb n="N003"/>paso | snang ba snong sar gtan la dbab pa'i ngag don dang | snang pa stong par gtan la dbab pa dnos sog
+               <lb n="N004"/>dang po la snang ba 'di gang yin ba dang | de ci ltar sntang ba 2 las | snang ba 'di spyir mnar med pas sna
+               <lb n="N005"/>sas bcub long skur snang ba'i bar thaMd yin ma | da lnga thaM ka'i snang balas sa rno ri brag dang |
+               <lb n="N006"/>skyes pa shed | dgra gnyen zas nor | bd gzhan mngo po'i me snang rna snang du bkra laM me ba dgagi
+               <lb n="N007"/>si meg brab kyis c sab sar snang ba 'di'o | de ci ltar stong ba ma 2 don daM pnar snor ba dang
+               <lb n="N008"/>klub tu stogs ba'o || da po ni snang ba 'grul pa dang bral ba don dos'i ngoMsm | gnyis sphyi gnas mug
+               <lb n="N009"/>la | snang la sna snog mi stong mgo pa cni pi njor yang ma chub pa' tshul gyis stong la | mo 'khrul pa
+            </ab>
+            <pb 
+                n="6"
+                />
+            <ab>
+               <lb n="N001"/>thob kyi ngo na snang ba tsaM gyis mi stor la | btsal na bden ba'i rang 4n gyis stong ba'o || de nas
+               <lb n="N002"/>spa ma ni snang stong naM ga' lta bu ste mnyaM bzhagi yul yin | phyi ma ni ben sntong sgyu ma lta nu
+               <lb n="N003"/>sha | rjes thob kyi yul yino || de sang nga r rang 4n yod pa phyas gnyen pos med par bhos pa ma yan
+               <lb n="N004"/>pas na | bkags pa'i stong pa ma yin gyis | gdod ma nas stong pa'o || yang snang ba 'di gshis la mi
+               <lb n="N005"/>stong yang | rtog pas stong par rlol cba byeas pa'i rtogs pa ya yen gyis | rang 4no ngo bo nyid kyis stong pa'o
+               <lb n="N006"/>spang buM pa snaM nas stong ba ltar 1 gis 1 rtong ba ma yin gyis | rang gi mtshid kyis stong ba'o ||
+               <lb n="N007"/>yang sngar yod phyas med kyi stong pa mi gi ba lta bu ma yin gyis | snang dus nyid nas gshaoMs la stong ba
+               <lb n="N008"/>ste | snang ba ma sangs pa'i stong pa'o || gal te snang bi gis la ma gus na snang ba 'ga' ste ri nwo
+               <lb n="N009"/>gi ra 4no snhaM na | stong yang blo 'ul pa la snang ba mi 'g pa te | ca skad du | rmiMlaM tsa 4n sgyu ma
+            </ab>
+            <pb 
+                n="7"
+                />
+            <ab>
+               <lb n="N001"/>4n || ri a'i gro ci 4n du || de skye dang de 4n gnas || de 4n du ni 'jig par gsung | zhes ba'i
+               <lb n="N002"/>tshul gyis snang ba 'di bstan ba'i snkang bg moi bdeon ba' snang ba | rang gi shes pa 'khrul pa'i snang ba med pa'i
+               <lb n="N003"/>snang ba yin bso || nalo ti sges pa 'khrul nas snang ba'i gyu mtshan bang yin snyam na | de ni rtol 'chog
+               <lb n="N004"/>pa'i mzhus snang ba'o || snang ba stong par gtan la dbab pa dngos ni | 'o na de ltar snang ba 'di stong per |das
+               <lb n="N005"/>zhes snyaM na | las dang po pa la snang ba 'di stong pa yin zhes stong pa gzugsu bstan bas migo te | ra tsho+o
+               <lb n="N006"/>thal sur byas pa 4n rtags chad du 'dzin a'i logs ltar 'gro ste | sar ba 'di myi stor bar 'di ltar bkra chag
+               <lb n="N007"/>ge 'dug pa 'odi la btsan bsgon 'debs | yang snang ba 'di sna rhrol bden bar 'dzin ste | de nyid rtas lta'o ||
+               <lb n="N008"/>yang kha 1 de ltar dge snigs kyang stogs pa la yang blang byar med snaMng du chad ltar 'gro baso | des na thyuMd' na
+               <lb n="N009"/>ra ci shes dang ci shan gyi skya bar du gzhugsung ste | snang gnadi stong pa yin bas sgyu ma'i dpes mchons
+            </ab>
+            <pb 
+                n="8"
+                />
+            <ab>
+               <lb n="N001"/>shes par bya ste | mdo rgyas b'bring lago nas kyang bstan du stong pa nyid las mede || de yo la thaMd sgyu mani
+               <lb n="N002"/>des bargyad la byas nas gsungs | gsang sngans las sgra ma'i dpe bcu 2 lagos pa gsungs | de la'ang rgyan
+               <lb n="N003"/>gar kun nta ltar mo ba'i dnus sgyu ma mkhan pos rgya ma'i rna la sngags btab pas rnos po med
+               <lb n="N004"/>4nu u rta lagso par snang ba yod kyang tan la ma chub pas | dp yin gyang 'o cags la rmlaM klo na dpen
+               <lb n="N005"/>che ste | de nub 1 4n du 'ong bas mil mi rmi ba'i mi yang med la | de stong par me shes pa'i mi ma
+               <lb n="N006"/>cang yod gsus nas | byub seMd dar 1 spyan zh+our 'dugsung | de la sdul dang bde ba'i rmilaM 2 dang sbyar
+               <lb n="N007"/>te | snang ba stong par gtan la dbab pa las | dang po la yang dpe don 3 las | dang po ni dber na rmi
+               <lb n="N008"/>laM na rang la gyis dmug pa'i sdul shin tu gsal 1 rim pa na | de nas khyie lasogs pa'i snang ba de
+               <lb n="N009"/>dag bden nar nhub pa zhiegs yod snyaM na khyi yang grub pa mede stong pa nyid yin la || de yang mi laM
+            </ab>
+            <pb 
+                n="9"
+                />
+            <ab>
+               <lb n="N001"/>na hyir snang ba'i dus na gyi bden bar yod pa | sad la na stong ma lta thu song bao yin gyis |
+               <lb n="N002"/>cher snang basM dus nyed nas stong pa nyido || yang smilaM na rma dad bdag dang | sa phyogsu snang bhab du s
+               <lb n="N003"/>nyid na ra dag tu ghen ba rnaps pha rab 1 kyang ma grub pas snang ba'i dus nyid na stong pa nyido || gal
+               <lb n="N004"/>te mila da de dag snang bai dus na de bden ba yad na | sad pa'i tshe yang yod par rigs pa las
+               <lb n="N005"/>ba yang mi snang ba'i phyir rsmla ba'i dus nyad na yang bden bar grub pa med paso || gal te de ltar
+               <lb n="N006"/>silar snanr bsde stong pa yein bar 'dag na | 'o na de 'dr ba'i stong lug 1 la | bdi 'dra ba'i snang
+               <lb n="N007"/>'dugs 1 bong bbi rgyu mtshan gang yen snyaM na | de ni rtel 'chog pa'i stob kyis snang bso ||
+               <lb n="N008"/>rel ci ltar bcshogs na spyir rmaM lhaM bag chars sdtem 'tshogs pa'i snang ba yin te | gas chag ngang
+               <lb n="N009"/>yod paci rma la 'byung gis med pa ni 'byung paso | des na 'ji bu bling pa la sbning 'di mi gbags
+            </ab>
+            <pb 
+                n="10"
+                />
+            <ab>
+               <lb n="N001"/>chags yod pas 'di yi rmi laM 'byung ghis | ging gzhan gyi mi 'byung ba dang | rgya gar ba la rgya gar rag kga ban chags
+               <lb n="N002"/>yod pas rgya gar dang de yi smilM 'byung gi || bod kyi ma 'bhung la | bod la de las bzlog pa dang | yang skyes
+               <lb n="N003"/>pa 'un la rang ge bags chag yod pas skyes pa'i go gyon ba dang | rgyan btagpa'i milaM 'byung ges | sed kyis
+               <lb n="N004"/>ma 'byung ba dang | bhed la de las zlog pa dang | yang dgru 'byung ngis dogs pa'i rtog pa yod 1 de'i brgsa agis
+               <lb n="N005"/>+ha le du daga byung ba dang | blros pa lasogo pa 'nyung ba 'o || 'o na rtog pa de med pa la de lta bu'i rnaMlo de yong na |
+               <lb n="N006"/>de gang las byung naM na | de ni skye ba pa ma la dmyal bar skyes pa'i bag chags yod pa las 'byung paso | yang
+               <lb n="N007"/>panye sko gyi rtog pa yod na zas sto gyo rma le 'khyung masr na bangsa chaso || gal te rntogs pa de med pa la rmi
+               <lb n="N008"/>la de 'ong ba'i rgyu mtshan gang yin rnyaM na | de yang skye ba lnga ma pan cad yi dagsu skyes pa'i bags chags yod pa
+               <lb n="N009"/>las 'byung pa s | des na nga pa ni tsags chags gasr pa las nyung la | phyi mtshani bags chags rnying pa las 'bung
+               <lb n="N010"/>na bags chags las ma 'd 'o || yanr pa phyogs dos mo dang | mun zhung dang | mi sing suM nyam ba na | rde'i bcga gagim
+            </ab>
+            <pb 
+                n="11"
+                />
+            <ab>
+               <lb n="N001"/>chad | s'og tu 'dral ba dang | mun khung du khugs pa dang | dog bstang mi bde bal rgs pa byans baso || yang de lta
+               <lb n="N002"/>ma byas kyang de lnga bu'i smiel ni sngar tud 'gor skyes poi' bag chag snying pa mas 'drung ba'o || skab don thad ka ba
+               <lb n="N003"/>la khyis bshung ba' rnaM laM de ni sngar rang nyid shyes bzung smyong ba'i | gzhan kyis dmug pa mthong ba'i thos pa'i bags
+               <lb n="N004"/>chag rgyud la yod pas nyer len rgyu byas | gnyid kyos ldan 1 byer pa'i rnyen byas nas | rtel 'tshags pa lang |
+               <lb n="N005"/>rnons po la med 4n du de lta bu'i sdang ba'byung ste | byung yang sdang ba'i dus nyid nas 'den bar ghub pa bed stong pa
+               <lb n="N006"/>'o nges shes thob par bya'o || 2 pa don la sbyar ba ni | de ltar dpe bri ma gyi snang ba de gsnhis la ma gus par
+               <lb n="N007"/>dran bar byas la | des 'bu tshar byas nas kor 'das ki snang ba 'di dang sraM bar byam te | dpe de 4n du
+               <lb n="N008"/>spyar 'dug snan pa gzhi na dang lor ska'i ba 'khor 'das kyi snang ba thaMd dang | bye brag du bngon du khyur pa'i stang
+               <lb n="N009"/>sga| sa bwo roi nag chang phyim skyis pazed | dgra gnyen zas no badgzhan lnags po'i snang ba dgagis mo khegs
+            </ab>
+            <pb 
+                n="12"
+                />
+            <ab>
+               <lb n="N001"/>ba dub kyi brtis slab par mi snang rgyu snang bkra mage ste | la la ni phan 'dogs pa'i rnaM par snang | la l
+               <lb n="N002"/>ni gnod pa skyer ba'i rna bar stang zhang | de yang da lta'i so skye bo mkhas pa mngon zhen can rnaMs nyid
+               <lb n="N003"/>mlo ngo na snang ba 'di mi bdan rgyu bden du snang ste | bden bden nod brod pa pa daiM'i thug snang | bcad kyis mi
+               <lb n="N004"/>chod | dbug gis me shugs pha snang | rad mi chod thud mi chod par snang ste | snang zhug ngan du gsnoMs la
+               <lb n="N005"/>bden la grub pa zhegs yod do rtab na | kho la bden bar grub pa 1 kang yed kyi | rang ni rtogs pas klun tu
+               <lb n="N006"/>btags par zad gsung | gal te de ltar min bar snang ba 'di bden bar gnis pa grub pa 1 yod na | seMn
+               <lb n="N007"/>tshair bdena ba mthong ba'i skyon 'ong ste | seMn kan gyis p thang ru snang ba 'di nyed pan ba'i phyiro || de skad du
+               <lb n="N008"/>yang lang kar gshegs p pa loas | rngos po thaMd yod par ni | ci ltar kyi rnas rnaM brtags 1 | de ye+es mzho 4n
+               <lb n="N009"/>de yod na || tshed chang dag lmthong bar 'gyur || zhes pa dang | de kyi dongs pa drug phu snga' 'ang sha || kho nyer byi snas
+            </ab>
+            <pb 
+                n="13"
+                />
+            <ab>
+               <lb n="N001"/>ma || naM bstags 4 | gal te rgos po bden gyur sa || de dngos med par rnaM thar du || gang gi 'dod rgyu ci zhig
+               <lb n="N002"/>ces gsungso || yang snang ba 'di bede da bar gus na | stong pa btsal du mi rnyed pa'i skyon 'ong sta |
+               <lb n="N003"/>snang ba 'du nyid gshis snang mi snang dang | stong ya stong lasgos pa'i ngo bir yang ma gub pa la stong nyid ces tha
+               <lb n="N004"/>ad du btags pa yi da gyes | ri song gi ra' nakha'i me rtog lnga nu cang med kha med zhigs la chos nyid
+               <lb n="N005"/>stong pa nyid mi zer te | stong pa de rtogs m pas su yang grol ba ma paso || dagna 'khor 'das kyi sdang
+               <lb n="N006"/>' 'di | thaMd gnyis kyi gnas lug la snang ma rgyang dang stong mi stong ltaogs pa'i smros pa'i mtshan ma cir yang
+               <lb n="N007"/>a grub pa la mod spros bal namkha' ldang du'i stong nyid ces bya ste | kyob tu snang ba tsaM gyis mi stong
+               <lb n="N008"/>yang | bden ba'i rngyos sos stong ba chos can | rdral sgyu ma lta bu'i snyong nyid ces bya'o || de yang sngar smrogs
+               <lb n="N009"/>pa'i mtshan ma'i bden ba'i rnos shig | gnyen sos lpyis med par byas pa ma yin bas | bkags pa'i stong
+            </ab>
+            <pb 
+                n="14"
+                />
+            <ab>
+               <lb n="N001"/>pa ma yin gyi gdod ma nas syos pa dang dras ba'o || yang gzhis la mi stong ba la los stong par rol byas
+               <lb n="N002"/>pa'i styo'g ba la gyas | rang 4ni ngo rnyed kyis stong pa'o || yang nbuM pa kho rang gis me stog rnaM nus stong ba
+               <lb n="N003"/>ltar | 'dir men bas ma stong mang bden ba po gzhan zhiges stong ba yin gyis | snang ba nyid don doM
+               <lb n="N004"/>par mtshan ma dang | kuos tcu rgyos sor ma grub pas na rang ni mtshid kyies stong pa'o || es na snang ba
+               <lb n="N005"/>'odi da ltar me stong la sargyas tsam na stong par 'gro ba ma yin gyis | du ltar snang dus nyid nas yang
+               <lb n="N006"/>bden bas stong pa yin | sargyas tsaM na stong pa la stong par rtogs pa tsam gyas stong pa yin ba la bya
+               <lb n="N007"/>bar med gsung ste | zhen bas stong ba la khyad mar med kyis snang ba tsa gyas stong mi stong khyad thar che'so ||
+               <lb n="N008"/>gal te snang ba 'odid bden ma gus na | seMn thod ben ba mthong bar 'khyur ba dang | stong pa btsa du mi
+               <lb n="N009"/>rkyed par 'dug pas | snang ba 'di stong pa yin ba bden na | bo no de 'dra ba'i stong mugs 1 la 'di lda ba'i
+            </ab>
+            <pb 
+                n="15"
+                />
+            <ab>
+               <lb n="N001"/>spad || snar lug 1 'ong ba'i rgyu mtshan gang yin snyaM na | da lta sdang ba di 'dug ste | 'di mi bden ba'i
+               <lb n="N002"/>snang ba | sdun ba'i snang ba | rang gi shes pa 'khrul ba'i snang ba | med pa'i snang ba'o | 'o na rang gi nas
+               <lb n="N003"/>pa 'kzhul nas snang ba'di 'dra ba 1 yong ba'i rga mtshan gang yin snyaM na | rgyu mtshan nyid shun te
+               <lb n="N004"/>sung sto | da ni rtol 'tshogs pa'i snang ba'o || rdas ci ltar 'tshogs na | spyor 'khor 'das kyei snang
+               <lb n="N005"/>ba thud rang gi rgyu rkyen gyio rels snang ba yin gyis | rgyu med kyan snang ba 'byung mi sride | dbu ma'i rtsa
+               <lb n="N006"/>ba las | sngang zhags rten 'byung ma yin ba'i | rgyos po yod pad yin na || de phyir stong pa ma yin ni
+               <lb n="N007"/>chos na yod pa ma yino || zhes pa dang | gang zhigs gang na ni kyi cho' || ma brten pa ni yod ne
+               <lb n="N008"/>med | zhes gsungs la | dubu ma la 'jug pa las kyang | rgyas rnaMs rgyu med lta zhigs 'byung bar 'gyur na
+            </ab>
+            <pb 
+                n="16"
+                />
+            <ab>
+               <lb n="N001"/>ni | rtag tu mthab dag las kyang mtha' dang 'byung bar 'gyur zheso || da lta thad ka'i sbang ba 'di ni
+               <lb n="N002"/>skye ba sbya ma phan car du sbyin ba byin ba dang | chums bsrungs pa lo pa || las bar pa'i rdel 'chog
+               <lb n="N003"/>pa'i mthus rmyos po la mher 4n ra snang ba 'di dgagis mi khagsas | bsclub kyis mi sub par snang ba
+               <lb n="N004"/>yin te | 'on byang snang b''i dus nyed nas gshis la kyluob tu bden bar grub pa med || der na snar
+               <lb n="N005"/>gyi mol gyi snang bo de dang 'dra ste | bdan sdtan ngos nas khyad bar zung zad kyang medo || des na snang ba 'di
+               <lb n="N006"/>snang dus nyid nas stong pa yin bar ces nas ni | de ltar smaMlM gye dpes pa tshons snes par byed pa'o ||
+               <lb n="N007"/>2 pa ti 'o na rnaM laM gyi snang ba de stong pa yin ba ni 'thad na | des snang pa gzhan thaMd stong par 'ong ba la
+               <lb n="N008"/>coM chan ste | de 2 'bel pa med po'o snyaM na | de ni shin rgyu'ang phan te | de 2 khyadr ba med paso
+               <lb n="N009"/>de'ang 'di ltar rmi laM gyi snang ba de yaong rdel 'tshogs ba'i snang ba yin la | snang ba gzhan thaMd kyang rang
+            </ab>
+            <pb 
+                n="17"
+                />
+            <ab>
+               <lb n="N001"/>chad || rang'i rjel 'horgs pa'i snang ba yin bas na | de 2 ga rel 'tshogs pa las byung ba'i snang ba yin ba
+               <lb n="N002"/>la khyad bar chur zad kyang medo || des na rmi paM gyi snang ba de rel 'chos pa la ltos rnos pa'i phyir rang gi ngo
+               <lb n="N003"/>nyid kyas ma grub pa'i stog par song ba la phan ba yino || dengis ci zhes dang ci phan gyi bar na 'don zhes
+               <lb n="N004"/>pal' don bstan ba'o | de rnaMs kyi ngag don 'di ltar gsung ste | de lta snang ba thaMd rang gi rgyu rkyen gyi sdel 'chos
+               <lb n="N005"/>pa las byur ba'i rgyu rkyen gyis stong pa nyid yin la | yang chos thaMd kyi gnas lun stong pa nyid yin nyid kyis
+               <lb n="N006"/>snang ba thaMd rdjel 'tshogs pa las byung ba'i snang bas ste | de 2 gnad 1 pas de la dang po snang ba 'di rdjel 'go
+               <lb n="N007"/>pa'i bhgas kyas snang ba yin bas na gshis la gub pa med pa yin te | gal te gnhis la grub nyu 1 yod
+               <lb n="N008"/>spa | rten 'brel 'tshogs pa la ltos ci rnos te | rel ma 'tshogs kyanr snang bar rigs pa las | rang gi rgyu
+               <lb n="N009"/>skyen rdel ma 'tshorgyas sta'i snang ba 'od 'byung ma srid | 'tshodgs na 'byung kha du zad pas rel la ltos sgos pa'i
+            </ab>
+            <pb 
+                n="18"
+                />
+            <ab>
+               <lb n="N001"/>phyir | 'khor 'dus kyi chos thaMd rang gi ngo'o ma rang 4n gyis 'grub pa med pas na stog pa nyid yino || don de nyid
+               <lb n="N002"/>mdo las | gang zhig rkyen las sktyes pa de ma skyes || de lo skye ba'i rang 4n yod ma yin || zhes pa dang | kyen
+               <lb n="N003"/>nhi meng las byang ba'i phyir || bden ba dag ni ngang yang meod | ces pa dang | slon gyis de dango de rten gang byung
+               <lb n="N004"/>ba | rang gi rgos sor de ma skyes || rang gi ros por ma skyes ngang || de la skyas zhes tsaM skad brjod | ces pa dang
+               <lb n="N005"/>rten cing 'brel par 'byung ba ngang || de ni stong pa rnidg du bshad || zhes pa dang | gang phyor rten 'byur ma yin m'i
+               <lb n="N006"/>chos nga yod pa ma yin bs || de phyir stong pa ma yin ba'i || chos bha yod pa ma yino | zhuso | 2 pa yang
+               <lb n="N007"/>chos thaMd kyi gzhis stong pa nyed yin ba'i rgyu mtshan gyis stong pa la snang ba klyung ba de sdel 'tshogs pa'i
+               <lb n="N008"/>snang ba yin te | skyan rnaM pa | rgyu ni char gyur na || kluob du yang mi 'byungo || zhes pa'i tshul gyois rgyu rkyen gyi
+               <lb n="N009"/>rdrel pa 'tshogs na snang du ma rung baso | des chos thaMd gzhis cir yang ma cghub pa'i stong pa nyad du gnas pa de
+            </ab>
+            <pb 
+                n="19"
+                />
+            <ab>
+               <lb n="N001"/>nag || la rgyu mi rghe ba laswo pa'i rab 'bring cha 3 gyi srel 'tshogs pa las | 'brus ngan song 3 gyi 'khrul snang 'phra
+               <lb n="N002"/>ba ni chu 'bur bas mi khegs pa ltar | | dus 3 gyi sargyas kyis kyang yi khegs bar 'srung la | yang gnhis stong
+               <lb n="N003"/>pa nyid yin pas | de la rgyu rge ba zargya bcas kyi rdnel chung 'bring che 3h 'tshogyas pa las | 'brus lha mi yi
+               <lb n="N004"/>'khrul snang yang de dang bar | yang gnyis stong pa nyid le rgyu rge ba zags med kyi rjel sung 'bhing che br 'tshorgs pa
+               <lb n="N005"/>las | 'brus ma ngan las pa byub 3 gyi snang ba yang de 4to || de ltar gnyas stong pa nyid yin bas | de la rgyu stig
+               <lb n="N006"/>pa'i rtel 'tshogs pa las | 'brus sdal gyi snang sa byung ba de | dus 3 gya sargyas kyis kyang bzlogs par mi nas
+               <lb n="N007"/>pa ni | rel gyi chos nyid yin ba'i phyogr ro || gal te bzlogs nus na sargyas 1 gis kyang seMn thod sdul bzogs pa
+               <lb n="N008"/>shaid | ma thogs par snan cha'o || de'i sher mdo dag las sngon gyi las kyi rnaM par smin pa ni khi la yang maltos
+               <lb n="N009"/>so zhes gsubzhing | yang gshis stong pa nyid la 3 rge ba'i rtel 'tshodgs pa la 'brus bde ba'i snang ba 'byung |
+            </ab>
+            <pb 
+                n="20"
+                />
+            <ab>
+               <lb n="N001"/>ma 'tshogs na dus 2 gyi sargyas kyis kyang bsgrub par mi nus pa ni rjel gyi chod yin bso || de ltar min
+               <lb n="N002"/>na sargyas 'ges kyang sen thaMd ki rgyad la sargyas kyi yon bsgrub par mdzad na | de mang chub par snang bas mogs |
+               <lb n="N003"/>de ltar ggis stong pa nyid la ryuM rna sdogi drel 'tshog pa na | 'brus bde sdugi snang tsa bkas kyang mi zhes la
+               <lb n="N004"/>ma 'tshogs pa na bsnabs kyang mi 'grub pas na ris gang 'grogs kyi snang ba c po zhes bya'o || des na gnis
+               <lb n="N005"/>sntor nyid yin ba'i rgyu mtshan gyis rgyu 'bras bden ba yin gyis | gniMs bden pa'i rang 4n du grub na rgyu
+               <lb n="N006"/>'bras li brtub ste | rang 4n gzhan du m'gyur ba'i phyiro || don de nyid slo+on gyis rtpod bzlogs las | gang la
+               <lb n="N007"/>stong pa nyid rung ba || de la thaMd rung bar 'gyur || gang la stang nyid mi rung ba || de la thaMd mi rung 'gyur || ceso
+               <lb n="N008"/>de ltar gshib ci yang ma lpa nyid kyis na | e yang rsnang gi khe zhi tu nges na | cer yang mi 'gyur baso | des na
+               <lb n="N009"/>rang nn skye med du gnas pa la las sgogsu snang pa 'char bas na | rge ba gdi tshaeM gyis mi gan | sdig pa 'diM
+            </ab>
+            <pb 
+                n="21"
+                />
+            <ab>
+               <lb n="N001"/>chad | ba gyis mi gnod bya bar khar 'don du mi ryung ba sung | des na stong pa rab 1 go na las 'bras la 'jos
+               <lb n="N002"/>ba rab 1 'ong | 'bhing 'go na 'bring 1 'ong | tha ma 1 go na tha ma 1'ong ba yin gsung | las 'bes la
+               <lb n="N003"/>cshi 'jaM na rtong pa'i go ba gtans med pa yin gsung | de ltar chos thaMd kyi gnis stong pa nyid yeoin ba'i
+               <lb n="N004"/>rgyu mtshan gyis las rgyu '2 pa la shin tu 'brem r byed rnos pa yin gyis | stong pa bhya mi rgosu song
+               <lb n="N005"/>na nor ba yin g dang | yang stong pa bsgo ba la snang ba med thab me de | stor pa bsgom ba'i sngos pa ni snang ba
+               <lb n="N006"/>la bden zhen yor ba yin bas na | snang ba 'di ka stong par bsgo rgos kyis | snang ba logs 1 tu bzhugs nas
+               <lb n="N007"/>stong pa lagsu bsngoMs pas snang ba la bden zhen me ltog paso | des na stong par bsgoM rgyu snang ba yin blas
+               <lb n="N008"/>snang ba med na gang gan nis stor ba'i stong pa yin | ri bong gi 2 lta nu tbai yang med pa'i stor pa 1 la tshod
+               <lb n="N009"/>stong pa rnid ces ma bshod | de rtogs pas ni su grol ma rtogs pas no su bcings paso | des na snang ba 'di
+            </ab>
+            <pb 
+                n="22"
+                />
+            <ab>
+               <lb n="N001"/>nyid snang dus nas stong parl rtogs pas che ni thaMd cings la | de rtogs pas ni 'phas pa rnaMs grol ba'ino |
+               <lb n="N002"/>de ltar stong pa bsgoM ba la snang ba med cub med kyos | snang stong ya luM l du bsgoMs pas liesu megsung | des na nan
+               <lb n="N003"/>str thar pa 1 'dod na stong pa me po'i thabs med | nan rtan stong pa bsgom na snang tha med | des na snang ba la yin
+               <lb n="N004"/>gsang | spyeir dn ma a stong ba nyid du lta yang ma 'sta | bsgoM yang mi bsgom ste | dbu ma'i don mthu' bral
+               <lb n="N005"/>dang 'gal ba'i phyiro || mdo las kyang | chung 'di stong zhes rtog nabg thugseMd' ni || mtshan la spyod skyed
+               <lb n="N006"/>med gnas la dad ma yin || zhes pa dang | slon gyis kyang gam te me sto zhung zad yod || sntogr pa'ang zhung
+               <lb n="N007"/>zad yod par 'gyur || mi stong chung shad yod men pas || stong pa yod sar ga la 'gyur || gsung | des na mnyaM
+               <lb n="N008"/>bzhugs spros bral gyi ngag la 'jog pa'i tshe snang ba dang stong pa lasgo pa yod thab mede spros pa yin bso ||
+               <lb n="N009"/>yang rjes thob sgu ma lta bur bsgom ba dang | sbyor ba lta bab spros pa gcod pa'i tshe | snang pa med thab med
+            </ab>
+            <pb 
+                n="23"
+                />
+            <ab>
+               <lb n="N001"/>pha| yod dagzhan dgr byung ba'i rmi laM dang | mi gcis pa gi ba dang | tshor 'phangs pa sbyor ba laswo pa'i
+               <lb n="N002"/>sdul byi shyil la yang dpe don  4n du sbyar zhing bsgom bar bya'o || 2 pa bde ba'i rmilaM 'ang sbyar
+               <lb n="N003"/>rna snang gstang ca gdtan la dbab pa ni | ra bzang po beng rge ltar bu la zhons cang ched sol phyi la la
+               <lb n="N004"/>gro ba'i rnmaM m'i | nor bzang po rnyed pa'i rmi me' | ston mo bzang po cos pa'i sma la yang dbe don nguru
+               <lb n="N005"/>4n du sbyrar la chos thaMd stong pa nyid du gtun la dbab par bya'o || mdor na snang gthaoMd smilaM gyi snang ba dang
+               <lb n="N006"/>khyad ba med par ngo nyed kyis ma ghub po'i ngas shes ci skye bya'o || de yang gnyid sad na rmi laM me 'byur
+               <lb n="N007"/>ba 4n du ma rig pa' gnyid sad na 'khrul snang rgyun chad pa'o || de yang snan nas yod pa 1 rgyun chad
+               <lb n="N008"/>ma min gyis | med pa la med par rtogs pa ste | ci skad du | bdi ni ci ltar sad 4n ci srid da |
+               <lb n="N009"/>mas de lta tha po yod || shad par khyur na 3 char yod min ltar || gdi mugnyid las seMd de 4no zhes
+            </ab>
+            <pb 
+                n="24"
+                />
+            <ab>
+               <lb n="N001"/>gsungso | yang sad pa'i rnaM pas bde sdug lasgs pa'i don byed par snang ba 4n du | rmi laM gyi snang bas kyang don
+               <lb n="N002"/>sbyed par snang pa | mil byi snang ba la don byed da bden ba grub pa med pa 4n du | sad pa'i snang bas
+               <lb n="N003"/>kyang don byad pa ben bar grub pa ltob tam du yang mad | don de nyid slo+on gris | ton mtshungs pa'i don
+               <lb n="N004"/>byed pa | mi laM sad pa 4n mini || smi  sad pa'i gnus skab ma || don byed pa la khyad bar med || ces
+               <lb n="N005"/>gsungso || yang snang ba 'di rang 4n gyis stong par smig rgyu'i dpe yei shes te | dpe ni naM rzla sos ka'i
+               <lb n="N006"/>nya ma gung la thang la thi ma shar na' chagsa ring po nas bltas pas migs rgu smo me rer snang bal chur ben
+               <lb n="N007"/>chu bzhung ba'i das na rtos po lam zhi pa 1 kyang mede yod na dur u phyin ba na mthong bcri rigss pa las
+               <lb n="N008"/>mi snang bai'i bhloro || tshob dpon syi zhal nas kyang | tbags ring nas ni mthong ba'i bzugs || nye ba rnaMs kyis
+               <lb n="N009"/>ns la car mho || kal nte smeg rgya chu yin na || nye ba rnaMs kyis cis mi mthog | ces gsungso | des
+            </ab>
+            <pb 
+                n="25"
+                />
+            <ab>
+               <lb n="N001"/>na chur snag pa'i dus mu bden bas stong ste | de gnyen pos bkag nas stong ba ma yin ba 'ags poe
+               <lb n="N002"/>lngar 4no | 'o na de 'dra ba'i snang sun 1 la | 'di 'dra ba'i stong lug 1 'ong ba'i rgyu mtshan gang y+ni
+               <lb n="N003"/>snyaM na | rdel 'thogs pa'i drang ba stong pa chur 'dzn gyis byans || sog rgyu'i rkyen 'tshogs pas chur
+               <lb n="N004"/>'khul nas zhe sas'o || 'on gyang zhen ba'i dus nas chus sto | 2 pa doMn ma sbyar ga ni | des na
+               <lb n="N005"/>du spyir mnar med pa na || 'ong ska'i tshu 'khor 'da kyi snang ba thaMd bye brag tu da lta'i sa rto ri
+               <lb n="N006"/>srag sog pa sdnogsu snang zhing | de yang bya dru' sgya bo rnaMs rsugs sdn bar cus zhigs yod sntaM na | zhes
+               <lb n="N007"/>pa larnga pa sngar 4n du gsungso || yang snang ba 'di stong pa yin bar sgyu ma'i dpes mtshon nas shes par
+               <lb n="N008"/>byede | dper na sgyu ma mkhan po shing bu lasogs pa la sngags btab ba ltad mo pa la gnas gzhi dang |
+               <lb n="N009"/>tshong pa'i skyel ma byas pa dang | dab byung ba'i snang ba lags par snang ste | gsal po ni da lta'i snang ba 'di ka
+               <lb n="N010"/>gyi bag chag
+            </ab>
+            <pb 
+                n="26"
+                />
+            <ab>
+               <lb n="N001"/>'dra ba 1 yod kyang de dag sna la'i rus nyed nas brten par grub pa bede | yod na su ma bhign pa'i na yang
+               <lb n="N002"/>yod ltar rig so | des no de dag snang dus nas snang pa'o || de yang btags pa'i stong pa mi hon zhes lpa
+               <lb n="N003"/>lasgo po'i dbe dang | don snang kha thaMd la rdkyur ba ni na ma h du shes par byabo || de 4n shu mche po
+               <lb n="N004"/>brgyad la sbyar yar tshadgsas med chos la dbang za ba'i nyes pa yang me 'ong ste | byed moed brals mi
+               <lb n="N005"/>sbyor gsung | dgis phyi yi snang ba gtan 'a dbab pa'o || | || 2 pa nang gi rtog pa gtan la dbab pa
+               <lb n="N006"/>ti || so na phyi yei snang ba 'di sgyu ma'si dpe brgyad dang 'dra bar ben lar chub pa me msngsp la thel+ta
+               <lb n="N007"/>snang mln gyo saMs 'di brten bar chub snaM na | seMs kyang bden ba grub pa yedg |de pa' rig pa
+               <lb n="N008"/>sto par gtan ma dpab pa 'di la lna m's dpe yad o d la | 'di ma bstan ni dn has pa sagus
+               <lb n="N009"/>kyang mye go la | bstan na blah po geguang rjes kyang sho ba'i chos yin uungs | de la rig mal
+            </ab>
+            <pb 
+                n="27"
+                />
+            <ab>
+               <lb n="N001"/>buhad || dus 3 gyi rig pa las med pa | sgolo 'das pa'i rig pa ni | spyir thogs ma med pa nas bye ldag tub
+               <lb n="N002"/>tshe 'di'i rang ni dnub khar tshang san chod ci cen 'gags pa ni | 'dab pa'i seMs yin tcas de bden cha yo
+               <lb n="N003"/>dgang na yod | ga shyed na phar la sdring 4 nar sres gro zheng yod | shang sor sungs nas yod | ger du snas lnas
+               <lb n="N004"/>dang | yang na khyrimo chos la bgos nas yod ste | chur na ni mi theg gsung | des na gang na yang grub po med
+               <lb n="N005"/>'das pa'i seMs 'gaus shing zhig| ma 'ongs pa'i seMs ma skyes shing ma byung | da ltar gyio seMs ni shen tu brtag
+               <lb n="N006"/>k gsung | de par tha snad du byas pa tsaM gyis | ma bgags pa'i dus na'ang gshis la seMsu kob tu yang bden ba
+               <lb n="N007"/>grub pa medo || yang ma 'ongs ph'i peMs ni spyir sangs ma rgyas byi bar dang | sbye brag tua na ma sho'i mar du da phyin na
+               <lb n="N008"/>cbo sneMd seMs 'byung chu de da ldag na yod | gzhed nas sring nas yod | lnga ro phyiro yong shi yod ste | gansna'ang
+               <lb n="N009"/>med na de ka stong pa yin mod | des ma 'ongs pa'i seMs ma skyes pas med pa'o || de yang sha skad ci ste | skyes
+            </ab>
+            <pb 
+                n="28"
+                />
+            <ab>
+               <lb n="N001"/>pi'i dus na sngar 4n du skyar tsaM du sag bden bar grub pa medo || gal te btuM' ma 'ongs kyi rems 'gugs pang
+               <lb n="N002"/>msmhya lkya med kyang | da ltar gyi seMs skyes lam bgags pa'i mshad rgyu na u mdthor gtong du sar nso
+               <lb n="N003"/>'di bden pni sen lnas sa | da ltar gyi seMs 'di yang cha btsam na midzad rgu mdzad hsdang yang tshal na
+               <lb n="N004"/>bden par chub pa skad 1 de | dkar po lasogs pa'i kha dog du spang yang grub pa mi 'dug | gru 4 lasogs
+               <lb n="N005"/>dbyibs dang | ma r skur lao''i ro dang | 'joM tsub lago pa'i reg byar ma grub cing | gnas kyi dbas du byas na
+               <lb n="N006"/>lus kyi ngo dang | yan lag dang | nying 'jg dang | phyi sag pa bar ga dang nang gral das nus pa 1 skang kye scan du
+               <lb n="N007"/>btsal spang 'di na gnas shing 'dur bya ba ma grubo || de nyed byis bas nas pa'i mdo las | bc+loMs ltan ses
+               <lb n="N008"/>c ltar blta bar bgyi | bka' rtsal pa | seMs ni kha dog med pa dbyimmed pa | gnas med ma phris lta bu
+               <lb n="N009"/>'o zhes gsungso | yang mdo las | 'o srung seMs ni sargyas thaMd kyis mgcigs me gzigs  par mi
+            </ab>
+            <pb 
+                n="29"
+                />
+            <ab>
+               <lb n="N001"/>'gyuro | hor srungs seMs ni kun tu btsa' na ma rnyed pa de ni ma dmigs pa'o || don de nyid
+               <lb n="N002"/>smon byis | rang ses gdod nas ma styas pa || stong pa nyid kyi rang 4no || zhes pa dang | seMs ni mang tsab
+               <lb n="N003"/>yan bas te | meng las gzhan do'gas yang med || meng yang rang 4n med pa yan | narM de 4n
+               <lb n="N004"/>phyi rol laM | yang na 2 ga'i ba dag tu || rgyal ba rnaMs kyis seMs ma snyed || de 4n sgyu ma'i rang 4n
+               <lb n="N005"/>seMs kha dog dbyib kyi dbya ba || skyes ba nbud med neng shog || ngo seMs ni gnas ma yin || mdor
+               <lb n="N006"/>na sargyas rnaMs kyas kyang || gcigs par ma gyur gings me 'ghyur || rang 4n med po'i rang 4n can ||
+               <lb n="N007"/>sa ltar bhur na gings par 'hyunrg || yang mdo las | rnaM par shes pa gang nas kyang ma 'ongs | gang
+               <lb n="N008"/>gang du yang ma 'gro | gar yang gnas par 'hyun ba medo zhes gsung so || ede yang gnyen so's bkags pa'i
+               <lb n="N009"/>stong pa ma yin ba laogs pa 4no || de mang da lta'i seMs bden bar yod pa zhegs | sargyas tsa na med
+            </ab>
+            <pb 
+                n="30"
+                />
+            <ab>
+               <lb n="N001"/>par 'gro ma ma yin byo | da lta yang seMsu btags pa baM las bden bar grub pa med shel | sargyas tsa
+               <lb n="N002"/>na stong pa la stong bar rtogb ba tsa || 'o na da lta sirn ugs pa rte sgyu ma'i rta glang ltar btags
+               <lb n="N003"/>s co ste | mdo las rnaM po shes pa sggyu ma lta bu'o zhes pa'o || sku ma gzhan dang phung po gzhug
+               <lb n="N004"/>dush'i byad la zhes slon gyis kyang | rnaM nas sgyu la lta nu zhes || chung so bstan pa de lta nag
+               <lb n="N005"/>byub seMd' rnaMs kyis bshad | gsungso | de ltar snang ba stong par gthun la dbas pa dang | rig pa stang
+               <lb n="N006"/>par gtan la dbab pa 2 kag | lta bas smros pa gcod pa'o || || da ni bsgom pas don rnaM
+               <lb n="N007"/>du blang pa laaw ste | sbyor ba dang | rngos gzhi dang tsam sbyang ba dang | rje 'dang | gag selo || dang po la sna ste |
+               <lb n="N008"/>mus gnad lastabb pa dang | seMs gnad la dbeb pa'o || dang po la brgyade | rkang pa dkyil chus bca'
+               <lb n="N009"/>madar | lag pa mnyaM bzhugi phyag rgya bca' ba dang | tbang po thur la dspyar ba sdang | rna tshig drang por
+            </ab>
+            <pb 
+                n="31"
+                />
+            <ab>
+               <lb n="N001"/>bhag | bsrang ba dang | lto gan la sbyanr pa dang | rtong 'go bu zad rdla ba dang | lce rnyan la sar ba dang | mig sna
+               <lb n="N002"/>rtse la gtad pa'o || 'di ni las dang soM pa la gnag su cha ste | ting eni seMs la bsgom zhiong seMs rnang la brten
+               <lb n="N003"/>rlung lus la brton ba'o || 'byongs pa'i tshe na gang ltar yang btub nungo || de la ska so dgrol gung
+               <lb n="N004"/>byas pa la gnas skab kyi rnaoMs pa 4 ste | cha rnoMs pas lus bde' | des seMs ting^ni las rung ba dang |
+               <lb n="N005"/>schong na gnan dad pa dang | phro rol pa las khyar bo bya ba dang | sargyas byugseMd' rnaM kyi gnang ba'o ||
+               <lb n="N006"/>mthar thugi shes pa ni kang rhe nar du bcug pas 'gro 'bai byed pas don din er chos thaMd 'gro 'ong dang skye
+               <lb n="N007"/>'gag med par mtshon ba'o || 2 pa mnyaM bzhugi rnos pa ni | gnas skabsu gsas g.yon uio 'bho
+               <lb n="N008"/>bas lus bde | des seMs bd tingeni las rung ba dang | mtho na gzhan dad pa dang | rang rdong chen po rnams kya
+               <lb n="N009"/>rnaM par thar pa yin bas byin rlab 'byung ba'o || mthar thugi snos pa ni sbya byed kyi spros pa dang bral ca'i chos
+            </ab>
+            <pb 
+                n="32"
+                />
+            <ab>
+               <lb n="N001"/>nyid mtshon pa'o | 2 pa dbang po thur la spyar ba'i sgos pa ni | spyir su rlu chyur du rgyu me shuin
+               <lb n="N002"/>zlung ni rnung 'gred la yu na rlang thad lktar tha naMa'i rnang khyab pa rgyu bas | des na shgs la gyi saM
+               <lb n="N003"/>zhan bar rgyu bas ta seMs gnas par 'gyun ba'o || de mthar zhug 2su med pa'i don mchan b'ags
+               <lb n="N004"/>4 pa sna cheg drang sor byas pas | gnas skab dgye rgua med pas lus bde | des seMs bas tingeni skye la
+               <lb n="N005"/>mthad thug bying rgod dang bral ba'i tingeni dag par mtshan ba'o || lnga pa lto ba ga na la sbyar ba ni |
+               <lb n="N006"/>sngags pa'i se 2 pa kha dang | lus dbye na mdn su thag zhing | rgyas tu snod 'ong la | mdun du rgu na
+               <lb n="N007"/>mdan du ldod rkyab tu thang yong la | dbye rgyu med par byas pas de thang lhod med par sha la 'bhyar tsam du
+               <lb n="N008"/>yong bas ste | mdor na snal tshig ba sdzra ba la mgrin pa cung zad rgu bar bya'o || de'i rgos la smi gos ma
+            </ab>
+            <pb 
+                n="33"
+                />
+            <ab>
+               <lb n="N001"/>4no | yang na mnyaM bzhagi lag pa'i rkur lto ba'i tshigs pa gcar te | de'i rgos pa ni lngo bar me dang
+               <lb n="N002"/>mnyaM pa'i rlung zin ma rnod skyens pa'i stobs kyis tingeni skye ba'i sgos pa yodo || rugs pa mghrin pnung
+               <lb n="N003"/>zad rna bas mgren pa'i gzang 'zin 2 kyi pa gsas non gyi rlung gnan bso de yis nung gnas
+               <lb n="N004"/>pas gzun dang bral ba'i tngoen skye'o || bdun pa lte snyan la sbyar bas gnas skabsu rlung kha nas mi 'hyur
+               <lb n="N005"/>bas 4 mi snyaM ba dang mtshil ba mi 'gogs la | mthar thug lce dang rkan la sgra 'byung ba las de 2 sbyar
+               <lb n="N006"/>bas sgya med pas don daM par mod brjod pa dang gal ba mtshon ba'o || brgyad pa ni dmers sna tor gtad pa
+               <lb n="N007"/>ni dbang po nan tur gyis stong pa ri daug bag ceibs pa lta na ste | ri dag 'jigs pa med cing dben ba'i
+               <lb n="N008"/>gnasu bag phebs pa'i she | dmigs 'byed 'cu med par riog byas las dbang po yul la mi 'gro ba'i
+               <lb n="N009"/>rdobs kyis tingeni lngas su rang ba dang | gzhan dang ba 'dren ba dang | sargyas dang thaMd 'thaMd kyi gzigs ltang yin
+               <lb n="N010"/>bas byin rlab 'dzugs pa'o | degi rteng du yang byang chub seMd' na re kha che phyogsu mi bstan ba dang | dbug rgod bags
+               <lb n="N011"/>2nas pa ltar
+            </ab>
+            <pb 
+                n="34"
+                />
+            <ab>
+               <lb n="N001"/>can la mi bsgoM gsung | ram dub kyi dbug sor ma chud pa de bsnyaM la bsgo ba'o || na pa seMs kyi gnhad la
+               <lb n="N002"/>spyir dmigs bcas dang dmegs med 2 las | dang po ni snags kuns rtsa da'zhu dang thigs le dang lha sku lasgs pa
+               <lb n="N003"/>' degs pa la brnens stong pa nyid chas ba yin te | de goer ma pa sgom gnang | dun ma'i bsgo
+               <lb n="N004"/>'di la dmigs psa 'od 'a ba 1 la gtang la sgo bya'i dmigss po de ldra ba ca yang med gsnang | de la
+               <lb n="N005"/>spyir zhi gnas ltar mthog shung 'hugs la du 'gro || ya bral maM du mi 'gro thogs mar zhi gnas bcal
+               <lb n="N006"/>bya de yang ni | 'ji na bgrgyas med la mngon rnas 'grub zhes gsungs pa || 'dir tshogs mar las dang
+               <lb n="N007"/>po sas seMs mai gnas pa gnas par byed pa'i thabsu rnaong la bslab par bya ste | de la rung phyir 'gro ba
+               <lb n="N008"/>dang nang du 'jugs 'a 2 la 1 tu byas la 1 nas lnga bcu ra bdun gyi bar du bgrangs ste | de yang dang po shes psa
+               <lb n="N009"/>bsgrim la ta 2 3 zhes pa laogs pa yid la grangs byas la | bzhug tu brangs la shes pa mi gstod par
+            </ab>
+            <pb 
+                n="35"
+                />
+            <ab>
+               <lb n="N001"/>ga || dmeg med kyi nga d lod la bzhago | de 4n drug bcu tsa bdun | brgya cu sa bduni brgya rtsa brgyad kyi
+               <lb n="N002"/>chu du byalo | de ltar byas pas seMs gnas sa gar byung par gzhag | ma byung na ni bhung goi bars shyas
+               <lb n="N003"/>seMs spa'i rags ni lus 'dar ba dang | 'char ba dang | ku tbo 'den ba dang | mmong rnag byed pa dang | lus
+               <lb n="N004"/>gngags sel byad pa dang | brod bero bor byad pa dang | go'gu pa ngang yang med pa laso lpa 'byungo || sbye phrag
+               <lb n="N005"/>rdu ltar mthong nas che ba'o seMs gnas pa la kar dmar pal le ba'i nyi ma'io 'odr dang | zla bo'i 'or dang mar
+               <lb n="N006"/>me'i 'od lta bu'i nyaMs dang snang ba dang shes pa yang phyiede ba lasgo sa 'byurg | zhi gnas snas che ba'i gnus
+               <lb n="N007"/>pa ni | byeng rgya r thib se then ba zhes bya ste | naMs dama' na rni byed pa dang | dmar mi gsal sthe na ti po da
+               <lb n="N008"/>shes pa thab se 'dug pa dang | 'on gyang lang mi nus pa'i nyaMs dang | yang dmigs ldong ba lta nbu dang | dag mlor
+               <lb n="N009"/>pa lta nbu dang | lus zha bo lta bu lasgo l slogs 'byungo || seMs gnas ba'i tshad ni | gang la gtad ya mab
+            </ab>
+            <pb 
+                n="36"
+                />
+            <ab>
+               <lb n="N001"/>pa de las gzhan mi 'byung ba dang | dus ni 'dod pa'i tshe 'sung pa dang | yun ci srid 'dod kyi bar du 'byung ba'o ||
+               <lb n="N002"/>de ltar byas pas long ba rkang pa can lta ni bem po' rlang gnas pas | phye bo dmegs can lta na'i seMs nang gis
+               <lb n="N003"/>gnas pa las toe ni 'sdugo || de ya rnum shes kyis rlung gi bzhon ba la zhons dbang po lngo' sgo nas
+               <lb n="N004"/>yul sdugs me snasa da mdala spyor lptar byed cing | de'i rnes sa gyu ba yed kyi rni shes rtogs bcas las
+               <lb n="N005"/>shasruang stye ste | lus ngani shes spyod sgogs kyi las bsags nas 'bus 'khor ba'i snal rnogs smyong
+               <lb n="N006"/>lta kyur ro | seMs zin cing rung sin na rlung gis ro lnga'i shes pa yul la 'khrod me nus pas ||
+               <lb n="N007"/>de'i rjesu skyes pa'i yid rnos bcas kyos yul la chags ltang ma skyes pas grolo || de'i phyir thog mar
+               <lb n="N008"/>seMm gnas pa'i thabs la btson bar bya'o || de ltar grogs ni gnas rnyed nas ltar mthos dag
+               <lb n="N009"/>'brel par bsgo ba la 3 ste | sbyar ba spras pa'i mtha' bsal ba dang | rnos gzhi bhying rgod kyi dabng du
+            </ab>
+            <pb 
+                n="37"
+                />
+            <ab>
+               <lb n="N001"/>bcad| mi gtong pa dang | rjes mos thaMd sdu ma ltar shes par bya'o || dang po la phyi snang ba'i spros pa bcad pa dang |
+               <lb n="N002"/>nang rag pa'i sros pa bcad 'a 2 las | dang po ni gyi snang b thaMd rang ge seMs kya bzhul snang yin gyis ros pol
+               <lb n="N003"/>grub pa med par cags bcad pa ste | dser na smri laM na dgra gsnhyen cas nor lzoM par snang mde thodo gas pa 'bhul sna
+               <lb n="N004"/>yon ba'i dus nyid nas ggis la grub po me sar thagcod pa'o || 2 pa ni nang gi rigs pa 'di yang rgyu ma'i rta blang
+               <lb n="N005"/>ltar rigs pa' dus nyid nas gshis la grub pa mede | 'das pa'i rigs pa 'gags nas med cing | ma 'ongs pa'i rigspa
+               <lb n="N006"/>ma skyes nas med 4 || da ltar yi rigs pa la kha dog dang | dbyibs dang ro das rer bya dang gnas lasgs pa nang yang ma grub
+               <lb n="N007"/>par thags bcad la | ngar gyi lta ba'i don dran ma bya'o || 2 pa rdoMs gzha na de ltar snang kha'i spras ba chod pasaM
+               <lb n="N008"/>bya'i yul pa nus la | nang rigs pa'i spros 'a chod pas bsgyom byed kyi bla ma gub tar sros pa thaMd ta' bral ba'i
+               <lb n="N009"/>4 la | bsoM gya bro byed dang bral bar gzhugo || thub seMd'i zhab nas shes bya la sheb pa ldan zad pa la chu zad pa'i
+            </ab>
+            <pb 
+                n="38"
+                />
+            <ab>
+               <lb n="N001"/>ranr thag bhud shing chad pa'i me 4 du ldod kyis koad la bzhags gsang ste | shes bya dang ges pal sad u ma grub she
+               <lb n="N002"/>e nas rang 4n med pa'o | slor gyes | rgyu ad nyid ma zhi ba tho || cad ces bya par rtogs pa ste | rang 4n gyis
+               <lb n="N003"/>zhi gang ma zad || de lazad ces ci skad 2 gsung | de la lur nas bcis sob seMb nid || lod na grol bar saM shu
+               <lb n="N004"/>med | ces bya ba yin bas | luseMs drim sor me bya bar lod la bzhagsu | spyer lta zhog seMs 'jogs pa la bsgo
+               <lb n="N005"/>jer ba yin 1 la | dbu ma ba la don la khas chen gang yang be da tsana lta ba med pa de la es 'jogs
+               <lb n="N006"/>pa'i brnoM ba med cing | pang spyi snang ba'i snos bcad pas 'dgoM ba'i yul mi snyed la | nar 'dzin pa'i
+               <lb n="N007"/>sos la bcad pas bsdgoM byed kya blo ma grub pas na gang nis gang bsgo re b+goM bya bsdoM byed dang brel go
+               <lb n="N008"/>'on gyang ptsal zhing dpyad pas yu' bar sang ma gus pas na nud shog zad pa'i me 4n su yd'
+               <lb n="N009"/>ca da gye slo ma grub pas | yul can gyi spmros pa zhe ba tsaM zhigs la de kho na nyid bsdo zhes btans par
+            </ab>
+            <pb 
+                n="39"
+                />
+            <ab>
+               <lb n="N001"/>ca || ede mdo las kyang gzugs nas rnaM pa thaMd mkhyen pa nyid kyi bar du yid la mi byed pa ni
+               <lb n="N002"/>shes rab kyi cha rol ta phyin pa'o zhes pa dang | yid la byed pas ni tsha 3 la shre bar 'gyur gyis
+               <lb n="N003"/>bung zad yod la ci byed pa ni gang du yang 'dra bar me 'gyuro zhes pa dang | ir yang mi bsgom ba ni
+               <lb n="N004"/>|shab kyi pha rol tu phyin pa bsgo ba'o || shreb nyi pha rol tu phyin pa bsgoM ba ni niMkha' bsgo ba'o
+               <lb n="N005"/>| zhes pa dang | mdor na stong pa nyid bsgoM ba ni nkha' bsdo bar skyed pa yin zhes pa dang | chos rnaM thaMd
+               <lb n="N006"/>ma dmegss pa | de phyir tengeni ces bya zhes pa da | tci tsa du yad la byed pa de tsa du mtshan mar
+               <lb n="N007"/>'dzin pa dang | ogs par lta ba yin te | cha na sntog pa nyid du yang yid la mo byead pa des na
+               <lb n="N008"/>stong pa nyid kyi gnas pa zhes bya'o || rngos yin rngos so chead min la || yod dang med par ma
+               <lb n="N009"/>bsgo ba | de nyid dabn ma'i laM yin bar || nga dang sargyas rnaMs kyis bkad || zhes pa dang bstan chos
+            </ab>
+            <pb 
+                n="40"
+                />
+            <ab>
+               <lb n="N001"/>las kyang mkhas pas rtos pso mi pas zhing || rngos po med pa'ang mi as zhing | rtos dang rgos mhed rnaM
+               <lb n="N002"/>spangs pa | bsnoM ba dang naM barno ba nal | zheso | des na bi yang mi bsgom ba'i ndad la ma yengs
+               <lb n="N003"/>par 'jogs pa'o | de la bsaM bya bsnoM byed ma rnyed pa nyi ltag mthong yin la | ma sengs po de zhie
+               <lb n="N004"/>gnaso | de brag chod sdros bral byi ngang du shes na spras bral du 'jodgs pa'o || de yang las dang po
+               <lb n="N005"/>pa'i dusu thun tshad chung la than grang mang du bsgom zhing nyai myong gsal 'gro la bzhugo |
+               <lb n="N006"/>de ltar nyesu blangs pas nyi myong 'char ste za pa med pa'i bde ba dang | ngos bzhung med pa'i gsal
+               <lb n="N007"/>pa'o | dang po ni 'di ltar bde bya ba med kyang nyaMs de dang 'bral mi phod sa snyaM byerd pa 1 'byung ste |
+               <lb n="N008"/>rkye'i rto'i rgyud las | gzhonu'i rna ba ci lta'i || zag pa'i rmi' ci lta cbu || zhes ste rang g
+               <lb n="N009"/>snsu myong la | phyi rol gzhan la bstan rgyu med pa'o || nyaMs de nyid la chags na bas gtan
+            </ab>
+            <pb 
+                n="41"
+                />
+            <ab>
+               <lb n="N001"/>|| rong pa ston lta zhes rgyud'i sbyes byabshado || 2 pa ni mi rtogs bn du de'i tshe s+gos song subi nyags ma smyar
+               <lb n="N002"/>gshags spa so'i cgha yod kyang nasa l ba ni chog gsal la yi rtogs pa yin bas gnars mthoag pa ng mi
+               <lb n="N003"/>rtags | sgra thos kyang gsal la mi rtog dri stwo pa gsl la me rtog pa yin bas mi gnod kyis steng du
+               <lb n="N004"/>lta ba ma skul na 'deb pa'i tshed yin ngsung | mang lhag mtho 'tdi dges rin bo che'i dang mtzhun gsungs
+               <lb n="N005"/>me rtogs pa dang gsal ba dangs pa phra ba'i mi rnogs pa mtshid 4 stan du shye ste | de la mi rtogs pa ni rnog pa mi
+               <lb n="N006"/>'gro pa'o | gal ba ni ston ka'i nyin bmyed kyi tnhim' ltar ngos bhags med par gsal ba'o || dands ni
+               <lb n="N007"/>ting gtsang mar chu gtsang thugs pa ltar skas la shin tu dangs brgs che bar 'dugs pa'o || shra pa ni do'i ngo na
+               <lb n="N008"/>rgos so sgra'i rtse yo brgyar gsnags sa baM 1 kyang mthog zhing snos pas te blen bsgoM du ma snor ba'o || zhi gsung
+               <lb n="N009"/>shas me ba'i mi rnogs pa ni gsal ca chung ba'i gnas sa thab seM zen ba chon snyas che ba sne laM gco
+               <lb n="N010"/>chung ltar mthong shas che ba'i tshe zlob po phra ba thaMd kyang gsal bas ste laM gcod che gsung | mi rtogs ba
+            </ab>
+            <pb 
+                n="42"
+                />
+            <ab>
+               <lb n="N001"/>sgoMs pa'i tshad ni | gzhan 'bod pa cos kyang 'grod seng mi 'dod pa'o || rlos gzhi gyis sgod kyi dbang nga mi gdang ba ni |
+               <lb n="N002"/>lta ba'i dgra rtags chad dang | bsgoM ba'i dgra hyogs rnod yen pas | dang so bying bsal la 4 so || bying ba'i sgyag ngos ||
+               <lb n="N003"/>dbye kha dang | bsal thabso || rgyu la 3 ste |  skyen gyis byong kha med du byas pas byer ba | chug byung gis byong ba'o || ngo la
+               <lb n="N004"/>gzhid kam bing ba dang | rlugs pas byir 2 te |  dang po ni 'jugs pa rang dbang med par seMs sud pa gtai magi na snamo |
+               <lb n="N005"/>mug pa pa ni gnyid du yang ma song snhes pa'i gsal cha yang med par mun tchib 'dug pa'og| dbu na lngar gyi rgyu
+               <lb n="N006"/>3 pos smryas pa'i bying ba 3mo || basl thab la byeng ba dang po 2 rgyu'i to nas bcos la | dang po rkyan gyas bying ba
+               <lb n="N007"/>rkyed sa la ba ces bcos te | de la gnas khang gi rgyen gyis byeng pha ni | mung dang tshad nung dang | dma' ba
+               <lb n="N008"/>losogs bying ba ste | de la naMkha' dkar ba dang bsil ba dang | sa mthon por bsgom bas sal | kha zas kyi rkyen
+               <lb n="N009"/>gyis sbyir ba ni | kha zas chag dang rnam baga da na chang mangs pa lo pas bying bas rte | de mang kha tas do lta
+               <lb n="N010"/>bzlogs bsten bas sel gos kyi rkyen khyes bying pha ni ta chang ro ba dang joi bas byor ba sde gos de las
+            </ab>
+            <pb 
+                n="43"
+                />
+            <ab>
+               <lb n="N001"/>| bzlog pas sel | zhad gzhigi skyen gyis bying kha'i khrag mkhris db bad kan gas che bas 'ing kha
+               <lb n="N002"/>ste | de la chan ba'i sman dang kha zas dang spyod laM bsten pas sal | rkyan da dgra med kyang sbyishen ko na gyis
+               <lb n="N003"/>kyin gyis byeng ba yang 'srid pas gdon so g thab ba' || 2 pa ched du byas pa'i byongs ni || mar mon ru
+               <lb n="N004"/>sa lu gnyen po me bstenb nar 'jog te | de la byorg ba de te ni skhye lar chad du bzus la gnyen po'i
+               <lb n="N005"/>pastkob bskyed la sem than mdi dag gang 'os kyis bsaslo || 3 pa chug byung gas byeng ba ni | rkyen de dag
+               <lb n="N006"/>mod kye d ched du yang ma byas kyanrg byeng zhing 'gro bla de bsal ba ni | lta bas ba da spyod las bsal
+               <lb n="N007"/>sa 3 la | dang po ni sngar gya lta bas rdzos gcod cing bsgoM bas selo || 2 pa ni des kgyar ma sol na
+               <lb n="N008"/>zug sgra logs pa'i yul la dbang po yengsu bcugs cing yang bsgoM || des kyang ma sol na dal nus
+               <lb n="N009"/>langs la ar 'gro tshur 'gro nye 'khor du bags cing yang bsgoM | yang na nuM ba rlung gis khon bya ba yiod
+            </ab>
+            <pb 
+                n="44"
+                />
+            <ab>
+               <lb n="N001"/>bas rlung bzung bas kyang sel gsung | 3 ba rkgod pa bsal ba pa yang rgyu dang | do d pa dang | dbye ba dang bsal
+               <lb n="N002"/>thab 2 las | hyu la 3 ste rkyen byis rgo pa dang | ched du byas pas rnod pa dang | chug tbyung gin rnod pa'o |
+               <lb n="N003"/>2 pa ngo bo ni mar che rlang nis phyod pa ltar blo rtse 1 tu mi gnas sar 'phro ba ste | deser na mar me
+               <lb n="N004"/>rlang nis bskyad pa chos 3 ste | g.yo ba dang | me nsal ba dang | bsren pa la mzhu chung ba'o ||
+               <lb n="N005"/>de bsal ba' thob la 2 ste | rgod pa dang po 2 rgyu'i sgo nas khas sa ba dang | tha ma ngo bo'i sgo nas bsal
+               <lb n="N006"/>ba'o | dang po rkyen gyis rnod pa rsnyan bsal bas bcos ste | de la gnas khag gi stobs gyis rnor pani
+               <lb n="N007"/>gnas mi bhen pa dang | ta cang bsaMl na dang | stho bar bsgob pas rnod pa ste | de las zlog pa'i
+               <lb n="N008"/>gan du bsno ba'o | cha zas kyis rnod pa ni khanas na cang nab pas rno pa ste | de yang de dag las
+               <lb n="N009"/>zhos pa bsrkyen bas seslo || goMs kyang na chang sgrab pas nod pa ni de las bzlog pas selo || na gzhi'i
+            </ab>
+            <pb 
+                n="45"
+                />
+            <ab>
+               <lb n="N001"/>paha || stobs kyis rgod pa ne | grang rur gyas che bas rnod ni de la doni kha zas dang smnan dang sku mnye lasgos pa'i
+               <lb n="N002"/>spyod laM gyis seslo || rkyen de dag med kyang rgod na gou yin ba phang bsrid pas de sel ba'i thab kyis
+               <lb n="N003"/>selo | 2 pa ched du byas pa'i rnyod pa na chal char rnaM rton spros pa ste | bdag po 'dre rhu sdus ca ru la
+               <lb n="N004"/>bya ba yin las | de la rnod pa tingeni gyi bar chadr du blstus la | gnyen po' mzha bsgyad la gnyen sod
+               <lb n="N005"/>dag gang 'os gyis bsalo || 3ha pa shug byung gis rnod pa ni | rkyen de dag kyang med ched du ma byas kya rang
+               <lb n="N006"/>shugis rgod pa ste | chu cang du thigs pa 'sab pa lta nu dang | chu gtang dau na zhuns pa lta bu'i hod pa'o ||
+               <lb n="N007"/>dang po ni chu zag du thigs pa bab pa na kha g.yo' yang gting me 'gul ba ltar | 'zhal du rnaM rtogs
+               <lb n="N008"/>'phro ba 'ga'o re byung yang gting mi rtogs pa'i nga las mi g.yo bar gnas shing 'dug no sheau nags
+               <lb n="N009"/>chung du gzhugs pa' gda ngag ces bya ba ste bzhags pas rang zhir 'gro bas gnyen po mi rgos 'os
+            </ab>
+            <pb 
+                n="46"
+                />
+            <ab>
+               <lb n="N001"/>yang be'u gnon cu bkugs pas mi zin bzhan pa zi+en ma 4no || grangs ni chu gtis na 3 yod de chu'i
+               <lb n="N002"/>kla mi g.yo yang gtigs 'khugs pa ltar | rnaM rtag mi 'phro ba snaM byed kyang gtongo blo mi gnas par 'gro na
+               <lb n="N003"/>de khas la snos pa 'dod la 2 | thabs nkyus bsal ba dang | shes rab kyis bsal ba'o || dang po 3 ste ban
+               <lb n="N004"/>'dang | bzhug ba dang | shar tshugso || dang po ni lug ltas nas sar ba yang dang yang du bzlan bas nyal
+               <lb n="N005"/>ba ltar | gzhung nas seMs gnas pa'i thab rgu bshad pa ltar | shes pa yuls yang bkugs pas legs
+               <lb n="N006"/>bar gnas pa 'yuro || 2 pa ni las la ngan mang 'gro bcugs na thun pas styod pa ltar | seMs gang
+               <lb n="N007"/>la'gro ba'i yul dang | nang 2kar stod da ma bc sar te os kug cang sos spros pas phyir mi
+               <lb n="N008"/>'khro bar nang du gnas par 'yuro || rna pa ni snyid pa nes srtag par 'bros pa de | der btangs bas stang
+               <lb n="N009"/>snid dang gis mthar 'gugs mi rnos par logs nas khyis mi 'gro bar snod pa ltar | seMs yul gang la
+            </ab>
+            <pb 
+                n="47"
+                />
+            <ab>
+               <lb n="N001"/>cad| 'gro pa de las bzlogs tu ma bchugs par yang du yul gtad pas yuls nang du logs nas stod par byur
+               <lb n="N002"/>2 pa lta bas bsal ba la 3 ste | chye rkun grong du rgyu ba lta bu dang | cu snal mkhar gzhong du bzhags pa
+               <lb n="N003"/>lnga cu dang | gzeng kha'i tbhya lta na'o || dang po ni khyi rkyun khang par phyin bas 'za' rgyu la rtob pas der slo
+               <lb n="N004"/>thag spa kyis chod nas mbdel pa ta ma'i gsab tu bcag nas nal zhing ltan snod pa ltar | shes rab kyi
+               <lb n="N005"/>brtags pas bza' rgyu dang 'dra ba'i blo 'gro ba'i yul ma rnyed cing | khyi rkun dang 'dra pa'o ba mlhan gyis
+               <lb n="N006"/>bla ma snyed pas nyod 'gro chad ldan gnas pao || 3 sa cu snal m bar gzhong 'jai zhing dkyal dam' par
+               <lb n="N007"/>bzhags pa'i tshe | de'o ster mo gyonrg zhing mkhar gzhong 'joi bas mthn mar phyin gyang 'ded cing dkyil ra gnas
+               <lb n="N008"/>pa ltar | phyi yi yul ma rnyed pas 'gro pa med | ster mo gyong bas 'jien mi shes pa ltar | nar seMs ma
+               <lb n="N009"/>snyed pas 'khro mkhan gyi blo med pas mi 'phro bar ngang gis gnas par 'gyuro || yang cu snal lus sum
+            </ab>
+            <pb 
+                n="48"
+                />
+            <ab>
+               <lb n="N001"/>sar song bas 'gyur mi shes pas rang gi lus ma mthong ba 4n du | sbyor pas kyang rtogs pa'i phab bdag
+               <lb n="N002"/>lhar dges te man nga dang rig pas gzhigs pas bdags 'phro mkhan ma snyed pas seMs ngag geis gnas
+               <lb n="N003"/>par 'gyuro || 3 pa la | gzing kha'i bya lta bu dang mtha' ma mthong ba'i bya lta bu 2 las | dang po ni rgya
+               <lb n="N004"/>mtshor 'ugs pa rnaMs mtha' nye mi 1 rtog pa la khyer b'i bya de rgya mtshor yun rings pas gzhan du 'gro 'dod
+               <lb n="N005"/>nas 'chur bar rtsol ba de ma bdang na | btar khyi ltar par ngi chub pa ltar stod du mi 'dod la bye btang na mi za
+               <lb n="N006"/>ba ltar bya de btars na nye 'khor du 'phur nas dur pog ste 'duru r byed pa star | sbyor pa'i seMs kyang yang dmigs
+               <lb n="N007"/>pa la seMs gtad pas skyo ste | 'gro bar byed pa de las bkugs na slar 'phro zheng | gtad pas yul thog tu me gnas
+               <lb n="N008"/>par slar logs ste gnas par byed pa'o || 2 pa ni der na gzing kha'i bha de syar btang pa'i tshe rgya mtsho shin rtu
+               <lb n="N009"/>rgya che bas pyogs gang ru phyin gyang 'bab sa ma rnyed pas slar logs ste gzang khar gnas pa ltar | sbyor pa'io bos
+            </ab>
+            <pb 
+                n="49"
+                />
+            <ab>
+               <lb n="N001"/>chad | kyang gang du 'phros pa'i yul thaMd stong par rtogs pas 'phros ma rknyed pas slar log nye mi rno pa'i dang
+               <lb n="N002"/>la gnas par 'gyuro || degeis tingeni de byang rngod kyi dbang du ma btangs pa sta skyon spangs pa'o || de ltar
+               <lb n="N003"/>skyon med kyang bog med na 'bus ma bbyung bas | bogs dbyung ba la phyo'i sbya' ba lnga dang nang gi byang ba 3
+               <lb n="N004"/>las | dang po gnas sbyang pa ni | gnas dben ba dang | sa gtsang ba dang | nyaM rka ba laogs par bsgom | phyis me
+               <lb n="N005"/>rtog pa rgyud la skyes nas bog dbyung ba'i phyir gnas nges pa med sar mang po'i tshagsu yang bs+o ||
+               <lb n="N006"/>ga pa spyad laM sbyar pa ni | las dang po pas bar 4n ru lus kyi gnas thab srgyard lrgos pas sgom ||
+               <lb n="N007"/>phyi nas mi rtog pa ni 'og tu tcshud nas yun ring ba ci tsham 'gror gtango || 4 pa dus sbyang ba na
+               <lb n="N008"/>dang po naM langs nas sa ma snos ta bsgo || phyi nas tho rang s dang | nyin mtshan tshed du bsgom ||
+               <lb n="N009"/>la sa mis pa sbar ba ni | dang po dan lnga bas spros pa gcod cing bsgom || phyi nas lnga sku laogs pa dmigs
+            </ab>
+            <pb 
+                n="50"
+                />
+            <ab>
+               <lb n="N001"/>pa gang yang rung 1 la gzhags ste | de nas dmigs med du gznhang | de yang jo bo mi g.yo ba lta bu bsno w
+               <lb n="N002"/>na bsgo rgyu'i lha sku laogso pa 1 logsu bsgomkhan gya seMs logs med kyis tang seMs lha skan snang
+               <lb n="N003"/>ba'o | de 4n ushs me'i shung po lao pa lta cur bsgoM nas dmegs med la 'jog pa lags pa gang yang
+               <lb n="N004"/>rung ba la suong || 2 pa nang gi sbyang ba la | smon mi shes pa la sbyang ba dang | gnyid ma sbyang ba dang |
+               <lb n="N005"/>smi la la rbyag pa 3 la || me rtog pa legs par rgyud la skyes nas phyis de bog dbyung ba'i don du mi
+               <lb n="N006"/>rtog pa la 'jog kar || de nas nhab phyogs psu rgyan gyi yul bye thang ma rgyas chab di me god pa
+               <lb n="N007"/>sgud gsr gyi gos a na rag gon ba sgra li ma snyed sa yan cad non ba | skye tshang na rgyud se mang
+               <lb n="N008"/>so mkha'gro mas bcol nas yod pa de kun lta u 'gro baMs 'dad | mkha'gro ma lagos pa ba sta ba
+               <lb n="N009"/>bya'o | de 4n du sga ltan na byis pa bzhugs pa mgo pa blta bar bya'o sno ba lago lsa gang ya rhung ba
+            </ab>
+            <pb 
+                n="51"
+                />
+            <ab>
+               <lb n="N001"/>gcu || yeid kyi smon pa btang bas mnyaM bzhagi snang ba la 'byung ste | rjes | la 'khor 'das kyi cmhos thaMd
+               <lb n="N002"/>'grul pa'i snang ba ste | daM dang lyad bar med pa yino snyaM drungiMs shes pa skyed lta ba'i bog 'byin ba yin
+               <lb n="N003"/>gsung | na pa'io me rtog pa bsgom ba'i nang la gnyid tong ngeni gye or snar nas mila med snga | bde ba
+               <lb n="N004"/>gsal ba | yang ba | phyi' rnaM hyur yang sbar sgya lago spe mdang gsal ba 'byung zhing rtingen gyi n1o yang
+               <lb n="N005"/>chod la sad rgyu 1 kyanr yod pa'o || seMs las byung ba'i gar mug duM bu'i gnyid de las bzlog par 'byungo
+               <lb n="N006"/>de lta bu'i gnyid kyi tingeni des nin par byi dte na 'phel han || des kyang mtshan mo'i mel te | tingeni shyi
+               <lb n="N007"/>bog 'byin du 'gro gsung | rmi laM la sbyang ba ni | gnyid log lar de nas smelM na snang ba gang byung ba de thed
+               <lb n="N008"/>rang ni shes pa 'khrul bi'i snang ba med pa'i snang bar shes par bya'o snam ba'i bhaMs ba drag po btag ste |
+               <lb n="N009"/>gnhyeid log pas rmilaM gyi snang ba thed sngar 4n du sges pa 'byung la des sad pa'i snang kha sgyu ma ltar shes pa'i
+            </ab>
+            <pb 
+                n="52"
+                />
+            <ab>
+               <lb n="N001"/>rtogs ba 'phel zhing | des kyang mtshan mo'i ' bel te 'di yang lta ba'i bog 'byin yin gsung |
+               <lb n="N002"/>yang skyes bu 1 la chos shes pa'i cha nas ston pa dang | klags mshan dang yig mkhan dang | sman pa
+               <lb n="N003"/>dang | bc+o bo zhes ming lnga gdag du btub pa ltar || lta ba | bsgo ba | zha gnas | dag mthong | mnyaM bzhang
+               <lb n="N004"/>zhes pa lnga tshang ste | spros bral rtogs pa'i ngos nas lta ba | de nyid gos par byad psa'i cha nas
+               <lb n="N005"/>bsgo ba | des rnaM par rtog pa zhie ba'i mha nas zhi gnas | rtog ba da kya ng las shes pa rang ni ngo bo
+               <lb n="N006"/>dang sang dge 'dug pa'i ma nas nang gi ltags mthong | chos nyid kyi ngang du bying rnod med par gnas pa'i
+               <lb n="N007"/>cha nas mnyaM bzhugo | rjes thob ni mntaM bzhags zhigs phyin cad yin bas de'i nas su na med
+               <lb n="N008"/>gsung | de dag ni gtsor zhi gnas kyi ltar mthong dang sbyar te bsgom ba ni | so sor rtogs pa'i shes
+               <lb n="N009"/>rab kyis phyi nang gi chos rnaMs bden 'dzin gyi spros pa'i sgo nas bsgoms pas ste | gugs ca' ma
+            </ab>
+            <pb 
+                n="53"
+                />
+            <ab>
+               <lb n="N001"/>gchad+Dha yin ba shes pa la bden pa'i spros pa bcad pa ni | bdgans | bzang kha | mthon dman nga rgyal chag
+               <lb n="N002"/>stang lasogs par 'dzhrin pa thaMd seMs yin la seMs ni btsal na rang 4n mede | nang du yang grub pa med par shes
+               <lb n="N003"/>pas | de rnaMsu bden bar 'dzien ba'i nang ngi zhen pa logs pa yin gdrung | phye rol gnugs can byo spros pa
+               <lb n="N004"/>gcad pa ni | rang gi gzugs dang | gzhan gyi gzugs dang | ri dang khang khyim laogs pa'i gdungs thaMr phyogs
+               <lb n="N005"/>ha'i cha nas kyis pya ste rdul phra rab tu pyed ma | de la yang phyons bcu'i dbye bas gzhiegs na gzugs ban
+               <lb n="N006"/>kyi rgos po sgra'i rtse mo brgyar nags 'di cha pa yang mi nyed | snying po med pa mthong bas rang gzhan gyi lus dang
+               <lb n="N007"/>ri phigs pa lasgs po'i gzugs la bden zhen log pa yin | byus seMd' gsung | rje lu pa pa'i zhul nas | rang
+               <lb n="N008"/>gzugs dang | gzhan gyi gzugs dang | raM khang khyim lasgo pa thaMd gzugs brnyan 'dja tshon ltar snang la rang 4n
+               <lb n="N009"/>med par shes pas phyi yi yul zhen pa logs pa yin | des na snang ba med pa'i stong pa ni nyon mongs pa gang
+            </ab>
+            <pb 
+                n="54"
+                />
+            <ab>
+               <lb n="N001"/>gi yang gnyen por lM 'gro pas snang ba med thab med | snang ba mi 'gog pba ni thabs yin la | snang ba rang
+               <lb n="N002"/>4n med par shes de shes rabo || snang ba yi 'gogs pa ni med pa'i mthal sang s la | rang 4n med par shes
+               <lb n="N003"/>as yod pa'i mtha' sa ngs as na mtha' bral dun ma bsgoM ba'o || des na yul thaMd snang stong du seM
+               <lb n="N004"/>bd rig tong du bsgoM ba ste | mdo las kyang gzugs stong pa'o | stong pa nyid gzugs zhes pa mndzo ba gsungo |
+               <lb n="N005"/>des na skyes 'phagyas 32 k la snang ba yod par khyad med kyang 'phrags pas snang ba rang 4n med par shes pas
+               <lb n="N006"/>grol ba'i rgyur song la | bya rnmas snang ba la bden bar zhen bas bcings pa'i rgyun song ba ste | snang bas mi
+               <lb n="N007"/>'ching zhen pas 'ching || ymongs rnaMs gang gis 'ching gyur pa || mkhas rnaMs de yis rnaM par grol || zhes
+               <lb n="N008"/>gsungso | de ltar lhan mthong ni shes rab kyis spros pa bcde rgyos po thod rang 4n rang snyaMng po med par rtogs
+               <lb n="N009"/>pa'i dus su | gsugsb snang yang zhuen pa med pas gzugs bnkan yin ma | de kha la sd+ha dang dri dang ro dte ren bya
+            </ab>
+            <pb 
+                n="55"
+                />
+            <ab>
+               <lb n="N001"/>cha | yang bzung bctun yin gsung | de ltar byas nas gang snang bsgoM ba la | logsu bkar nas bsgom
+               <lb n="N002"/>nu mad | gang dan bsgom ba la ched du gtad nas bsgo rgu med | rgyu chad med par bsngoM ba la thun du
+               <lb n="N003"/>bcad nas bsgom rgyu med | zhi gnas lnhag mthong zung 'jug ta bsno ste | zhe gnas nas mhe nas bying
+               <lb n="N004"/>zug tyu snor na ltar mthong la nan rtan cher bsgol || ltar mthong la gnas pa'i gang zagis lhag
+               <lb n="N005"/>mthong lag chagr byas la zhi gnas bsgom gsang | de ltar mi rnog pa bsgoMs pas lus seMs la sgeg myu
+               <lb n="N006"/>ba na bsas rnos pas de la 2 ste | kluoub kyi sgo nas b al ba dang | gnas lugi sgo nas bsal ba'o ||
+               <lb n="N007"/>dang po la yang seMs kyi geg bsal ba dang | lus kyi geng sel ba 3 mas | dang po ni zhu gnas nas che ba
+               <lb n="N008"/>kun la | 'khrul snanr sgogs 'ong ste | de la lta ba dran bar byas te | de yang snang ba la ro'i char 'bab pa
+               <lb n="N009"/>dang 'go' med pa'i lus dang | lus mhed pa'i 'go' dang | 'bhag dang seg rdhe dang | lha'i sku'i snang ba dang | sypyal
+            </ab>
+            <pb 
+                n="56"
+                />
+            <ab>
+               <lb n="N001"/>ba laswo pa'i snang ba'i gang ci snkanr yang de la mi rna ga dang | 'jigs pa lasgos pa mi bya bar | 'di ses gyi mkhal
+               <lb n="N002"/>'gro ma rnaMs kyis byin byis mrlab pa yin te rtong pa nyid men 'did la ltos zer nas bstan ba yin
+               <lb n="N003"/>de la bdag rang la snang zhing gzhan la mi snang ba 'dug pas na rang gi shes pa 'brul pa'i snang ba min
+               <lb n="N004"/>mil bes kyang 'di kdan tshad mar che ba yin snaM du lta ba'i thog tu bsgyur la rang gis sel ba yin
+               <lb n="N005"/>2 pa lus kya gag ni bsgoMs la'i stobs kyes seMs zon | des rgyung zan bas paM rlung gi gn kyis ltas
+               <lb n="N006"/>'d bode ma bde mang po 'byung ste | go na mi rjid yer ba lago pa byard na nag seM leMng gi tblor ba zhes bya
+               <lb n="N007"/>ste | ho la yos tshag lta bub bu na seng seng du baMs la 'jug tu mi rtog gla rlod la bzhag pas selo |
+               <lb n="N008"/>'di rnaMs la dang po rlung bzhung la dmigs rag tu gtad cing 'jug tu ni rtog pa'i 4 du rjod bzhan pa ni rthaMd
+               <lb n="N009"/>la shes par bya'o | yang lus la gzer byung na bu ga gzer 'don zhes bya ba ste | gang na ba'i sar bu lkab
+            </ab>
+            <pb 
+                n="57"
+                />
+            <ab>
+               <lb n="N001"/>chub tsaM 1 bsaM la de nas nad kyi rgyos po thaMd rengs na'i sos rgyud ltar phyir la na rtien thon bar bsaM
+               <lb n="N002"/>bas sel | yang snying bphar ba'i nyag mar btshangs 'ong ba ro stod kher 'ong ba'i m bde ba lasogos pa byung na thig
+               <lb n="N003"/>le'i non bsgom zhes bya ba snying ni no  mo gyen du bstan ga'i se mor thig me dkar po 'od 'phang lo
+               <lb n="N004"/>tsaM rjid ger gyi phkhong ta 1 brna la des rkyal pa nus pa'i steng dugtan pa ltar snyinge rleb kyis song
+               <lb n="N005"/>bar bas | yang snyoMng thag pa nas bsring ste na gnhu'i 'chasu snying gis sleb par bas bas sel | yang las
+               <lb n="N006"/>sprin med kyang naMkha' ltar mtshan pa med par 'gro ba snyaM byed na thig le'idzin sgoM zhes pa tsam
+               <lb n="N007"/>ba dang rten gya ba du thig le ser po se ba'i 'brus tam 1 zhu ro bchug pa ltar sboing nge  'dzin che
+               <lb n="N008"/>ba shishang bu'i rnkang pa spyan phog du zin ba ltar bsgo || sa nga sga rung gi chod skom zhes bya ba lus kyi
+               <lb n="N009"/>spyi bo nes gsnying laM gyi bar du khong stong sdug ma'i u bhi lta bu basM ma 'byung ba'i shad thaMd par mar
+            </ab>
+            <pb 
+                n="58"
+                />
+            <ab>
+               <lb n="N001"/>bud par bsaMmo || yang lus 'dar ba'i kha lag lhag par song bani spyi gtshug tuson sha snyaM byed pa byun
+               <lb n="N002"/>na | mus rang gad med du bsgo bas chog || ya rdung sna sag bar dzhuns nas sha sho sa' | shreng
+               <lb n="N003"/>khreg po lta bu byung na | ceng rhe'i tshal sprugi sbyor ba byas te | gnas dben par lus thaMd phug chus
+               <lb n="N004"/>bzub te | da nas sang kar gyis bkus la gos kyi ska sang gis byis lkhul lu ltga nhu bskabs
+               <lb n="N005"/>la kang lagi sor mo thaMd khab thub ltar yod par baMs ma | lus thaMd kyang bu go seMb yod par bsaM la
+               <lb n="N006"/>rnang gas par lar sar bar baMs la | rkang lagsas g.yon re mosu shad shad yun sab lnyo shad lus
+               <lb n="N007"/>song bar bsamo || de nas sku mnye byaswa la phye yis driso || yang a gzhies sa bon 'dzag na chu
+               <lb n="N008"/>po'i se mor thig le dkar po sran ma tsaM 1 bsaM | de las 'od 'gros pas shog dril gyed pa ltar
+               <lb n="N009"/>sa bon chod phyig dri la  dril nas lus kyi dkyil na yar song ste spyi bor sleb pa da zhu ba nya ba ltar
+            </ab>
+            <pb 
+                n="59"
+                />
+            <ab>
+               <lb n="N001"/>|| dkar khyils gyis sog bar bdaMda lkod gyi stobs kyis 'dzag na chu so'i na gar phags dusr ser 1 pas
+               <lb n="N002"/>de las me damar na nsru sna bas la bon thaMd cho tshi szhag nas spyin sor du ba nun tun byung ma
+               <lb n="N003"/>bsgoM gsung | yang shes pa bying na gzhu rgyud gyen ma bstan ba'i steng na tsag bur 'dug par bsaM bsaM
+               <lb n="N004"/>gron pa gzong shag ma lta bu'i gya kwa na yod par bsgoMs na saMlo || lus khal nur grang na
+               <lb n="N005"/>gnyaM mo mes thig le bsgom pa sti gar na ba'aM grang bbi sar moe'i rtog po rang thag lte ba tsam 1
+               <lb n="N006"/>lo ye 'gros pas gar na ba de be ya4gs pa bsaM | lus thaMd grang na khyad bar gyi gtuM mo zhes
+               <lb n="N007"/>pa ni | yul byi nang thaMd lcag chas pa ltar me ru dmar ke gyis bsgos la de snyiMd la shes pa gtad pas
+               <lb n="N008"/>sel gsung | degis ni zob gyi do nas bass ba'i | yang na dband po 'dnaMng bsgoM bas bslo zhes
+               <lb n="N009"/>gya'o | da ni dbag po rab lta bas bsla zhes bya ste | lus dang seMs la mi bde ba byung na lus seMs
+            </ab>
+            <pb 
+                n="60"
+                />
+            <ab>
+               <lb n="N001"/>shes rab kyis brtag ste | na tsha rang las na'i seMs na 'dus na'o sbrai la ho lta bu na na lhon dagi gar
+               <lb n="N002"/>na brtag ste | nus pa na'i des na thod peM snyin po un gyang mzhuno thingg na bar rigs pa | de 4n
+               <lb n="N003"/>du gad pa dang sha dang zhrag dang | chu ser laogs pa gang yang de tshor la yang yod pas na rnas mod | dab
+               <lb n="N004"/>1 lus ni boM so dang 'dra 'dra 'dug pas na rgyu mi 'dag la | seMs sna'o snam na boMs ni go dang rkang
+               <lb n="N005"/>lag lago ''i phyi nang gang na yang mei 'ug sta sngur gro rig pa bsgoM ba ltar byas la | seMs rang 4n gi
+               <lb n="N006"/>stong par 'dug pas na rgyu mi 'dug | rang gi rtog pas btans pa tsam du 'dug s+n'aM nas na sa m rnyed
+               <lb n="N007"/>pa sros mda gyi ngang dubzhug pas selo || dbang po tha ma ni sman dpyad dang | skyen bzogs sel ste
+               <lb n="N008"/>bdir skabb ma yino || de dan ni rgos gzhi bying rnod kya dbang du mo gtang ba la 'phros pa'o ||
+               <lb n="N009"/>da ni chos c+u mel sgyu ma ltar bras par bya ba na | rje slung pa'i zhal nas | mnyaM bzhag nas chugs
+            </ab>
+            <pb 
+                n="61"
+                />
+            <ab>
+               <lb n="N001"/>bshadg sgyu ma rjes thos tu 'ong ste mi tshe rjes la skyel bas rjes nal shin tu che gsung | de yang
+               <lb n="N002"/>mnaM bzhag gnar du song ma song rjes la mngon te | des la rang ba thad sab sob t 'dag na mnyaeM
+               <lb n="N003"/>bzhug la lta bas spros pa mod pa'i rtags yin gsung | phyir mnyaM bzhag dang rem rthob bya ba mal g
+               <lb n="N004"/>'dug tsaM na mnyaeM bzhag la | langs nas 'gro ba na rjas thob byed de de ma go ba yin te | 'od dge 'dug
+               <lb n="N005"/>h ge | 'gro sa | rhal le | ci byed kyang rung ste | lta bas sgros pa chod pa'i thog tu 'dug na mnyaM bzhag
+               <lb n="N006"/>yin la thoe de yas yhin cad rjes thob yin g dang | rdzas kyi thaMd len maras po 'di thid ces pa
+               <lb n="N007"/>la phyi'i rnang 'a dang | nang g rag pa 2 pas | spyi'i snang ri khang khyim skyob pa ned laog pa 'od tshaMd
+               <lb n="N008"/>mala kyi snang ba dang khyad med du snang | bden bar chub pa ska'i rtse mo tsaM yang med pa yino zhes das rtag
+               <lb n="N009"/>u ges ga gyos snas par byed cing dran bas ma rjed par byad ba'o | da nang gi rig pa da lta 'blo chag nhe
+            </ab>
+            <pb 
+                n="62"
+                />
+            <ab>
+               <lb n="N001"/>snang gti yug lasogs sa mi skyid rgyu skye 'di la brtag na dang po gang nas 'ong ste ar lhdo nub pha lha'i ga
+               <lb n="N002"/>lso pa nang nas kyanr ma 'ongs | da ltar ga na 'dag ste 'go bo dang | kyang mthil sha dang | nus pa tshun
+               <lb n="N003"/>chod ga n1 yanr 'dug | kha dtog dang dbyis mngo pa gang u yang ma grub cing | tha ma 'gag na chyog
+               <lb n="N004"/>gang du yang 'gra rgyu mede | ngo stong pa yin zhes btag la rang 4n med par thag cado || de 4n du rtog
+               <lb n="N005"/>pa gang skyes cad la sbyaro || de ltar shes shon yons pa nyed lta b'i gragsu 'gro ba yin | nyo+ongs p rang
+               <lb n="N006"/>rshad pa laM da mi 'gro bas 'di la nor sa yod gsnung | des na nyod pa skye med du shes na de rgyu mthun
+               <lb n="N007"/>ca las rnao smin skye mi snid pa yin gsung | yod las | dpen na snuags kyis yo su zin bc+'M drugs
+               <lb n="N008"/>skye bo rnaMs la shes pa byed mi nuso || de 4n byub seMd seM mchu || stogs rnaMs kyis log par ltar
+               <lb n="N009"/>mi 'khyur | zhes pa rang | thab cmen rnaMm dang ldan ba la | steng spa s su mag 'gyur zhus gsongb
+            </ab>
+            <pb 
+                n="63"
+                />
+            <ab>
+               <lb n="N001"/>bru || bas | rtog pa nyo+ongs pa skyes chad rang 4su med par ges na thaMd byub kyi rgyur 'byur ba yin
+               <lb n="N002"/>des na mdo las | 'dod cani sto 'dod cgb ma nges par d sbyang nis | de las gzhan du 'byung ba ma
+               <lb n="N003"/>tshol 1 | de 4n do zhe lta lagos pa la smhyar bha ga dangso || der na grong khyer snang ga mi btsang mus
+               <lb n="N004"/>sbunM zhing pa'i zheng la chan || de 4n byub seMd'i nyo a lu | de ni rgyal mcho rnaMs kyi rgyud
+               <lb n="N005"/>la chan || zhes pa dang | ce ltar m ni bcings gyur pa || bcongs po de nyid rang gis grol ||
+               <lb n="N006"/>4n nyo+ongs gyis bcings pa || nyo+ongs rnaMs kyis gral bar 'khyur || zhes pa dang | rna rtog bud shing
+               <lb n="N007"/>dgis | yses me le 'phem ba byed ces gdang | yang mdo las | dera na rtag pa he bar bhung
+               <lb n="N008"/>sta | me dang rtsa chub par bcis ste | ti mabdun na gyum kyedo snyaM nas rtsas snhing thaMd srid du
+            </ab>
+            <pb 
+                n="64"
+                />
+            <ab>
+               <lb n="N001"/>dgaso | de nas 'ga' h'uM 2 ma'i zhin du song ste | co'i phyir khyod me'i dsang sning du mi sku ms
+               <lb n="N002"/>smras pa tshagi se sdagnyid bdagi dlang yin te | dae ci tsam mang kha ltar bdagi stob che par 'gyuo
+               <lb n="N003"/>zhes pa de zhin du | skyan mongs pa la tshul | 4n du yid la byed pa de yang mo sor rtog pa'i shes
+               <lb n="N004"/>rab gyi sgoms dang ldan bar 'gyuro || yang sman pa'i rgyal po 'cho byed kyis sman du mi mthong sha
+               <lb n="N005"/>gur yang medo || de 4n du shes rab la spyod pa'i byub seMds kyang byub tu mthon ba gang pa ng medo |
+               <lb n="N006"/>zhes gsungso || de'i phyir rjes thob kyi du thaMd du gang ci mtho la dang thos pa dang snas pa dang rig
+               <lb n="N007"/>pa thaMd snung ba rang 4n stong par blta'o || des na gang kha ba bd du mtsho la kha ba bab dang 'dri ste
+               <lb n="N008"/>snga ma ni nang grang bas kha ba ca tsam bab cing rje 'jug je sna tgro ba ltar |nyo+oMg p pa skyes
+            </ab>
+            <pb 
+                n="65"
+                />
+            <ab>
+               <lb n="N001"/>hah || chad r+tos so bzugs na des las masag pas 'khor bar je daM du 'gro ba yin la | mtsha la kha
+               <lb n="N002"/>ba bab kang 'khya me nus par zhu nas chu sang ba'i rgogsu 'gra ba ltar | nogs pa sgyes pa'i
+               <lb n="N003"/>dus na rang 4n med par shes na nyongs pa nyid laM gye gragsu 'gro ba yan | de ci zha no sa
+               <lb n="N004"/>sa dang gnyen po logan na med pa'i phyiro || dgis rjes chos thaMd rgyu ma ltar shes par bya'o ||
+               <lb n="N005"/>de ltar sbyor ba snos pa'i mtha'  gcad pa dang | rgos gzhi byir rnod kyi dbang du meig  ba
+               <lb n="N006"/>sdang | rjes chos thid sgyu ma rma laM ltar shes par bya ba 3 gyis bsgom ba'i don nyesu tha la'o ||
+               <lb n="N007"/>phag | rje lung pa'i zha' nas 'di man chod dn ma' chos 'di'i skyor mean ste | 'di dang
+               <lb n="N008"/>mthun cau 'dug pas bshad la yin || 'di cmi no shes ny+'uM mkha'gro ma'i byan cab kyis na
+               <lb n="N009"/>so pa'i rnyes kyi na || la shaMr  sta | mkha'gro ma' nyams kyi gdi nga bcu zhes pa'o ||
+            </ab>
+            <pb 
+                n="66"
+                />
+            <ab>
+               <lb n="N001"/>de la 'dod b cisge zad par skol ces pa ni | sargyas thob par 'dye na gsam byed kyi yige zad
+               <lb n="N002"/>sa sna la yod pas ya sbyo ba med pa sgoMs ces pa ste | a ni meg 'bu kun gyi mcho s
+               <lb n="N003"/>khong nas 'byung ba skye ba yeod || ces paso | zhugs na rgyal mtshan ses la sko cem pa ni |
+               <lb n="N004"/>dper na phyar dar gron so'i sko mo lta nur phyar na dar shong la 'khril nas lhoab zlheb 'duag pa
+               <lb n="N005"/>ltar ma rtan pa bsgo pa na bying nod med kyang rig pa r chungs pas rang gs l du hyi phyi 'gro
+               <lb n="N006"/>ma nus na | dber na phyar dan de snang ka 'drzo lpar phyar na dar lce chad pa tsa 'ong ba ltar |
+               <lb n="N007"/>rig pa smrin brtons nwa dang bcas par bsnaMs na gsal la ma rtog pa'i nyaM 'charo || 'dag na
+               <lb n="N008"/>me'i drus na 'dun 'es pa | me bzang po btang nas drung du bstad na me ma shi bar du rwo lora
+               <lb n="N009"/>thong ba la | thal sha so nas gzhan bas kyang grang bar 'gro ba ltar | lta bas sgros pa gcan tsa
+            </ab>
+            <pb 
+                n="67"
+                />
+            <ab>
+               <lb n="N001"/>pa || mi rtog 2 bstoM pa na de'i nyaMs dang ma bral bar du bag ro 'on byas nas | snang ba thaMd pas sob ban
+               <lb n="N002"/>snhan du yod pa la lta bsnom gyi nyi dang bral na nyas kye rod yal nas su bas kyang ros 'dzin do
+               <lb n="N003"/>de thug 'gro pas ma rtog pa'i rnyaMs dang ma al ba sgoms ces pao || rgyal na m dang gi che
+               <lb n="N004"/>la nyol ces pa mdung no rhung rdul rung rtso mo 2 tu yod pa ltar | mirtog pa bgoM ma na shes pa 'do
+               <lb n="N005"/>'phro mang po ma byed par yog bral gyi ngang du rtse 1 tsu nges dpa'o || sko na driMza'i grong khyer ltos ces
+               <lb n="N006"/>dang nie | mnyaM bzhagis skyo tsa na | dser na 3gyu gar gya bang chen so kun la ni ma ma snagrs gyi gong
+               <lb n="N007"/>du blta tsa na grong khyer chen po khye za ca ku 'dr ba snang ba la | drung du phyin bas tse yang med pa ltar
+               <lb n="N008"/>ri yi stang laos pa nas bltas na rnaM bo dang grogr skyes pa sed lasro sa mthong tsam na 'di rnaM dang draM ka'i
+               <lb n="N009"/>gros la khyad bar sad tsoM 1 kyang mad dang | shes pa 'khrul pa'i snang ba yin snaM du sgoms zhes pa'o ||
+            </ab>
+            <pb 
+                n="68"
+                />
+            <ab>
+               <lb n="N001"/>chags na dur khrod zhing dpyryol ces pa ni | ser na rgme laM na bu mo nyin tu gzugs mdzes pa 1 gu
+               <lb n="N002"/>skan pa sen cing byung ba dang 'chrad pas | nang seMs kyi chags pa bag 2 sgyas b dang | nu yo de de ar na
+               <lb n="N003"/>rdrag po gro nar ba b gis ni shi ba dang | sngags pa 'nib ro de bnas nas na grol thaMd nug gyi hua tsho
+               <lb n="N004"/>phal mher gras nas song na | de der skyu mer byoal song ste gang chags pa'i yul de rang 4n med par
+               <lb n="N005"/>song ba 4n du | yul ngang la chags pa skyes pa dang dub mnM du yul dang chags pa 2 sdros sbral du
+               <lb n="N006"/>bsgo ba nid gyis chog | gnyen po gzhan gud du mi rnos zhes pa'o | 'byed na mar khu dang sdig bsge nus
+               <lb n="N007"/>pa ni mar lhu nyi ma la dang sdig bye nas 'gro ba la | dang snig de 2 las ghud na gnyen po med par
+               <lb n="N008"/>gaszhed mya ngan las 'das pa shes pa yin te | rgyud nas 'di nyied 'khor ba zhes bya se | 'di nyid mya
+               <lb n="N009"/>ngan ntas pa nyid || 'khor ba sangs nas gzhuan tu ni || mya ngan 'das pa rtogs mi 'grur |zhes gsungs
+            </ab>
+            <pb 
+                n="69"
+                />
+            <ab>
+               <lb n="N001"/>bsha | pa | lon gyis kyang srid pa ni mya ngan 'dan || 2 po 'di tha dad min || sdid pa yongsu shes pa nyied ma dan
+               <lb n="N002"/>'das zhes bya sha brjod || zhes gsungso | rnod na sprenu dad la sor ces pa ni | phaused kyang nag
+               <lb n="N003"/>ru 'gro ba men ba 'gro s gzhan med pa lta | blo gang du 'ghros kyang 'phros pa'i ydl do skye cid dugs
+               <lb n="N004"/>par byas pas tshoid las ma bdus bar rtog pa nyid laM du slongs pa'o || yang na spren de do d gsod pa ltar laso mngo
+               <lb n="N005"/>gyi blo de nyid las brtag nas skye med du shes par byad pa'o || bhyinr na nuM pa rlung gis chong zhes pa ni | blo shing
+               <lb n="N006"/>lag tu song na rlung gnan te bsgo bas sel zhes pa'o || skom na drug chu chol l 'zhung zhes la ni |
+               <lb n="N007"/>sbyor sdzags mtshid thaMd nas chang shes pa che bar bshed | gsang sdzags kyi daM tshini skab nas kyang | nyes pa ka
+               <lb n="N008"/>bya rtsa ba ste | chang ni yongsu spang bar bya | zhes bshad la | rab tu byung ba ma shin ta yag s dag chu chas
+               <lb n="N009"/>ma lta bu yino | yang thor pa chang gi sdom pa mablangs na rnaMs kyis mi rtog pa'i rny+M spyong skye ba'i shog du lho
+            </ab>
+            <pb 
+                n="70"
+                />
+            <ab>
+               <lb n="N001"/>na chang gi ro la m zh+en bar cu zad bsten la bsgo gsungo || de dang ni mkha'gro ma'i nyaMs kyi 'di ngag
+               <lb n="N002"/>bcu bya ba yino gsungo || dusu ma pa slon 'phags pa klu chub kyi dun ma chen so'i stong nyid bsgom
+               <lb n="N003"/>ba'i man ngag | bla 'di ga dang la brten b rin so che bsod rtor gyis mdzad pa rdzogs+ho ||
+               <lb n="N004"/>gshad || rang 4n stong nid shes shing bsngoMs pa'i phan yon ni | mtshad med pa'i bode chen po || sto snyed
+               <lb n="N005"/>sbyor daM pa yin 'cho ba bsdu ba'i gtsa bo ste || gzhan gyis bchi bdag 'jom mi nus || zhes leg ltan
+               <lb n="N006"/>byed gsungo || 'yags pa las | bkag dang lci ba 'byung ba dang || rib dang nad lgo pa da || rang 4n rnas pa
+               <lb n="N007"/>lsgo pa || rtag tu rgyu mas gso mar byang | zheso | stong pa nyed ni sna bsgoMs na || 'choi ba dgris ni mi mthog
+               <lb n="N008"/>zhing | gzhan bdud ni bye bas ar || mthong par 'gyur ba ma yino || spyar 'das kyi mdo las kyaM
+               <lb n="N009"/>seMn thaMd la de 4n gshegs pa'i snong po yhod zhes snon bar byed pa'i seMn de dag ni yon rtan dpag ru
+            </ab>
+            <pb 
+                n="71"
+                />
+            <ab>
+               <lb n="N001"/>| med pa dang ldan te | daM pa'i chos bsdtod pa'i rigs kyi su da dang | de sdig pa'i las grangs medr bbyas nga
+               <lb n="N002"/>rnaMs glad pa na ba dang | rim gyis btab 1 dang | zhug rtu dang | bskur pa btab tsaM gyi dkyang 'byang bar 'gyurol
+               <lb n="N003"/>zhas gsungso | yes phyar rgya'i mdo las de na rgyud la skal pa mang sor bsags pao'i las kyi sgrib pa yod
+               <lb n="N004"/>rnap de ni gad pa na ba tsaM gyis 'byang bar 'gyuro || zhes rin po cshe gnyan gsungo || ||
+               <seg type="excerpt" xml:id="ex6405_2026-01-2621-55-26" status="unreviewed" >
+               <milestone n="Lineage" unit="section"/>
+               <lb n="N005"/>༄༅ || 'di'i rgyu pa ni | yang dag par rdzogs pa'i sargyas 'phags pa 'ji dpal | slo+on kly grub | zla ba grags pa rig
+               <lb n="N006"/>ba'i khu byug ku su lu che ba | ku su lu chung ba j+nya na ma ka ra mnga' riMs kyi phyed zla ba rgyal mtshan rtsong pa rje
+               <lb n="N007"/>lung ba | spyil phu ba shes rab grags | spyi bo ltas pa rma bya sakya seng g+he chis na' grags 'jaM dbyangs mgog
+               <lb n="N008"/>po | dbu ma bkris rgyal mtshan | suM rtog sangs rgyas bzad po | des dag m'o ||</seg>
+            </ab>
+            <pb  n="72" />
+         </div>
+      </body>
+   </text>
+</TEI>
