@@ -45,26 +45,7 @@ def compute_location_for_seg(seg):
     # the start location. Also prefer preceding <lb> when the first
     # meaningful child is structural (milestone/pb/note) and
     # _first_lb_child_before_content returned a following <lb>.
-    first_child = None
-    for child in seg:
-        if isinstance(child, etree._Comment) or isinstance(
-            child, etree._ProcessingInstruction
-        ):
-            continue
-        first_child = child
-        break
-
-    first_child_tag = first_child.tag if first_child is not None else ""
-    is_structural_start = bool(
-        first_child_tag
-        and (
-            first_child_tag.endswith("}milestone")
-            or first_child_tag.endswith("}pb")
-            or first_child_tag.endswith("}note")
-        )
-    )
-
-    if (text_before_internal_lb or is_structural_start) and lb is not None:
+    if text_before_internal_lb and lb is not None:
         previous_lbs = seg.xpath("preceding::tei:lb[1]", namespaces=ns)
         lb = previous_lbs[0] if previous_lbs else lb
 
@@ -74,28 +55,9 @@ def compute_location_for_seg(seg):
         # Also prefer the preceding <lb> when the first element child is a
         # structural marker (milestone/pb/note) because the line-break is
         # usually placed before the <seg> tag in such cases.
-        first_child = None
-        for child in seg:
-            if isinstance(child, etree._Comment) or isinstance(
-                child, etree._ProcessingInstruction
-            ):
-                continue
-            first_child = child
-            break
-
-        first_child_tag = first_child.tag if first_child is not None else ""
-        is_structural_start = bool(
-            first_child_tag
-            and (
-                first_child_tag.endswith("}milestone")
-                or first_child_tag.endswith("}pb")
-                or first_child_tag.endswith("}note")
-            )
-        )
-
-        # If there is any text before the first internal <lb> (or the seg
-        # starts structurally), prefer the preceding <lb>.
-        if text_before_internal_lb or is_structural_start:
+        # If there is any text before the first internal <lb>, prefer the
+        # preceding <lb>.
+        if text_before_internal_lb:
             previous_lbs = seg.xpath("preceding::tei:lb[1]", namespaces=ns)
             lb = previous_lbs[0] if previous_lbs else None
         else:
